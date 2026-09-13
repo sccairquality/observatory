@@ -85,14 +85,17 @@ jobs:
               text = srcset_pat.sub(rewrite_srcset, text)
               path.write_text(text, encoding='utf-8')
 
-          # Fail closed if any project-root HTML asset/navigation references remain.
+          # Fail closed only if a project-root reference remains outside /observatory.
           offenders = []
           for path in root.rglob('*'):
               if not path.is_file() or path.suffix.lower() not in {'.html', '.htm', '.php'}:
                   continue
               text = path.read_text(encoding='utf-8')
               for m in attr_pat.finditer(text):
-                  offenders.append(f"{path}: {m.group('attr')}{m.group('url')}{m.group('end')}")
+                  url = m.group('url')
+                  if url == prefix or url.startswith(prefix + '/'):
+                      continue
+                  offenders.append(f"{path}: {m.group('attr')}{url}{m.group('end')}")
           if offenders:
               raise SystemExit('Subpath rewrite incomplete:\n' + '\n'.join(offenders[:20]))
 
