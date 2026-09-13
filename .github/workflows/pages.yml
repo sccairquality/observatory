@@ -41,13 +41,68 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
+
+      - name: Prepare subpath-safe governed site
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _pages
+          cp -a site _pages
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('_pages')
+          prefix = '/observatory'
+
+          attr_pat = re.compile(r'(?P<attr>\b(?:href|src|action|poster)\s*=\s*["\'])(?P<url>/[^/][^"\']*)(?P<end>["\'])', re.I)
+          srcset_pat = re.compile(r'(?P<attr>\bsrcset\s*=\s*["\'])(?P<body>[^"\']*)(?P<end>["\'])', re.I)
+
+          def rewrite_attr(match):
+              url = match.group('url')
+              if url.startswith(prefix + '/') or url == prefix:
+                  return match.group(0)
+              return f"{match.group('attr')}{prefix}{url}{match.group('end')}"
+
+          def rewrite_srcset(match):
+              parts = []
+              for item in match.group('body').split(','):
+                  item = item.strip()
+                  if not item:
+                      continue
+                  bits = item.split()
+                  url = bits[0]
+                  if url.startswith('/') and not url.startswith('//') and not url.startswith(prefix + '/'):
+                      url = prefix + url
+                  parts.append(' '.join([url, *bits[1:]]))
+              return f"{match.group('attr')}{', '.join(parts)}{match.group('end')}"
+
+          for path in root.rglob('*'):
+              if not path.is_file() or path.suffix.lower() not in {'.html', '.htm', '.php'}:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              text = attr_pat.sub(rewrite_attr, text)
+              text = srcset_pat.sub(rewrite_srcset, text)
+              path.write_text(text, encoding='utf-8')
+
+          # Fail closed if any project-root HTML asset/navigation references remain.
+          offenders = []
+          for path in root.rglob('*'):
+              if not path.is_file() or path.suffix.lower() not in {'.html', '.htm', '.php'}:
+                  continue
+              text = path.read_text(encoding='utf-8')
+              for m in attr_pat.finditer(text):
+                  offenders.append(f"{path}: {m.group('attr')}{m.group('url')}{m.group('end')}")
+          if offenders:
+              raise SystemExit('Subpath rewrite incomplete:\n' + '\n'.join(offenders[:20]))
+
+          print('AQ26 GitHub Pages subpath rewrite passed.')
+          PY
 
       - name: Upload governed site only
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: _pages
 
       - name: Deploy to GitHub Pages
         id: deployment
