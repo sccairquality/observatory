@@ -3,15 +3,17 @@ message: "If you use AQ26 outputs, cite the specific governed release and its PU
 title: "AQ26 England Air Quality Observatory"
 type: software
 authors:
-  - name: "SCC Nexus Data"
-repository-code: "https://github.com/sccnexusdata/AQ26-England-Observatory"
-url: "https://github.com/sccnexusdata/AQ26-England-Observatory"
+  - family-names: "Chowen"
+    given-names: "Scott"
+    affiliation: "SCC Nexus Limited"
+repository-code: "https://github.com/sccairquality/observatory"
+url: "https://sccairquality.com/"
 abstract: >-
   Public evidence, methodology and reproducibility surface for an independent,
-  England-wide air-quality and environmental evidence observatory. AQ26 combines
-  official monitoring observations with meteorological, emissions, satellite,
-  modelled and contextual evidence under explicit provenance and scientific-claim
-  controls.
+  England-wide air-quality and environmental evidence observatory operated and
+  published by SCC Nexus Limited (Company No. 17458303). AQ26 combines official
+  monitoring observations with meteorological, emissions, satellite, modelled
+  and contextual evidence under explicit provenance and scientific-claim controls.
 keywords:
   - air quality
   - environmental monitoring
