@@ -5,16 +5,6 @@
   var banner = document.getElementById('cookie-banner');
   var gaId = document.documentElement.getAttribute('data-ga-id') || window.AQ26_GA_MEASUREMENT_ID || '';
 
-  function installCompanyDisclosure() {
-    var footer = document.querySelector('footer');
-    if (!footer || footer.querySelector('[data-scc-legal]')) return;
-    var legal = document.createElement('div');
-    legal.setAttribute('data-scc-legal', '');
-    legal.style.cssText = 'max-width:1180px;margin:0 auto;padding:12px 20px 18px;font-size:.78rem;line-height:1.55;opacity:.82';
-    legal.innerHTML = 'This Air Quality Project is operated and published by <a href="https://sccnexus.co.uk/">SCC Nexus Limited</a> · Registered in England and Wales · Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/17458303" rel="noopener">17458303</a> · Registered office: 49 Station Road, Polegate, East Sussex, BN26 6EA. Scientific interpretation remains governed by the project methodology, provenance, limitations and publication controls.';
-    footer.appendChild(legal);
-  }
-
   function hideBanner() {
     if (banner) {
       banner.classList.remove('show');
@@ -66,8 +56,6 @@
     if (choice === 'essential') denyAnalytics();
     hideBanner();
   }
-
-  installCompanyDisclosure();
 
   var existing = null;
   try { existing = localStorage.getItem(STORAGE_KEY); } catch (e) {}
