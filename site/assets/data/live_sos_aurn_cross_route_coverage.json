@@ -1,0 +1,1823 @@
+{
+  "claim_boundary": "Cross-route reconciliation establishes evidence availability and route coverage only. It does not establish source attribution, causation, exposure, health effect, permit breach or regulatory non-compliance.",
+  "configured_pm_sites_missing_from_live_sos_count": 23,
+  "dynamic_configured_pm_site_count": 130,
+  "interpretation": "The live SOS route and the 30-day AURN review are separate official Defra publication routes with different time roles. A station absent from live SOS but present with valid 30-day hourly evidence is a live-source-route coverage gap, not an absent monitoring station. Annual hourly files must not be substituted into the live SOS screen because they do not provide equivalent latest-data freshness. Conversely, live SOS presence does not guarantee sufficient valid hourly evidence for the governed 30-day review window.",
+  "live_sos_assessment_available": true,
+  "live_sos_coverage_of_dynamic_pm_registry_percent": 82.3,
+  "live_sos_matched_configured_pm_site_count": 107,
+  "live_sos_sites_without_valid_30day_official_pm_evidence_count": 0,
+  "live_source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
+  "missing_live_sos_sites_with_valid_30day_official_pm_evidence_count": 22,
+  "missing_live_sos_sites_without_valid_30day_official_pm_evidence_count": 1,
+  "national_publication_ready": false,
+  "national_review_status": "partial_england_network_review",
+  "operational_scope": "England",
+  "period_source_route": "Defra UK-AIR annual hourly AURN site_data files",
+  "pollutants": [
+    "PM10",
+    "PM2.5"
+  ],
+  "schema": "aq26_live_sos_aurn_cross_route_coverage_v1",
+  "sites": [
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Chesterfield Loundsley Green",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00604",
+      "region": "East Midlands",
+      "site_id": "CHLG",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00604",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Chesterfield Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00529",
+      "region": "East Midlands",
+      "site_id": "CHS7",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00529",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Derby St Alkmund's Way",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00630",
+      "region": "East Midlands",
+      "site_id": "DESA",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00630",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Derby Stockbrook Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01027",
+      "region": "East Midlands",
+      "site_id": "DESB",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01027",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leicester A594 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00609",
+      "region": "East Midlands",
+      "site_id": "LEIR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00609",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leicester University",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00573",
+      "region": "East Midlands",
+      "site_id": "LECU",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00573",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Loughborough Thorpe Acre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01103",
+      "region": "East Midlands",
+      "site_id": "LOTA",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01103",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Mansfield Ladybrook",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01050",
+      "region": "East Midlands",
+      "site_id": "MALA",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01050",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Northampton Spring Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00632",
+      "region": "East Midlands",
+      "site_id": "NTN4",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00632",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Nottingham Bilborough",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01092",
+      "region": "East Midlands",
+      "site_id": "NOTB",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01092",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Nottingham Kenmore Gardens",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01048",
+      "region": "East Midlands",
+      "site_id": "NOTK",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01048",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Nottingham Western Boulevard",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00618",
+      "region": "East Midlands",
+      "site_id": "NWBV",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00618",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Wigston Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01176",
+      "region": "East Midlands",
+      "site_id": "WIGS",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01176",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Cambridge King's Hedges",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01115",
+      "region": "East of England",
+      "site_id": "CAMK",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01115",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Luton A505 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00605",
+      "region": "East of England",
+      "site_id": "LUTR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00605",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Norwich Lakenfields",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00549",
+      "region": "East of England",
+      "site_id": "NO12",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00549",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Peterborough Garton End",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01052",
+      "region": "East of England",
+      "site_id": "PEGE",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01052",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Southend Shoeburyness",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01096",
+      "region": "East of England",
+      "site_id": "SOUS",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01096",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Southend-on-Sea",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00409",
+      "region": "East of England",
+      "site_id": "SEND",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00409",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Stevenage St Georges Way South",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01156",
+      "region": "East of England",
+      "site_id": "STGW",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01156",
+      "valid_30day_official_hourly_pm_evidence": false
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "London A406 N Circular",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01119",
+      "region": "London",
+      "site_id": "LONC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01119",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Bloomsbury",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00211",
+      "region": "London",
+      "site_id": "CLL2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00211",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Harlington",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00472",
+      "region": "London",
+      "site_id": "HRL",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00472",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Hillingdon",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00266",
+      "region": "London",
+      "site_id": "HIL",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00266",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Norbury Manor School",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01100",
+      "region": "London",
+      "site_id": "LONM",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01100",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Teddington Bushy Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00572",
+      "region": "London",
+      "site_id": "TED2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00572",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "London Westminster",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00435",
+      "region": "London",
+      "site_id": "HORS",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00435",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Ashington Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01118",
+      "region": "North East",
+      "site_id": "ASHC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01118",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Darlington Firthmoor",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01155",
+      "region": "North East",
+      "site_id": "DARF",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01155",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Hartlepool St Abbs Walk",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00645",
+      "region": "North East",
+      "site_id": "HSAW",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00645",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Middlesbrough",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00220",
+      "region": "North East",
+      "site_id": "MID",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00220",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Newcastle Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00213",
+      "region": "North East",
+      "site_id": "NEWC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00213",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Newcastle Cradlewell Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00528",
+      "region": "North East",
+      "site_id": "NCA3",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00528",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "North Shields Chirton",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01159",
+      "region": "North East",
+      "site_id": "NOSC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01159",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Redcar Milford Walk",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01154",
+      "region": "North East",
+      "site_id": "REMW",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01154",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Stockton-on-Tees A1305 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00599",
+      "region": "North East",
+      "site_id": "SOTR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00599",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Stockton-on-Tees Eaglescliffe",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00535",
+      "region": "North East",
+      "site_id": "EAGL",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00535",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Sunderland Silksworth",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00484",
+      "region": "North East",
+      "site_id": "SUN2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00484",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Sunderland Wessington Way",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00601",
+      "region": "North East",
+      "site_id": "SUNR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00601",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Birkenhead Borough Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00625",
+      "region": "North West",
+      "site_id": "BBRD",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00625",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Blackburn Audley Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01025",
+      "region": "North West",
+      "site_id": "BLAP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01025",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Blackpool Marton",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00488",
+      "region": "North West",
+      "site_id": "BLC2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00488",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Blackpool Whitegate Drive",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01049",
+      "region": "North West",
+      "site_id": "BLWD",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01049",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Bury Whitefield Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00598",
+      "region": "North West",
+      "site_id": "BURW",
+      "target_pm_pollutants": [
+        "PM10"
+      ],
+      "uka_id": "UKA00598",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Carlisle Morton A595",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00932",
+      "region": "North West",
+      "site_id": "CARM",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00932",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Crewe Coppenhall",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00659",
+      "region": "North West",
+      "site_id": "COPP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00659",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Liverpool Speke",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00247",
+      "region": "North West",
+      "site_id": "LVP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00247",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Liverpool Thirlmere Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01095",
+      "region": "North West",
+      "site_id": "LVPT",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01095",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Manchester Piccadilly",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00248",
+      "region": "North West",
+      "site_id": "MAN3",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00248",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Manchester Sharston",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00617",
+      "region": "North West",
+      "site_id": "MAHG",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00617",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Middlewich St Michael's Way",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01051",
+      "region": "North West",
+      "site_id": "MIMW",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01051",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Preston",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00408",
+      "region": "North West",
+      "site_id": "PRES",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00408",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Rochdale Belfield",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01174",
+      "region": "North West",
+      "site_id": "ROCB",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01174",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Salford Eccles",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00339",
+      "region": "North West",
+      "site_id": "ECCL",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00339",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "St Helens Linkway",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00627",
+      "region": "North West",
+      "site_id": "SHLW",
+      "target_pm_pollutants": [
+        "PM10"
+      ],
+      "uka_id": "UKA00627",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Tameside A635 Manchester Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01099",
+      "region": "North West",
+      "site_id": "TAMM",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01099",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Warrington St. Peter's Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01175",
+      "region": "North West",
+      "site_id": "WARP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01175",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Wigan Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00482",
+      "region": "North West",
+      "site_id": "WIG5",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00482",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Wirral Tranmere",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00406",
+      "region": "North West",
+      "site_id": "TRAN",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00406",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Aylesbury A4157",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01109",
+      "region": "South East",
+      "site_id": "AYLA",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01109",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Brighton Preston Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00483",
+      "region": "South East",
+      "site_id": "BRT3",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00483",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Chatham Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00553",
+      "region": "South East",
+      "site_id": "CHAT",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00553",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Eastbourne",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00546",
+      "region": "South East",
+      "site_id": "EB",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00546",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Farnborough Cherrywood",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01097",
+      "region": "South East",
+      "site_id": "FARC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01097",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Maidstone Upper Stone Street",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01064",
+      "region": "South East",
+      "site_id": "MAID",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01064",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Milton Keynes Civic Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00963",
+      "region": "South East",
+      "site_id": "MKCC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00963",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Oxford St Ebbes",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00518",
+      "region": "South East",
+      "site_id": "OX8",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00518",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Portsmouth",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00421",
+      "region": "South East",
+      "site_id": "PMTH",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00421",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Portsmouth Anglesea Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00651",
+      "region": "South East",
+      "site_id": "POAR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00651",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Reading London Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00620",
+      "region": "South East",
+      "site_id": "REA5",
+      "target_pm_pollutants": [
+        "PM10"
+      ],
+      "uka_id": "UKA00620",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Reading New Town",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00462",
+      "region": "South East",
+      "site_id": "REA1",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00462",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Reading Rose Kiln Lane",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01053",
+      "region": "South East",
+      "site_id": "RRKL",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01053",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Slough Windmill Bath Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01091",
+      "region": "South East",
+      "site_id": "SLOW",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01091",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Southampton A33",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00613",
+      "region": "South East",
+      "site_id": "SA33",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00613",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Southampton Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00235",
+      "region": "South East",
+      "site_id": "SOUT",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00235",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Storrington Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00548",
+      "region": "South East",
+      "site_id": "STOR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00548",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Worthing A27 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00628",
+      "region": "South East",
+      "site_id": "WTHG",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00628",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Worthing East Ten Acres",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01061",
+      "region": "South East",
+      "site_id": "WOEA",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01061",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Barnstaple A39",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00574",
+      "region": "South West",
+      "site_id": "BPLE",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00574",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Bournemouth",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00429",
+      "region": "South West",
+      "site_id": "BORN",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00429",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Bournemouth Bourne Valley",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01160",
+      "region": "South West",
+      "site_id": "BOBV",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01160",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Bridgwater A372 Westonzoyland",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01120",
+      "region": "South West",
+      "site_id": "BRIW",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01120",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Bristol Patchway",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01116",
+      "region": "South West",
+      "site_id": "BRSP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01116",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Bristol St Paul's",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00494",
+      "region": "South West",
+      "site_id": "BRS8",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00494",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Bristol Temple Way",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00631",
+      "region": "South West",
+      "site_id": "BR11",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00631",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Cheltenham A40 Gloucester Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01101",
+      "region": "South West",
+      "site_id": "CHGR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA01101",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Christchurch Barrack Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00624",
+      "region": "South West",
+      "site_id": "CHBR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00624",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Gloucester Tredworth",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01102",
+      "region": "South West",
+      "site_id": "GLOT",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01102",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Honiton",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00566",
+      "region": "South West",
+      "site_id": "HONI",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00566",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Plymouth Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00360",
+      "region": "South West",
+      "site_id": "PLYM",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00360",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Saltash Callington Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00569",
+      "region": "South West",
+      "site_id": "SASH",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00569",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Swindon Walcot",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00650",
+      "region": "South West",
+      "site_id": "SWHO",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00650",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Bedworth Collycroft",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01158",
+      "region": "West Midlands",
+      "site_id": "BEDC",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01158",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Birmingham A4540 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00626",
+      "region": "West Midlands",
+      "site_id": "BIRR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00626",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Birmingham Hall Green",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01062",
+      "region": "West Midlands",
+      "site_id": "BIHG",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01062",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Birmingham Ladywood",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00655",
+      "region": "West Midlands",
+      "site_id": "BMLD",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00655",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Birmingham University",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01108",
+      "region": "West Midlands",
+      "site_id": "BAQF",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01108",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Burton-on-Trent Horninglow",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00652",
+      "region": "West Midlands",
+      "site_id": "BOTR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00652",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Cannock A5190 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00623",
+      "region": "West Midlands",
+      "site_id": "CANK",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00623",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Coventry Allesley",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00592",
+      "region": "West Midlands",
+      "site_id": "COAL",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00592",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Coventry Binley Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00634",
+      "region": "West Midlands",
+      "site_id": "COBR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00634",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leamington Spa",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00265",
+      "region": "West Midlands",
+      "site_id": "LEAM",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00265",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leamington Spa Rugby Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00564",
+      "region": "West Midlands",
+      "site_id": "LEAR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00564",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Oldbury Birmingham Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00595",
+      "region": "West Midlands",
+      "site_id": "BOLD",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00595",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Shrewsbury Underdale",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01055",
+      "region": "West Midlands",
+      "site_id": "SHUN",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01055",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Stoke-on-Trent A50 Roadside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00610",
+      "region": "West Midlands",
+      "site_id": "STKR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00610",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Stoke-on-Trent Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00337",
+      "region": "West Midlands",
+      "site_id": "STOK",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00337",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Telford Hollinswood",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00648",
+      "region": "West Midlands",
+      "site_id": "TDHD",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00648",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Walsall Caldmore",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01117",
+      "region": "West Midlands",
+      "site_id": "WALD",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01117",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Wolverhampton East Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01162",
+      "region": "West Midlands",
+      "site_id": "WOLE",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01162",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Worcester Tolladine",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01098",
+      "region": "West Midlands",
+      "site_id": "WORT",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01098",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Barnsley Gawber",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00353",
+      "region": "Yorkshire and the Humber",
+      "site_id": "BAR3",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00353",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Bradford Shipley Airedale Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01090",
+      "region": "Yorkshire and the Humber",
+      "site_id": "BRAS",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01090",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Bradford West Park",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01161",
+      "region": "Yorkshire and the Humber",
+      "site_id": "BRWP",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01161",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Dewsbury Ashworth Grange",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00654",
+      "region": "Yorkshire and the Humber",
+      "site_id": "DYAG",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00654",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Doncaster A630 Cleveland Street",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00612",
+      "region": "Yorkshire and the Humber",
+      "site_id": "DCST",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00612",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
+      "live_sos_eligible_match": false,
+      "name": "Harrogate Woodlands",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01093",
+      "region": "Yorkshire and the Humber",
+      "site_id": "HARW",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01093",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Hull Freetown",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00450",
+      "region": "Yorkshire and the Humber",
+      "site_id": "HUL2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00450",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Hull Holderness Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00600",
+      "region": "Yorkshire and the Humber",
+      "site_id": "HULR",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00600",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Immingham Woodlands Avenue",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00647",
+      "region": "Yorkshire and the Humber",
+      "site_id": "IMGM",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00647",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leeds Centre",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00222",
+      "region": "Yorkshire and the Humber",
+      "site_id": "LEED",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00222",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Leeds Headingley Kerbside",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00527",
+      "region": "Yorkshire and the Humber",
+      "site_id": "LED6",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00527",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Rotherham East Dene",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01054",
+      "region": "Yorkshire and the Humber",
+      "site_id": "ROED",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01054",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Scunthorpe Town",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00381",
+      "region": "Yorkshire and the Humber",
+      "site_id": "SCN2",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00381",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Sheffield Barnsley Road",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00622",
+      "region": "Yorkshire and the Humber",
+      "site_id": "SHBR",
+      "target_pm_pollutants": [
+        "PM2.5"
+      ],
+      "uka_id": "UKA00622",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Sheffield Devonshire Green",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00575",
+      "region": "Yorkshire and the Humber",
+      "site_id": "SHDG",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00575",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Sheffield Tinsley",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00181",
+      "region": "Yorkshire and the Humber",
+      "site_id": "SHE",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00181",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "Wakefield Alverthorpe",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01107",
+      "region": "Yorkshire and the Humber",
+      "site_id": "WAKA",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA01107",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "York Bootham",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00523",
+      "region": "Yorkshire and the Humber",
+      "site_id": "YK10",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00523",
+      "valid_30day_official_hourly_pm_evidence": true
+    },
+    {
+      "cross_route_status": "live_sos_and_valid_30day",
+      "live_sos_eligible_match": true,
+      "name": "York Fishergate",
+      "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00524",
+      "region": "Yorkshire and the Humber",
+      "site_id": "YK11",
+      "target_pm_pollutants": [
+        "PM10",
+        "PM2.5"
+      ],
+      "uka_id": "UKA00524",
+      "valid_30day_official_hourly_pm_evidence": true
+    }
+  ],
+  "status": "reconciled",
+  "valid_30day_official_hourly_pm_site_count": 129,
+  "valid_30day_pm_coverage_of_dynamic_registry_percent": 99.2
+}

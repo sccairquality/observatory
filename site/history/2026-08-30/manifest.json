@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "bytes": 1832,
+      "path": "assets/data/api_release_gate.json",
+      "sha256": "74d861b4279a188b7ead78b67407bfc719b0cb5405855ecea7c446134ffac373"
+    },
+    {
+      "bytes": 7213,
+      "path": "assets/data/current-observatory-status.json",
+      "sha256": "5fe97071573825fc0b3c3d72eb153959971c67cad1fde76de9d0898332350af9"
+    },
+    {
+      "bytes": 1070471,
+      "path": "assets/data/england_30_day_evidence_review.json",
+      "sha256": "d531f2a3bad685a3e1ce7faa6eeaf20a7999b5c31045ed6f6a32392227f93426"
+    },
+    {
+      "bytes": 2692,
+      "path": "assets/data/public-release-status.json",
+      "sha256": "29f6459caa72b6a44a8c19ca7c065101167aea2710f63adb707587eec6adb8cf"
+    },
+    {
+      "bytes": 17973,
+      "path": "assets/data/public-release-summary.json",
+      "sha256": "2bccf9cf94bf4e07e0156a3913cc789acf03dc762d53dcd700e8b6aa13ebab2b"
+    },
+    {
+      "bytes": 42154,
+      "path": "current-data.html",
+      "sha256": "9c93ebea2920a64615374c0ed4eb6fca21c5953c990ee57100db3e5af830cf0a"
+    },
+    {
+      "bytes": 3400694,
+      "path": "downloads/england_30_day_daily_evidence.csv",
+      "sha256": "c2ce1482b6b3e391b9a7ec488f84a17d7447031472cbcbb6a0b2b4f999af15f1"
+    },
+    {
+      "bytes": 1690,
+      "path": "downloads/england_review_data_dictionary.json",
+      "sha256": "c87ec838b00395c09176a99a4964cdec46c4acf82f6035b8dc70d3816729cbdb"
+    },
+    {
+      "bytes": 19458,
+      "path": "overall-report.html",
+      "sha256": "801fb47823ddb54ef41449cb5eb0c598fa46ca82b41d9c9379d72b6c52829035"
+    },
+    {
+      "bytes": 21543,
+      "path": "readiness.html",
+      "sha256": "f126cbd3700d93ab0a701127829a4d19395ec8cf9d5b65adcab17277683cb7f0"
+    },
+    {
+      "bytes": 61475,
+      "path": "scientific-review.html",
+      "sha256": "0de3985e8e5bac59670503f853baced2b7e4e9350fd5c45bc616ea5c888a362b"
+    },
+    {
+      "bytes": 53633,
+      "path": "weekly-report.html",
+      "sha256": "80aaa8800dbe6c887e05522e8a5d6b2f6db2fe511a3ea1ab4856cc148fd4499e"
+    }
+  ],
+  "generated_at_utc": "2026-08-30T11:11:22+00:00",
+  "release_date": "2026-08-30",
+  "run_mode": "weekly",
+  "schema": "aq26_public_history_snapshot_v1",
+  "scientific_boundary": "This folder preserves the public evidence state released on the stated date. It is a historical record, not a new source-attribution, health or compliance finding.",
+  "source_commit_sha": "c623c141da8043f2f3b5a3b5c0febb62d6ddbe8a",
+  "source_run_id": "33308079885",
+  "summary": {
+    "contextual_convergence_ready": null,
+    "episode_investigation_ready": null,
+    "fresh_physical_site_count": null,
+    "live_release_ready": null,
+    "measurement_publication_ready": null,
+    "physical_site_count": null,
+    "timeseries_count": null
+  }
+}

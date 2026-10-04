@@ -1,0 +1,14 @@
+{
+  "all_england_regions_evidenced": true,
+  "all_england_regions_fresh": true,
+  "assessment_scope": "live_current_only",
+  "eligible_governed_pm_site_count": 129,
+  "interpretation": "This percentage measures how much of the governed English AURN PM2.5/PM10 registry was represented by the live SOS timeseries route in this release. It is not the completeness percentage for the separate England 30-day AURN network review, which dynamically discovers AURN sites and uses official annual hourly UK-AIR files. A live SOS coverage gap blocks an England-wide current assessment from that route; it does not mean the missing stations are inactive or absent from Defra's other official publication routes.",
+  "live_england_wide_current_assessment_allowed": false,
+  "matched_eligible_sos_site_count": 107,
+  "minimum_sos_site_coverage_percent": 85.0,
+  "sos_site_coverage_percent": 82.9,
+  "source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
+  "source_route_gate_passed": false,
+  "status": "coverage_gap"
+}

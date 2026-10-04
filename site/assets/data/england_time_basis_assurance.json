@@ -1,24 +1,24 @@
 {
-  "schema": "aq26_england_time_basis_assurance_v1",
-  "generated_at_utc": "2026-08-17T16:01:43.931737+00:00",
-  "status": "pass",
-  "time_basis": "GMT hour ending; daily aggregation uses the printed source calendar date",
-  "source_calendar_date_preserved": true,
-  "hour_ending_24_preserved": true,
-  "annual_files_with_parser_diagnostics": 142,
-  "source_24_00_rows": 32376,
-  "parsed_24_00_pollutant_observations": 71204,
-  "source_numeric_observations": 1703775,
-  "quality_accepted_observations": 1703775,
-  "excluded_unrecognised_status_observations": 0,
-  "status_flag_counts": {
-    "P": 1051800,
-    "R": 651975
-  },
   "accepted_status_flags": {
-    "R": "ratified",
     "P": "provisional",
-    "P*": "as_supplied"
+    "P*": "as_supplied",
+    "R": "ratified"
   },
-  "errors": []
+  "annual_files_with_parser_diagnostics": 143,
+  "errors": [],
+  "excluded_unrecognised_status_observations": 0,
+  "generated_at_utc": "2026-10-04T16:51:33.569453+00:00",
+  "hour_ending_24_preserved": true,
+  "parsed_24_00_pollutant_observations": 85733,
+  "quality_accepted_observations": 2055837,
+  "schema": "aq26_england_time_basis_assurance_v1",
+  "source_24_00_rows": 39468,
+  "source_calendar_date_preserved": true,
+  "source_numeric_observations": 2055837,
+  "status": "pass",
+  "status_flag_counts": {
+    "P": 735167,
+    "R": 1320670
+  },
+  "time_basis": "GMT hour ending; daily aggregation uses the printed source calendar date"
 }

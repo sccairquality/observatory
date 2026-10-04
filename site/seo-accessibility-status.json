@@ -1,22 +1,22 @@
 {
-  "schema": "aq26_seo_accessibility_status_v1",
-  "generated_at_utc": "2026-08-17T16:02:00+00:00",
-  "release_date": "2026-08-17",
-  "site": "public",
+  "checks": {
+    "accessibility_expanded": true,
+    "dataset_and_report_schema": true,
+    "entity_name_clear": true,
+    "facility_descriptions_unique": true,
+    "image_dimensions": true,
+    "metadata_complete": true,
+    "new_pages_in_sitemap": true,
+    "print_provenance": true,
+    "provisional_and_live_states": true,
+    "scientific_review_in_sitemap": true
+  },
+  "claim_boundary": "Deterministic website correction receipt; not an external WCAG certification, Google ranking guarantee or scientific finding.",
+  "generated_at_utc": "2026-10-04T16:51:42+00:00",
   "pages": 41,
   "pages_changed": 39,
-  "sitemap_urls": 41,
-  "checks": {
-    "scientific_review_in_sitemap": true,
-    "new_pages_in_sitemap": true,
-    "metadata_complete": true,
-    "dataset_and_report_schema": true,
-    "provisional_and_live_states": true,
-    "accessibility_expanded": true,
-    "image_dimensions": true,
-    "facility_descriptions_unique": true,
-    "entity_name_clear": true,
-    "print_provenance": true
-  },
-  "claim_boundary": "Deterministic website correction receipt; not an external WCAG certification, Google ranking guarantee or scientific finding."
+  "release_date": "2026-10-04",
+  "schema": "aq26_seo_accessibility_status_v1",
+  "site": "public",
+  "sitemap_urls": 41
 }

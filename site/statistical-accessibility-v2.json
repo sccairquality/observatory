@@ -1,17 +1,17 @@
 {
-  "schema": "aq26_statistical_accessibility_v2_status",
-  "generated_at_utc": "2026-08-17T16:02:00+00:00",
-  "site": "public",
-  "pages": 41,
-  "pages_changed": 41,
   "checks": {
+    "a4_print": true,
+    "delay_spacing": true,
     "single_h1": true,
     "skip_links": true,
-    "table_semantics": true,
     "statistical_language": true,
-    "a4_print": true,
-    "updated_labels": true,
-    "delay_spacing": true
+    "table_semantics": true,
+    "updated_labels": true
   },
-  "claim_boundary": "Presentation and terminology assurance only; measurements and scientific thresholds are unchanged."
+  "claim_boundary": "Presentation and terminology assurance only; measurements and scientific thresholds are unchanged.",
+  "generated_at_utc": "2026-10-04T16:51:42+00:00",
+  "pages": 41,
+  "pages_changed": 41,
+  "schema": "aq26_statistical_accessibility_v2_status",
+  "site": "public"
 }

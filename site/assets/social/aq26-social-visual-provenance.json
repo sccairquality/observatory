@@ -2,248 +2,245 @@
   "ai_generated_during_release": false,
   "assets": {
     "aq26-facebook-briefing.jpg": {
-      "sha256": "46f4fff93f00895fd4b97b543e07bcd895d28134c3d337e4a6b735c79043ac2b",
-      "bytes": 168357,
-      "width": 1080,
-      "height": 1350,
+      "bytes": 168916,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "England’s monitoring network — 30 days in evidence",
-        "title_lines": [
-          "England’s monitoring network —",
-          "30 days in evidence"
-        ],
-        "title_font_size": 50,
+        "content_bottom": 797,
+        "ellipsis_used": false,
+        "footer_top": 1244,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
         "subtitle_lines": [
           "A complete-period national review, with the delayed live-data service reported separately."
         ],
-        "subtitle_font_size": 21,
-        "content_bottom": 797,
-        "footer_top": 1244,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
-    },
-    "aq26-weekly-card.jpg": {
-      "sha256": "8093bbc922044cc7c14b11138ecdf08731793d805b2c8db34813f4eb2d2c04d3",
-      "bytes": 150056,
-      "width": 1080,
-      "height": 1080,
-      "format": "JPEG",
-      "layout": {
-        "title": "9,469 pollutant-day observations, made inspectable",
-        "title_lines": [
-          "9,469 pollutant-day observations,",
-          "made inspectable"
-        ],
+        "title": "England’s monitoring network — 30 days in evidence",
         "title_font_size": 50,
-        "subtitle_lines": [
-          "Official records, reproducible calculations, visible gaps and explicit limits."
-        ],
-        "subtitle_font_size": 21,
-        "content_bottom": 673,
-        "footer_top": 974,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
-    },
-    "aq26-weekly-card.png": {
-      "sha256": "eabea5372db4170f20889543110f870cf580d5d3ce4ca5fcf550c72eed7d2b69",
-      "bytes": 92651,
-      "width": 1080,
-      "height": 1080,
-      "format": "PNG",
-      "layout": {
-        "title": "9,469 pollutant-day observations, made inspectable",
         "title_lines": [
-          "9,469 pollutant-day observations,",
-          "made inspectable"
-        ],
-        "title_font_size": 50,
-        "subtitle_lines": [
-          "Official records, reproducible calculations, visible gaps and explicit limits."
-        ],
-        "subtitle_font_size": 21,
-        "content_bottom": 673,
-        "footer_top": 974,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
-    },
-    "aq26-x-briefing.jpg": {
-      "sha256": "ce88ec5cc471c42123fbaf2fc387325a0e4c9fb3abd4aa52cc7eef104ca57e4e",
-      "bytes": 168867,
-      "width": 1600,
-      "height": 900,
-      "format": "JPEG",
-      "layout": {
-        "title": "England’s 30-day air-quality evidence",
-        "title_lines": [
-          "England’s 30-day air-quality evidence"
-        ],
-        "title_font_size": 58,
-        "subtitle_lines": [
-          "National monitoring results first; current data availability shown as a separate service."
-        ],
-        "subtitle_font_size": 24,
-        "content_bottom": 462,
-        "footer_top": 794,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
-    },
-    "aq26-website-share.jpg": {
-      "sha256": "2d26fed72e8639212a8f13d4d6b6fcd5d2ca2eee2b9d5bafed808750e8d3483a",
-      "bytes": 103808,
-      "width": 1200,
-      "height": 630,
-      "format": "JPEG",
-      "layout": {
-        "title": "England air-quality evidence",
-        "title_lines": [
-          "England air-quality evidence"
-        ],
-        "title_font_size": 50,
-        "subtitle_lines": [
-          "Open data, methods, limitations and correction routes."
-        ],
-        "subtitle_font_size": 21,
-        "content_bottom": 505,
-        "footer_top": 524,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
+          "England’s monitoring network —",
+          "30 days in evidence"
+        ]
+      },
+      "sha256": "78e6dde1c209324ab0577de084172eb07cdf8a507141ab9c99306170a40096c5",
+      "width": 1080
     },
     "aq26-instagram-01.jpg": {
-      "sha256": "d19683707c46814e3d7a9dce9947f9a3bd7db8a70234c804cf9a37ee694a251e",
-      "bytes": 152154,
-      "width": 1080,
-      "height": 1350,
+      "bytes": 151226,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "Two evidence products. Do not confuse them.",
-        "title_lines": [
-          "Two evidence products. Do not",
-          "confuse them."
+        "content_bottom": 639,
+        "ellipsis_used": false,
+        "footer_top": 1244,
+        "negative_terms_preserved": [
+          "not",
+          "no"
         ],
-        "title_font_size": 50,
+        "overflow": false,
+        "subtitle_font_size": 21,
         "subtitle_lines": [
           "The completed national review and the current live-data service answer different",
           "questions."
         ],
-        "subtitle_font_size": 21,
-        "content_bottom": 639,
-        "footer_top": 1244,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": [
-          "not",
-          "no"
+        "title": "Two evidence products. Do not confuse them.",
+        "title_font_size": 50,
+        "title_lines": [
+          "Two evidence products. Do not",
+          "confuse them."
         ]
-      }
+      },
+      "sha256": "358f37fb5c800a2047c5f9a883236004b1c5d0969a35a987c9a947877319258a",
+      "width": 1080
     },
     "aq26-instagram-02.jpg": {
-      "sha256": "e705a5d0b39fd4587d0712847b8d2d229cb18a6fff7bc8ba438c43ea103337ea",
-      "bytes": 161266,
-      "width": 1080,
-      "height": 1350,
+      "bytes": 161234,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "9 of 9 English regions represented",
-        "title_lines": [
-          "9 of 9 English regions",
-          "represented"
-        ],
-        "title_font_size": 50,
+        "content_bottom": 797,
+        "ellipsis_used": false,
+        "footer_top": 1244,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
         "subtitle_lines": [
           "The accepted 30-day review reports its station denominator, period and completeness."
         ],
-        "subtitle_font_size": 21,
-        "content_bottom": 797,
-        "footer_top": 1244,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
+        "title": "9 of 9 English regions represented",
+        "title_font_size": 50,
+        "title_lines": [
+          "9 of 9 English regions",
+          "represented"
+        ]
+      },
+      "sha256": "d40af7a3cb1f7575ffb35f8121d823bd0c1ec7a9b09b5a5a3b8cc20b9649eec1",
+      "width": 1080
     },
     "aq26-instagram-03.jpg": {
-      "sha256": "4083fcce796d0a4e934bc8c8e63bae32a5aab96d909c0c001bc453bbb6d0f87a",
-      "bytes": 143322,
-      "width": 1080,
-      "height": 1350,
+      "bytes": 158160,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "No fresh data does not mean clean air",
-        "title_lines": [
-          "No fresh data does not mean",
-          "clean air"
-        ],
-        "title_font_size": 50,
-        "subtitle_lines": [
-          "Observations outside the freshness rule cannot support a current episode assessment."
-        ],
-        "subtitle_font_size": 21,
-        "content_bottom": 603,
-        "footer_top": 1244,
-        "overflow": false,
+        "content_bottom": 613,
         "ellipsis_used": false,
-        "negative_terms_preserved": [
-          "not",
-          "no"
+        "footer_top": 1244,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
+        "subtitle_lines": [
+          "Freshness and England-wide coverage are separate release gates."
+        ],
+        "title": "Fresh observations; England-wide assessment withheld",
+        "title_font_size": 50,
+        "title_lines": [
+          "Fresh observations; England-wide",
+          "assessment withheld"
         ]
-      }
+      },
+      "sha256": "8980db656f3767a8139e47a5aed5ee32a251f2c539b277eceb50cf67b4795089",
+      "width": 1080
     },
     "aq26-instagram-04.jpg": {
-      "sha256": "1f9d630101a43f5cdc9754121322280040e4ef855ba30c9f6ef24571da5a023f",
       "bytes": 164758,
-      "width": 1080,
-      "height": 1350,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "Monitoring first. Context second.",
-        "title_lines": [
-          "Monitoring first. Context second."
-        ],
-        "title_font_size": 50,
+        "content_bottom": 763,
+        "ellipsis_used": false,
+        "footer_top": 1244,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
         "subtitle_lines": [
           "A monitoring event must define time and geography before contextual sources enter the",
           "review."
         ],
-        "subtitle_font_size": 21,
-        "content_bottom": 763,
-        "footer_top": 1244,
-        "overflow": false,
-        "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
+        "title": "Monitoring first. Context second.",
+        "title_font_size": 50,
+        "title_lines": [
+          "Monitoring first. Context second."
+        ]
+      },
+      "sha256": "1f9d630101a43f5cdc9754121322280040e4ef855ba30c9f6ef24571da5a023f",
+      "width": 1080
     },
     "aq26-instagram-05.jpg": {
-      "sha256": "2bcdaf36e14af87317691921ae6a0389ec622c698f290e6be9d4212a7b551c03",
       "bytes": 159231,
-      "width": 1080,
-      "height": 1350,
       "format": "JPEG",
+      "height": 1350,
       "layout": {
-        "title": "Inspect. Reproduce. Challenge.",
-        "title_lines": [
-          "Inspect. Reproduce. Challenge."
-        ],
-        "title_font_size": 50,
+        "content_bottom": 739,
+        "ellipsis_used": false,
+        "footer_top": 1244,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
         "subtitle_lines": [
           "Download the evidence, review the method and submit corrections."
         ],
-        "subtitle_font_size": 21,
-        "content_bottom": 739,
-        "footer_top": 1244,
-        "overflow": false,
+        "title": "Inspect. Reproduce. Challenge.",
+        "title_font_size": 50,
+        "title_lines": [
+          "Inspect. Reproduce. Challenge."
+        ]
+      },
+      "sha256": "2bcdaf36e14af87317691921ae6a0389ec622c698f290e6be9d4212a7b551c03",
+      "width": 1080
+    },
+    "aq26-website-share.jpg": {
+      "bytes": 103560,
+      "format": "JPEG",
+      "height": 630,
+      "layout": {
+        "content_bottom": 505,
         "ellipsis_used": false,
-        "negative_terms_preserved": []
-      }
+        "footer_top": 524,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
+        "subtitle_lines": [
+          "Open data, methods, limitations and correction routes."
+        ],
+        "title": "England air-quality evidence",
+        "title_font_size": 50,
+        "title_lines": [
+          "England air-quality evidence"
+        ]
+      },
+      "sha256": "f17a0a4c97cd578191171323d9b35d278fd3926adf4a2beff40a195f2493bd76",
+      "width": 1200
+    },
+    "aq26-weekly-card.jpg": {
+      "bytes": 148352,
+      "format": "JPEG",
+      "height": 1080,
+      "layout": {
+        "content_bottom": 673,
+        "ellipsis_used": false,
+        "footer_top": 974,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
+        "subtitle_lines": [
+          "Official records, reproducible calculations, visible gaps and explicit limits."
+        ],
+        "title": "9,720 pollutant-day observations, made inspectable",
+        "title_font_size": 50,
+        "title_lines": [
+          "9,720 pollutant-day observations,",
+          "made inspectable"
+        ]
+      },
+      "sha256": "5586c9f01bf6c24cfa5688407a3ad719359d6e430e989279a2a473320d7064bb",
+      "width": 1080
+    },
+    "aq26-weekly-card.png": {
+      "bytes": 93828,
+      "format": "PNG",
+      "height": 1080,
+      "layout": {
+        "content_bottom": 673,
+        "ellipsis_used": false,
+        "footer_top": 974,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 21,
+        "subtitle_lines": [
+          "Official records, reproducible calculations, visible gaps and explicit limits."
+        ],
+        "title": "9,720 pollutant-day observations, made inspectable",
+        "title_font_size": 50,
+        "title_lines": [
+          "9,720 pollutant-day observations,",
+          "made inspectable"
+        ]
+      },
+      "sha256": "64776c4b57e14c54fa878faa41be995902ae314f92b120a5dd5405069878a585",
+      "width": 1080
+    },
+    "aq26-x-briefing.jpg": {
+      "bytes": 168718,
+      "format": "JPEG",
+      "height": 900,
+      "layout": {
+        "content_bottom": 462,
+        "ellipsis_used": false,
+        "footer_top": 794,
+        "negative_terms_preserved": [],
+        "overflow": false,
+        "subtitle_font_size": 24,
+        "subtitle_lines": [
+          "National monitoring results first; current data availability shown as a separate service."
+        ],
+        "title": "England’s 30-day air-quality evidence",
+        "title_font_size": 58,
+        "title_lines": [
+          "England’s 30-day air-quality evidence"
+        ]
+      },
+      "sha256": "7e478aeb7dcc6b47268ab7899f0961d1317223b7133d896fe67cd8d8af369d66",
+      "width": 1600
     }
   },
   "background_rotation": {
@@ -256,90 +253,90 @@
       "preserve_reviewed_panel": true
     },
     "decorative_assets_are_not_evidence": true,
-    "evidence_payload_sha256_after": "e276497d65735fea781a44334198a14965e7fd2c1fc363303a3e36f4da961dd6",
-    "evidence_payload_sha256_before": "e276497d65735fea781a44334198a14965e7fd2c1fc363303a3e36f4da961dd6",
+    "evidence_payload_sha256_after": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
+    "evidence_payload_sha256_before": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
     "fallback_policy": "fail_closed",
     "fresh_ai_generation_during_release": false,
-    "iso_weekday": 0,
+    "iso_weekday": 6,
     "manifest_sha256": "d59534a78c24f7d5513f776bdc2509df04bcefcf421e762208eaa6c27a5529b8",
     "outputs": {
       "aq26-facebook-briefing.jpg": {
-        "bytes": 193662,
+        "bytes": 189387,
         "height": 1350,
-        "input_sha256": "bc8f9bd0981da34a96ac39bf0e646b25f0b2872bf26be36b591e05a2b50db9a1",
-        "output_sha256": "d20fc141603d45ca0873724e35b0dbf4d1a73803d69f6a6bf1c689f2e0154b85",
+        "input_sha256": "42a2b115a479b31eaf334a921d835f61503ee61c93a5744829674b569e57cd10",
+        "output_sha256": "c93707a5f56649420df32d3261f6f1929081e8839d01d9a5259fa65b3cb5e1e3",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-01.jpg": {
-        "bytes": 149838,
+        "bytes": 145998,
         "height": 1350,
-        "input_sha256": "d9a12b8a17b3bc11979e9bd9e5e51613bfe210a7e586ab0c47bbb566e9470e08",
-        "output_sha256": "ebbdb056eb6533b661381d895f94a8ac804195e6619e3ca9ce79397d99232e77",
+        "input_sha256": "0c5340788248d53d7b1e1ac637d29cbdd384fc30252d739e8b92dc05c1a97cd9",
+        "output_sha256": "2212f80ef1d2fe2ae3dc0de7131fdb8414707aeff05873e02550d718c7b026eb",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-02.jpg": {
-        "bytes": 134702,
+        "bytes": 137214,
         "height": 1350,
-        "input_sha256": "4b707f9a6a713ee1c9cfc7be371dcfcc397ef9bdd458572db24472cb1476e8c5",
-        "output_sha256": "b8b952e467df93cf8e781883342a5fa24c7537b0a2c7dc8ecb7d34c8234a1521",
+        "input_sha256": "8cb788c69c102bb4867e4af223db37a07dc7337b1c68e500feea178e433911a6",
+        "output_sha256": "cfda96655a12583f5cf0e69dd68e4bd01c74dd05fb7b7028da4db8500359e305",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-03.jpg": {
-        "bytes": 116509,
+        "bytes": 117939,
         "height": 1350,
-        "input_sha256": "720024550d815aad864f47474e37873a8153c2b30942c9f7c10d331e797ab9e4",
-        "output_sha256": "cb9f9f61b984dd74be33fdec3fb0b0928634e65ac007386bd5bfc4a2d4eb0428",
+        "input_sha256": "da0afcba37b856c0a057078fc76cb31ecf6f168da12bd1c1cbbc388ac3cb3d54",
+        "output_sha256": "07b8b2f9ad3c9ee02edebb3ebfc79873b2af307895f1eb74fd90b1112a4abac4",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-04.jpg": {
-        "bytes": 149296,
+        "bytes": 150597,
         "height": 1350,
-        "input_sha256": "b80d6c364478f0bfddae1b1784c3c67c638b3a2e3cb357364e4bf65a9f5ddab1",
-        "output_sha256": "02755538eea997b25f97443b9ccb6b828029fdac6d1a8fe5619a2f2e11e2a4d6",
+        "input_sha256": "c82fd95446741272a008ff9c3ba46cfa40ddd8bb1472015b910d3f563e6c5c93",
+        "output_sha256": "021bf4c00932faab004b473d37be58f4e981c7fdb0ba58d5e0a163ce05d62ed0",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-05.jpg": {
-        "bytes": 157025,
+        "bytes": 153948,
         "height": 1350,
-        "input_sha256": "6cf6bb3e1cb63767579d62bfa798985fcfc83c60501e452a93cea458970f3303",
-        "output_sha256": "2cceba118a1893a0dbb14340c1ad19665e7824d817597f85e755bd8489568a09",
+        "input_sha256": "73cc48488d73d09f25847ab43570737d864c808729fdae57552a5192ac15d9b1",
+        "output_sha256": "3925279df0b7d8c6ece4ccc1854bf57ca41341499569f249b91d9c84452bd5b7",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-website-share.jpg": {
-        "bytes": 103254,
+        "bytes": 104747,
         "height": 630,
-        "input_sha256": "60e774e5bde45a23d7ca8f4eb240c80970aee7d3e1ae8abaf2670d7c4b55888f",
-        "output_sha256": "4bd61a4b08d721b837467baed29ced50afaea4fcd3fb345dd6c7fc3d7a0e429c",
+        "input_sha256": "e76e5927fd15e724b0c62a38a4aaff7d10f3b011b53fa37f6b1e3028aa4c2ca9",
+        "output_sha256": "8f7a0ba519ed89408ec37d9f4bb0e44b6bb0c17b3c93fbbc295d1b91c4f79cca",
         "panel_scale": 0.92,
         "width": 1200
       },
       "aq26-weekly-card.jpg": {
-        "bytes": 178620,
+        "bytes": 174050,
         "height": 1080,
-        "input_sha256": "da603406743f29dd2145e52c38ac3063df839f2a5aba43634385a7c4bc331760",
-        "output_sha256": "86c1fc3d7e59e886e357bb256910d5c45729648d848198f1255779b63adfb022",
+        "input_sha256": "04839ade90e41bcdb15aaa4de2398f357fd7e9412137d544bce2eb3af9799183",
+        "output_sha256": "b072f35cff76a454493579725e7eff6f9f28db6054ef33077548524a24d69da0",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-weekly-card.png": {
-        "bytes": 396097,
+        "bytes": 394089,
         "height": 1080,
-        "input_sha256": "ddce1936408eddc23f2d98b208b26f4e78fcd4da933bb2b738c5abda24ee25b0",
-        "output_sha256": "702966f545aeeef703705a32ed1eb2504146a914d1d9fa9731a632a11f634362",
+        "input_sha256": "e3686b08e6357db4a5a432193b46b0082c97cf7478f50f671f7cba5b2799022b",
+        "output_sha256": "98937fc9f6e58d6a7ea7d1b4faccbdd06097d8a87e5453e3426855e44a92106a",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-x-briefing.jpg": {
-        "bytes": 169135,
+        "bytes": 165970,
         "height": 900,
-        "input_sha256": "a07fcfe7bf136fc356ee9d3ca73b8a90417d7c046bb1e96ee271d862ff13cbef",
-        "output_sha256": "3a13da408c759c63f7a8640fb8f3b50145ef95e9d1a739b95c5441debad3e60a",
+        "input_sha256": "41e1a45416094c24afc5c16a640fc79ca0e4781d2c44aa909cfb59ebd34aaf08",
+        "output_sha256": "9d5809dec9b35f18b6083d0dcc0c7717449a8d883d21480162b720aa607e9a65",
         "panel_scale": 0.92,
         "width": 1600
       }
@@ -347,20 +344,20 @@
     "schema": "aq26_social_background_application_v1",
     "scientific_content_changed": false,
     "selected_background": {
-      "asset_id": "aq26-bg-01-monday-city-industrial-haze",
-      "bytes": 107037,
-      "description": "London Thames urban-industrial haze; valid replacement for truncated weekday upload",
+      "asset_id": "aq26-bg-07-sunday-industrial-weather",
+      "bytes": 162136,
+      "description": "UK industrial estuary emissions landscape; valid replacement for truncated weekday upload",
       "evidence_role": "decorative_only",
-      "filename": "01-monday-city-industrial-haze.jpg",
+      "filename": "07-sunday-industrial-weather.jpg",
       "height": 1080,
-      "sha256": "5679b41b605feed06d9e5358d2b39e8cf80dcf9c7fcdf12baf678000de059ee3",
-      "source": "user_supplied_weekly_asset_08_2026-07-18",
+      "sha256": "ef550f6f4d796cccd78f7de9696126a530f1e64c640b6491421e497f299c49a8",
+      "source": "user_supplied_weekly_asset_09_2026-07-18",
       "width": 1080
     },
-    "selection_date": "2026-08-17",
+    "selection_date": "2026-10-04",
     "source_attribution_allowed": false,
     "strict_rotation": true,
-    "weekday": "monday"
+    "weekday": "sunday"
   },
   "campaign_rendered_by": "aq26_impact_delivery_v1",
   "campaign_type": "england_network_review",
@@ -368,13 +365,15 @@
   "deterministic_rendering": true,
   "endorsement_claimed": false,
   "external_scientific_review_claimed": false,
+  "final_visual_renderer": "aq26_social_public_redesign_v2",
   "finalised_by": "aq26_apply_vvip_presence_v1",
   "framework": "Evidence-assurance checks",
+  "negative_terms_preserved": true,
+  "post_render_overlay_allowed": false,
   "public_review_label": "internal software checks completed",
   "schema": "aq26_social_visual_assurance_v1",
   "technical_shorthand": "evidence assurance",
-  "final_visual_renderer": "aq26_social_public_redesign_v2",
-  "post_render_overlay_allowed": false,
   "text_truncation_allowed": false,
-  "negative_terms_preserved": true
+  "weekday": "Sunday",
+  "weekday_accent": "#A65D45"
 }

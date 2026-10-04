@@ -18,7 +18,7 @@
       "passed": true,
       "php_file_count": 0,
       "renderable_file_count": 41,
-      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_public"
+      "surface": "repository://site_public"
     },
     {
       "finding_count": 0,
@@ -27,7 +27,7 @@
       "passed": true,
       "php_file_count": 0,
       "renderable_file_count": 42,
-      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_test"
+      "surface": "repository://site_test"
     },
     {
       "finding_count": 0,
@@ -36,7 +36,7 @@
       "passed": true,
       "php_file_count": 7,
       "renderable_file_count": 8,
-      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_unredacted"
+      "surface": "repository://site_unredacted"
     }
   ]
 }

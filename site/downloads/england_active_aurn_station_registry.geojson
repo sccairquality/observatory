@@ -736,14 +736,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.615593,
-          53.389225
+          -2.587231,
+          53.395739
         ]
       },
       "properties": {
-        "uka_id": "UKA00538",
-        "site_id": "WAR",
-        "name": "Warrington",
+        "uka_id": "UKA01175",
+        "site_id": "WARP",
+        "name": "Warrington St. Peter's Park",
         "region": "North West",
         "environment_type": "Urban Background",
         "target_pollutants": [
@@ -751,7 +751,7 @@
           "PM10",
           "NO2"
         ],
-        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00538"
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01175"
       }
     },
     {
@@ -1637,6 +1637,28 @@
         "environment_type": "Rural Background",
         "target_pollutants": [],
         "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.109816,
+          52.580667
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01176",
+        "site_id": "WIGS",
+        "name": "Wigston Centre",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01176"
       }
     },
     {

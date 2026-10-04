@@ -1,0 +1,141 @@
+{
+  "all_known_sources_considered": true,
+  "catalogue_source_count": 54,
+  "context_streams": {
+    "ea_target_matches": 0,
+    "firms_records": 350
+  },
+  "credential_summary": {
+    "configured_but_unverified_count": 10,
+    "missing_key_count": 0
+  },
+  "cross_reference": {
+    "candidate_input_join_count": 8,
+    "executed_join_count": 0,
+    "join_count": 11,
+    "missing_dimensions": [],
+    "ready_join_count": 0,
+    "validated_join_count": 0
+  },
+  "current_particle": {
+    "coordinate_corrections": 237,
+    "fresh_physical_site_count": 124,
+    "fresh_timeseries_count": 175,
+    "missing_coordinates": 0,
+    "physical_site_count": 133,
+    "pm10_timeseries": 110,
+    "pm2_5_timeseries": 127,
+    "request_count": 6,
+    "screening_candidate_count": 0,
+    "status": "snapshot_complete",
+    "timeseries_count": 237,
+    "unresolved_physical_site_timeseries_count": 0
+  },
+  "episodes": {
+    "bundle_count": 0,
+    "events": []
+  },
+  "evidence": {
+    "canonical_objects": 0,
+    "independent_candidate_families": 0,
+    "public_safe_candidates": 0,
+    "substantive_candidates": 0
+  },
+  "generated_at_utc": "2026-09-11T12:53:25Z",
+  "live_release_ready": false,
+  "live_sos_current_coverage": {
+    "all_england_regions_evidenced": true,
+    "all_england_regions_fresh": true,
+    "assessment_scope": "live_current_only",
+    "eligible_governed_pm_site_count": 129,
+    "interpretation": "This percentage measures how much of the governed English AURN PM2.5/PM10 registry was represented by the live SOS timeseries route in this release. It is not the completeness percentage for the separate England 30-day AURN network review, which dynamically discovers AURN sites and uses official annual hourly UK-AIR files. A live SOS coverage gap blocks an England-wide current assessment from that route; it does not mean the missing stations are inactive or absent from Defra's other official publication routes.",
+    "live_england_wide_current_assessment_allowed": false,
+    "matched_eligible_sos_site_count": 107,
+    "minimum_sos_site_coverage_percent": 85.0,
+    "sos_site_coverage_percent": 82.9,
+    "source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
+    "source_route_gate_passed": false,
+    "status": "coverage_gap"
+  },
+  "mandatory_blocker_count": 1,
+  "observed_source_count": 54,
+  "operating_mode": "api_first_environmental_observatory",
+  "operating_source_count": 14,
+  "primary_ground": {
+    "fallback_reason": null,
+    "fallback_used": false,
+    "preferred_uk_air_collection_succeeded": true,
+    "preferred_uk_air_completed": true,
+    "record_count": 15652,
+    "source_id": "uk_air_sos_current_particle",
+    "source_name": "Defra UK-AIR Sensor Observation Service",
+    "stage": "quality_validated",
+    "status": "snapshot_complete"
+  },
+  "release_gates": {
+    "authoritative_public_summary": "outputs/api/public_release_summary.json",
+    "claim_boundary": "The public website may report verified acquisition, quality screening and explicitly bounded record-linkage results. It may not convert them into source attribution or causal findings.",
+    "contract_sha256": "b0a2458a6bb3697e93f9e5c2b3d62d97dcfc8ffa68d9266405494cf79dc9f787",
+    "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+    "current_evidence_geography": "England",
+    "data_availability_publication_allowed": true,
+    "england_wide_current_assessment_allowed": false,
+    "environmental_assessment_message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
+    "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
+    "generated_at_utc": "2026-09-11T12:54:06+00:00",
+    "harvest_integrity": {
+      "complete_mandatory_harvest": true,
+      "mandatory_context_harvest_status": "passed",
+      "mandatory_failures": [],
+      "primary_measurement_acquisition_status": "passed",
+      "status": "passed"
+    },
+    "live_sos_current_coverage": {
+      "all_england_regions_evidenced": true,
+      "all_england_regions_fresh": true,
+      "assessment_scope": "live_current_only",
+      "eligible_governed_pm_site_count": 129,
+      "interpretation": "This percentage measures how much of the governed English AURN PM2.5/PM10 registry was represented by the live SOS timeseries route in this release. It is not the completeness percentage for the separate England 30-day AURN network review, which dynamically discovers AURN sites and uses official annual hourly UK-AIR files. A live SOS coverage gap blocks an England-wide current assessment from that route; it does not mean the missing stations are inactive or absent from Defra's other official publication routes.",
+      "live_england_wide_current_assessment_allowed": false,
+      "matched_eligible_sos_site_count": 107,
+      "minimum_sos_site_coverage_percent": 85.0,
+      "sos_site_coverage_percent": 82.9,
+      "source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
+      "source_route_gate_passed": false,
+      "status": "coverage_gap"
+    },
+    "programme_scope": "England",
+    "public_release_summary_sha256": "71d4b8f4628e7435056d0aa7d8aec157a2e361ae1871072c37768c35cdcc1f97",
+    "public_wording": "Acquisition status distinguishes primary monitoring evidence from mandatory contextual sources. A degraded context harvest may support a clearly labelled data-availability release, but not an environmental episode, source, compliance, exposure or health finding. No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met. No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+    "run_cadence": "daily",
+    "scientific_claim_publication_allowed": false,
+    "scientific_episode_release": {
+      "assessment_status": "not_assessable_incomplete_england_coverage",
+      "blockers": [
+        "No controlled screening event is available for episode-level cross-reference.",
+        "The station-level PM2.5 screen does not satisfy the governed England-wide coverage/freshness gate.",
+        "A zero-candidate screen does not establish clean, safe or pollution-free air."
+      ],
+      "missing_dimensions": [],
+      "passed": false,
+      "screening_evaluable": false,
+      "screening_event_count": 0,
+      "status": "not_applicable_no_screening_events"
+    },
+    "social_publication_allowed": true,
+    "source_attribution_allowed": false,
+    "status": "aq26_public_release_status",
+    "website_publication_allowed": true
+  },
+  "scientific_boundary": "This status describes acquisition, validation and evidence-integration readiness. It is not source attribution, a permit-compliance finding, an exposure estimate, a health-risk assessment or a legal determination.",
+  "stage_counts": {
+    "archive_disabled": 1,
+    "credential_present": 7,
+    "metadata_only": 5,
+    "not_applicable_no_discovered_event": 4,
+    "not_configured": 28,
+    "quality_validated": 2,
+    "records_downloaded": 7
+  },
+  "status": "aq26_public_observatory_status"
+}

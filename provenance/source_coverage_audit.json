@@ -31,7 +31,8 @@
     "official_public_health_context": 1,
     "official_regional_monitoring": 1,
     "official_regulatory": 3,
-    "official_traffic": 2,
+    "official_traffic": 1,
+    "official_traffic_baseline": 1,
     "official_transport_activity": 1,
     "operator_provenance": 1,
     "planning_and_receptor_context": 1,
@@ -61,7 +62,7 @@
   "evidence_policy": "Every known stream is retained with an explicit stage and disposition. Credentials, connectivity, metadata, records, validation and production usability are distinct. No missing stream may be silently treated as considered.",
   "failed_sources": [],
   "fallback_source_used": null,
-  "generated_at_utc": "2026-08-17T16:00:50+00:00",
+  "generated_at_utc": "2026-10-04T16:44:52+00:00",
   "live_release_ready": false,
   "mandatory_source_groups": [
     {
@@ -73,7 +74,7 @@
           "id": "uk_air_sos_current_particle",
           "name": "Defra UK-AIR Sensor Observation Service",
           "passed": true,
-          "record_count": 239,
+          "record_count": 237,
           "role": "preferred_england_source"
         },
         {
@@ -83,7 +84,7 @@
           "id": "laqn_imperial",
           "name": "Imperial College London LAQN API",
           "passed": true,
-          "record_count": 827,
+          "record_count": 848,
           "role": "validated_london_continuity_fallback"
         }
       ],
@@ -115,7 +116,7 @@
       "id": "environment_agency_public_register",
       "name": "Environment Agency Public Register",
       "passed": true,
-      "record_count": 23579,
+      "record_count": 16794,
       "secret_status": "not_required"
     },
     {
@@ -159,13 +160,13 @@
       "secret_status": "present"
     },
     {
-      "actual_stage": "metadata_only",
+      "actual_stage": "records_downloaded",
       "collector_implemented": true,
       "expected_stage": "metadata_only",
       "id": "dft_road_traffic",
-      "name": "Department for Transport Road Traffic Statistics",
+      "name": "Department for Transport Road Traffic Statistics API",
       "passed": true,
-      "record_count": 16,
+      "record_count": 10000,
       "secret_status": "not_required"
     },
     {
@@ -195,7 +196,7 @@
       "id": "nasa_earthdata_cmr",
       "name": "NASA Earthdata Common Metadata Repository",
       "passed": true,
-      "record_count": 26,
+      "record_count": 22,
       "secret_status": "present"
     },
     {
@@ -205,7 +206,7 @@
       "id": "nasa_firms",
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "passed": true,
-      "record_count": 2003,
+      "record_count": 454,
       "secret_status": "present"
     }
   ],
@@ -275,17 +276,17 @@
       "id": "uk_air_sos_current_particle",
       "implementation_status": "implemented_records_acquired",
       "jurisdiction": null,
-      "licence": null,
+      "licence": "Open Government Licence",
       "name": "Defra UK-AIR Sensor Observation Service",
       "ok": true,
       "priority": null,
-      "record_count": 239,
+      "record_count": 237,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
         "api_sources"
       ],
-      "url": null
+      "url": "https://uk-air.defra.gov.uk/sos-ukair/api/v1"
     },
     {
       "access": "open_feed",
@@ -334,7 +335,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 827,
+      "record_count": 848,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -362,7 +363,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 23579,
+      "record_count": 16794,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -425,6 +426,34 @@
         "api_sources"
       ],
       "url": null
+    },
+    {
+      "access": "open_api_and_bulk_download",
+      "actual_stage": "records_downloaded",
+      "authentication_strategy": "none",
+      "authority": "official",
+      "cadence": "annual_release_checked_weekly",
+      "claim_role": "competing_source_and_activity_context",
+      "class": "official_traffic_baseline",
+      "collector_implemented": true,
+      "credential_requirement": "not_required",
+      "enabled": true,
+      "expected_stage": "records_downloaded",
+      "id": "dft_road_traffic",
+      "implementation_status": "implemented_records_acquired",
+      "jurisdiction": "Great_Britain",
+      "licence": "OGL_v3",
+      "name": "Department for Transport Road Traffic Statistics API",
+      "ok": true,
+      "priority": 1,
+      "record_count": 10000,
+      "scientific_influence_allowed": null,
+      "secret_status": "not_required",
+      "source_registers": [
+        "additional_sources",
+        "api_sources"
+      ],
+      "url": "https://roadtraffic.dft.gov.uk/downloads"
     },
     {
       "access": "api_key",
@@ -638,7 +667,7 @@
       "name": "NASA Earthdata Common Metadata Repository",
       "ok": true,
       "priority": null,
-      "record_count": 26,
+      "record_count": 22,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -665,7 +694,7 @@
       "name": "PurpleAir API",
       "ok": true,
       "priority": null,
-      "record_count": 292,
+      "record_count": 311,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1353,33 +1382,6 @@
       "url": "https://overpass-api.de/"
     },
     {
-      "access": "open_api_and_bulk_download",
-      "actual_stage": "metadata_only",
-      "authentication_strategy": "none",
-      "authority": "official",
-      "cadence": "monthly",
-      "claim_role": "competing_source_and_activity_context",
-      "class": "official_traffic",
-      "collector_implemented": true,
-      "credential_requirement": "not_required",
-      "enabled": true,
-      "expected_stage": "not_configured",
-      "id": "dft_road_traffic",
-      "implementation_status": "implemented_collector",
-      "jurisdiction": "Great_Britain",
-      "licence": "OGL_v3",
-      "name": "Department for Transport Road Traffic Statistics",
-      "ok": true,
-      "priority": 1,
-      "record_count": 16,
-      "scientific_influence_allowed": null,
-      "secret_status": "not_required",
-      "source_registers": [
-        "additional_sources"
-      ],
-      "url": "https://roadtraffic.dft.gov.uk/downloads"
-    },
-    {
       "access": "public_download",
       "actual_stage": "not_configured",
       "authentication_strategy": "none",
@@ -1425,7 +1427,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 2003,
+      "record_count": 454,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1734,11 +1736,11 @@
   "stage_counts": {
     "archive_disabled": 1,
     "credential_present": 7,
-    "metadata_only": 6,
+    "metadata_only": 5,
     "not_applicable_no_discovered_event": 4,
     "not_configured": 28,
     "quality_validated": 2,
-    "records_downloaded": 6
+    "records_downloaded": 7
   },
   "status": "test_environment_ready_with_release_blockers",
   "test_environment_ready": true,

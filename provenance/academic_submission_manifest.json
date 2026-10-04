@@ -20,32 +20,32 @@
     {
       "bytes": 2777,
       "path": "AQ26_academic_scientific_appraisal.md",
-      "sha256": "f7e6c5c3af082bf7b43e5493b113e12c283e92072cd5603dfeeb9c5b94e897cb"
+      "sha256": "30baac5800c113d9f8cedb30204efd5592e2298954505e6a9071221739b7a282"
     },
     {
       "bytes": 4106,
       "path": "AQ26_academic_scientific_appraisal.pdf",
-      "sha256": "c97240cf603e93957e73414fa2cff35f588fb19053416dee1b14c31b78360fff"
+      "sha256": "90d2b23efff9abf143914821919a732d517eac8f46be4f0e759bb162d416b1b7"
     },
     {
-      "bytes": 7142,
+      "bytes": 8464,
       "path": "communication/aq26-particulate-social-package.json",
-      "sha256": "b10094e409c538553be34584b947c4c54bc05bf3d3ae98ee25c5ca6f5ce5cf8b"
+      "sha256": "6a8c16c983a65d8f6877fa0dec89147f5100629b5db04a1c9b498c6f1f86e819"
     },
     {
-      "bytes": 3421295,
+      "bytes": 3472104,
       "path": "data/england_30_day_daily_evidence.csv",
-      "sha256": "aaa40dff343dc22bbcddc79f0c95e14810e94e0c8255f9555543ea20250e9537"
+      "sha256": "87f972fd9a1451c3bae759396bcbf729194b1127e187ebd528d60b90482e2697"
     },
     {
-      "bytes": 46989,
+      "bytes": 47285,
       "path": "data/england_active_aurn_station_registry.csv",
-      "sha256": "56b3459f27f7fe858fd655e075ab920da1c1a05e8e2cc45d9e285bb287acfc3e"
+      "sha256": "2daf2b9acacc6f9f809132f5b8a7d61760dbd894bea74545fd644e8657498559"
     },
     {
-      "bytes": 91818,
+      "bytes": 92373,
       "path": "data/england_active_aurn_station_registry.geojson",
-      "sha256": "a5d8d736be1db9ae6b2a42c8956cfbbe2c53b85d51dc15ddaab1a7749e26a328"
+      "sha256": "d53be42ba469252efeddbb8f5da089b90999d8ff3ac9168edf11bec7b6e1fbfa"
     },
     {
       "bytes": 1690,
@@ -73,42 +73,42 @@
       "sha256": "26a11ed1dff0582c4c7392b7871daa72603dede7feeeed89f1c82a65ae0480c5"
     },
     {
-      "bytes": 43177,
+      "bytes": 43198,
       "path": "provenance/cross_reference_audit.json",
-      "sha256": "be6eececfeb49ace57dcbcd47941d73c38fecc026a92455142656ab06c5d4dd8"
+      "sha256": "b7db02e257df41e675fd825c7f984bef58acbac54e4bebac8900ef81fc3ad18d"
     },
     {
-      "bytes": 1414,
+      "bytes": 2080,
       "path": "provenance/england_network_coverage_gate.json",
-      "sha256": "7685caf63a13a3ce6b46216c6522954df90e75c4377b2945eef0ed8b243797a2"
+      "sha256": "0cfa912cca4061ce1711d775e18219193591b376ab67fc5529104f362905598d"
     },
     {
-      "bytes": 18530,
+      "bytes": 18496,
       "path": "provenance/public_release_summary.json",
-      "sha256": "4095565f74005059a281841240765374e951455b44d17281c2909bf647260b75"
+      "sha256": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409"
     },
     {
-      "bytes": 58203,
+      "bytes": 58389,
       "path": "provenance/source_coverage_audit.json",
-      "sha256": "20a9e91943e7503314c2ca1287b71c5e73b057f0310efec29da60ebb60745e84"
+      "sha256": "84d7855e0f910ffdf0b043bede371e2160fffadc654dbb1fdf6b43446ab5c173"
     }
   ],
-  "generated_at_utc": "2026-08-17T16:02:22+00:00",
+  "generated_at_utc": "2026-10-04T16:51:58+00:00",
   "headline_metrics": {
-    "active_aurn_sites_discovered": 171,
-    "configured_stream_day_completeness_percent": 95.6,
-    "configured_target_pollutant_station_count": 142,
-    "period_end": "2026-08-16",
-    "period_start": "2026-07-18",
+    "active_aurn_sites_discovered": 172,
+    "configured_stream_day_completeness_percent": 97.6,
+    "configured_target_pollutant_station_count": 143,
+    "period_end": "2026-10-03",
+    "period_start": "2026-09-04",
     "regions_reporting": 9,
-    "reporting_station_count": 141,
-    "unique_station_days": 4186,
-    "valid_pollutant_day_observations": 9469,
-    "who_context_pollutant_day_observations": 173
+    "reporting_station_count": 142,
+    "unique_station_days": 4224,
+    "valid_pollutant_day_observations": 9720,
+    "who_context_pollutant_day_observations": 260
   },
   "review_period": {
-    "end": "2026-08-16",
-    "start": "2026-07-18"
+    "end": "2026-10-03",
+    "start": "2026-09-04"
   },
   "schema": "aq26_academic_submission_pack_v1",
   "scientific_boundary": "Descriptive monitoring and screening evidence only; no source attribution, causation, exposure, health-impact, permit-compliance or regulatory determination.",

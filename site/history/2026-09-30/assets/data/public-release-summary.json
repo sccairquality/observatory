@@ -1,0 +1,431 @@
+{
+  "acquisition": {
+    "bounded_data_availability_release_ready": false,
+    "complete_mandatory_harvest": true,
+    "data_availability_publication_allowed": true,
+    "fallback_source_used": "laqn_imperial",
+    "mandatory_context_status": "passed",
+    "mandatory_failures": [],
+    "preferred_source_advisories": [
+      {
+        "actual_stage": "failed",
+        "fallback_source_id": "laqn_imperial",
+        "fallback_stage": "quality_validated",
+        "group_id": "primary_ground_measurement",
+        "id": "uk_air_sos_current_particle",
+        "reason": "preferred source unavailable; validated continuity fallback selected with bounded geography"
+      }
+    ],
+    "preferred_source_degraded": true,
+    "primary_measurement_status": "passed",
+    "status": "passed"
+  },
+  "assessment": {
+    "clean_air_inference_allowed": false,
+    "england_wide_current_assessment_allowed": false,
+    "fresh_data_available": true,
+    "message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
+    "public_label": "ASSESSMENT UNAVAILABLE",
+    "publication_kind": "data_coverage_status",
+    "screening_event_count": 0,
+    "status": "not_assessable_incomplete_england_coverage"
+  },
+  "claim_boundary": "Screening evidence only — no source attribution, causal finding, permit-breach determination, exposure estimate or health conclusion.",
+  "contract_sha256": "b80586519106d269af368f717f314535cbc834fab1cfbb1a59472b1fd46b44b6",
+  "convergence": {
+    "applicable_join_count": 0,
+    "catalogue_pending_is_episode_evidence": false,
+    "catalogue_pending_or_blocked_join_count": 11,
+    "dimensions_without_executed_episode_linkage": [
+      "comparator_and_background",
+      "official_meteorology",
+      "fire_and_satellite_context",
+      "regulatory_and_operational_context"
+    ],
+    "dimensions_without_operational_sources": [],
+    "dimensions_without_quality_validated_sources": [
+      "official_meteorology",
+      "traffic_activity",
+      "regional_model_context",
+      "fire_and_satellite_context",
+      "regulatory_and_operational_context",
+      "competing_source_assessment"
+    ],
+    "dimensions_without_registered_candidate_sources": [],
+    "dimensions_without_validated_episode_linkage": [
+      "comparator_and_background",
+      "official_meteorology"
+    ],
+    "episode_pending_or_blocked_join_count": 0,
+    "executed_join_count": 0,
+    "execution_attempt_count": 0,
+    "message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+    "required_dimension_count": 10,
+    "status": "not_assessable_no_fresh_screening_events",
+    "validated_join_count": 0
+  },
+  "denominators": {
+    "counts": {
+      "catalogued_candidate_sites": {
+        "definition": "Provider or catalogue site identities considered before physical-site resolution and current-value checks.",
+        "label": "catalogued candidate monitoring-site identities",
+        "scope": "current live monitoring screen",
+        "unit": "site identities",
+        "value": 19
+      },
+      "configured_pollutant_streams": {
+        "definition": "Unique source/station/pollutant/method/unit/averaging-period monitoring streams.",
+        "label": "configured pollutant time series",
+        "scope": "current live monitoring screen",
+        "unit": "time series",
+        "value": 24
+      },
+      "eligible_pm25_screening_assessments": {
+        "definition": "PM2.5 station/time-series assessments meeting the current freshness, completeness and quality criteria.",
+        "label": "eligible PM2.5 screening assessments",
+        "scope": "current operational PM2.5 screen",
+        "unit": "assessments",
+        "value": 0
+      },
+      "england_active_aurn_sites": {
+        "definition": "Active English AURN sites discovered for the completed 30-day official-monitoring review.",
+        "label": "active English AURN sites discovered",
+        "scope": "England 30-day review",
+        "unit": "AURN sites",
+        "value": 172
+      },
+      "england_configured_review_stations": {
+        "definition": "English AURN stations configured for at least one review pollutant in the 30-day review.",
+        "label": "configured pollutant-monitor stations",
+        "scope": "England 30-day review",
+        "unit": "stations",
+        "value": 143
+      },
+      "england_expected_configured_pollutant_day_observations": {
+        "definition": "Configured station/pollutant streams multiplied by eligible days in the review window.",
+        "label": "expected configured pollutant-day observations",
+        "scope": "England 30-day review",
+        "unit": "pollutant-day observations",
+        "value": 9930
+      },
+      "england_reporting_review_stations": {
+        "definition": "Configured English AURN stations contributing at least one valid daily mean during the review period.",
+        "label": "reporting stations in the 30-day review",
+        "scope": "England 30-day review",
+        "unit": "stations",
+        "value": 143
+      },
+      "england_unique_station_days": {
+        "definition": "Distinct station/date pairs contributing at least one valid pollutant daily mean.",
+        "label": "unique station-days with valid evidence",
+        "scope": "England 30-day review",
+        "unit": "unique station-days",
+        "value": 4226
+      },
+      "england_valid_pollutant_day_observations": {
+        "definition": "Valid station/date/pollutant daily-mean rows in the England 30-day review.",
+        "label": "valid pollutant-day observations",
+        "scope": "England 30-day review",
+        "unit": "pollutant-day observations",
+        "value": 9679
+      },
+      "fresh_physical_sites": {
+        "definition": "Resolved physical sites with at least one usable observation inside the declared freshness window.",
+        "label": "fresh resolved physical monitoring sites",
+        "scope": "current live monitoring screen",
+        "unit": "physical sites",
+        "value": 6
+      },
+      "fresh_pollutant_streams": {
+        "definition": "Configured streams with recent usable observations inside the declared freshness window.",
+        "label": "fresh pollutant time series",
+        "scope": "current live monitoring screen",
+        "unit": "time series",
+        "value": 6
+      },
+      "numeric_reporting_sites": {
+        "definition": "Resolved physical sites with at least one numeric observation in the current provider response.",
+        "label": "resolved physical sites returning numeric data",
+        "scope": "current live monitoring screen",
+        "unit": "physical sites",
+        "value": 11
+      },
+      "numeric_reporting_streams": {
+        "definition": "Configured streams with at least one numeric observation in the current provider response.",
+        "label": "pollutant time series returning numeric data",
+        "scope": "current live monitoring screen",
+        "unit": "time series",
+        "value": 12
+      },
+      "resolved_physical_sites": {
+        "definition": "Distinct physical monitoring locations after governed site-identity reconciliation.",
+        "label": "resolved physical monitoring sites",
+        "scope": "current live monitoring screen",
+        "unit": "physical sites",
+        "value": 19
+      }
+    },
+    "percentages": {
+      "england_configured_stream_day_completeness_pct": {
+        "denominator": "england_expected_configured_pollutant_day_observations",
+        "numerator": "england_valid_pollutant_day_observations",
+        "value": 97.5
+      },
+      "england_reporting_station_coverage_pct": {
+        "denominator": "england_configured_review_stations",
+        "numerator": "england_reporting_review_stations",
+        "value": 100.0
+      },
+      "fresh_physical_site_coverage_pct": {
+        "denominator": "resolved_physical_sites",
+        "numerator": "fresh_physical_sites",
+        "value": 31.6
+      },
+      "fresh_stream_coverage_pct": {
+        "denominator": "configured_pollutant_streams",
+        "numerator": "fresh_pollutant_streams",
+        "value": 25.0
+      }
+    },
+    "rule": "Every public percentage must name one numerator key and one denominator key from this registry.",
+    "schema": "aq26_denominator_registry_v1"
+  },
+  "england_30_day_review": {
+    "active_aurn_sites_discovered": 172,
+    "configured_stream_day_completeness_percent": 97.5,
+    "configured_target_pollutant_station_count": 143,
+    "data_posture": "provisional and ratified official AURN automatic measurements, status flags preserved",
+    "definitions": {
+      "configured_stream_day_completeness": "Valid pollutant-day observations divided by expected configured pollutant-day observations.",
+      "pollutant_day_observation": "One valid station/date/pollutant daily-mean row.",
+      "unique_station_day": "One distinct station/date pair with at least one valid pollutant daily mean.",
+      "who_context_pollutant_day_observation": "A valid pollutant-day observation above the pollutant-specific WHO 2021 24-hour contextual reference; not a UK legal exceedance."
+    },
+    "expected_configured_pollutant_day_observations": 9930,
+    "provisional_or_as_supplied_pollutant_day_observations": 9679,
+    "provisional_or_as_supplied_station_days": 9679,
+    "provisional_status_public_label": "Official automatic monitoring data are provisional or as supplied unless explicitly marked ratified and may later be revised by the original provider.",
+    "ratified_pollutant_day_observations": 0,
+    "ratified_station_days": 0,
+    "reporting_station_count": 143,
+    "schema": "aq26_public_england_metrics_v2",
+    "unique_station_days": 4226,
+    "valid_pollutant_day_observations": 9679,
+    "who_context_pollutant_day_observations": 219,
+    "who_context_pollutant_day_observations_by_pollutant": {
+      "NO2": 209,
+      "PM10": 0,
+      "PM2.5": 10
+    },
+    "who_context_station_days": 219,
+    "who_context_station_days_by_pollutant": {
+      "NO2": 209,
+      "PM10": 0,
+      "PM2.5": 10
+    }
+  },
+  "generated_at_utc": "2026-09-30T08:37:44+00:00",
+  "measurement": {
+    "analysis_window_valid_observation_count": 725,
+    "catalogued_candidate_site_count": 19,
+    "count_definitions": {
+      "analysis_window_valid_observation_count": "Quality-accepted numeric observations inside the exact AQ26 analysis window.",
+      "physical_site_count": "Deduplicated physical monitoring locations, counted independently of pollutant streams.",
+      "provider_expected_slot_count": "Provider timetable slots returned across selected series and lookback.",
+      "provider_missing_slot_count": "Expected provider slots without a numeric observation.",
+      "provider_numeric_observation_count": "Timestamped numeric provider observations; blank timetable slots excluded.",
+      "provider_site_identity_count": "Provider site identities before canonical physical-site resolution; not an additional physical-site count.",
+      "reporting_physical_site_count": "Canonically resolved physical sites with at least one quality-accepted observation inside the current analysis window.",
+      "reporting_provider_site_identity_count": "Provider site identities returning numeric data before canonical physical-site resolution.",
+      "timeseries_count": "Unique monitoring streams defined by source, station, pollutant, method, unit and averaging period."
+    },
+    "count_reconciliation_passed": true,
+    "data_capture_percent": 37.3,
+    "eligible_pm25_screening_assessment_count": 0,
+    "empty_timeseries_count": 12,
+    "fresh_physical_site_count": 6,
+    "fresh_physical_site_coverage_pct": 32,
+    "fresh_timeseries_count": 6,
+    "freshness_diagnostic": {
+      "claim_boundary": "This diagnostic concerns data recency and provider/network timing only. It does not describe air quality, source contribution, compliance, exposure or health risk.",
+      "fresh_reporting_site_count": 6,
+      "freshness_threshold_hours": 4.0,
+      "interpretation": "Some reporting sites met the freshness threshold and others did not.",
+      "lag_pattern": "mixed_fresh_and_stale_sites",
+      "median_reporting_age_hours": 2.62,
+      "newest_reporting_age_hours": 1.62,
+      "no_numeric_data_site_count": 8,
+      "oldest_reporting_age_hours": 9.62,
+      "reporting_site_count": 11,
+      "similar_timestamp_cluster_share": 0.545,
+      "stale_reporting_site_count": 5,
+      "status": "partial_freshness"
+    },
+    "identified_physical_site_count": 19,
+    "median_reporting_age_hours": 2.62,
+    "newest_reporting_age_hours": 1.62,
+    "oldest_reporting_age_hours": 9.62,
+    "physical_site_count": 19,
+    "pollutant_label": "NO₂, PM₁₀ and PM₂.₅",
+    "pollutants": {
+      "no2": 8,
+      "pm10": 8,
+      "pm2_5": 8
+    },
+    "provider_expected_slot_count": 1944,
+    "provider_lag_pattern": "mixed_fresh_and_stale_sites",
+    "provider_missing_slot_count": 1154,
+    "provider_numeric_observation_count": 790,
+    "quality_flags": {
+      "incomplete_24h": 15,
+      "invalid_latest_values": 0,
+      "missing_coordinates": 0,
+      "negative_sentinels_removed": 0,
+      "no_recent_values": 12,
+      "stale_over_4h": 6
+    },
+    "reporting_physical_site_count": 11,
+    "reporting_timeseries_count": 12,
+    "timeseries_count": 24
+  },
+  "meteorology": {
+    "event_alignment_applicable": false,
+    "official_records_acquired": 576,
+    "status": "official_meteorology_acquired_no_event_alignment_not_applicable"
+  },
+  "primary_source": {
+    "acquisition_mode": "network_spatially_balanced_fallback",
+    "analysis_driver": "current_measurements",
+    "fallback_reason": "UK-AIR current-particle collection unavailable; quality-validated LAQN continuity used",
+    "fallback_used": true,
+    "geographic_scope": "London LAQN fallback monitoring",
+    "geographic_scope_short": "London",
+    "id": "laqn_imperial",
+    "legacy_targets_used": false,
+    "name": "Imperial College London LAQN API",
+    "selection_method": "network_spatially_balanced_pollutant_round_robin",
+    "stage": "quality_validated"
+  },
+  "programme": {
+    "cadence": "daily",
+    "coverage_scope": "London LAQN fallback monitoring",
+    "coverage_status": "partial_london_fallback",
+    "deferred_nations": [
+      "Scotland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "discovery_mode": "england_data_led_target_neutral",
+    "england_wide_current_assessment_allowed": false,
+    "fresh_regions_evidenced": [],
+    "legacy_drive_scientific_influence": false,
+    "legacy_targets_analysis_driver": false,
+    "programme_label": "England operational phase",
+    "regions_evidenced": [
+      "London"
+    ],
+    "regions_not_evidenced": [
+      "North East",
+      "North West",
+      "Yorkshire and the Humber",
+      "East Midlands",
+      "West Midlands",
+      "East of England",
+      "South East",
+      "South West"
+    ],
+    "scc_process": [
+      "Search",
+      "Corroborate",
+      "Communicate"
+    ],
+    "scope": "England",
+    "uk_ready_architecture": true,
+    "vvip_process": [
+      "Validation",
+      "Verification",
+      "Integrity",
+      "Provenance"
+    ]
+  },
+  "readiness_gates": [
+    {
+      "key": "comparator_checked",
+      "kind": "not_applicable",
+      "status": "not_applicable_no_fresh_screening_events_monitor_roles_pending"
+    },
+    {
+      "key": "meteorology_checked",
+      "kind": "partial",
+      "status": "official_meteorology_acquired_no_event_alignment_not_applicable"
+    },
+    {
+      "key": "monitor_role_checked",
+      "kind": "partial",
+      "status": "candidate_monitor_roles_unvalidated"
+    },
+    {
+      "key": "parser_validated",
+      "kind": "complete",
+      "status": "quality_validated_current_measurements"
+    },
+    {
+      "key": "provenance_recorded",
+      "kind": "complete",
+      "status": "complete_current_measurement_provenance"
+    },
+    {
+      "key": "reviewer_challenge_recorded",
+      "kind": "partial",
+      "status": "claim_framework_started"
+    },
+    {
+      "key": "source_acquired",
+      "kind": "complete",
+      "status": "complete_primary_measurements"
+    },
+    {
+      "key": "time_alignment_checked",
+      "kind": "not_applicable",
+      "status": "not_applicable_no_fresh_screening_events"
+    }
+  ],
+  "release": {
+    "bounded_data_availability_release_ready": false,
+    "cadence": "daily",
+    "complete_mandatory_harvest": true,
+    "countrywide_programme": false,
+    "coverage_status": "partial_london_fallback",
+    "england_operational_phase": true,
+    "england_wide_current_assessment_allowed": false,
+    "fallback_source_used": "laqn_imperial",
+    "full_preferred_source_release_ready": false,
+    "harvest_integrity": "passed",
+    "mandatory_context_harvest_status": "passed",
+    "mandatory_harvest_failures": [],
+    "missing_dimensions": [],
+    "preferred_source_advisories": [
+      {
+        "actual_stage": "failed",
+        "fallback_source_id": "laqn_imperial",
+        "fallback_stage": "quality_validated",
+        "group_id": "primary_ground_measurement",
+        "id": "uk_air_sos_current_particle",
+        "reason": "preferred source unavailable; validated continuity fallback selected with bounded geography"
+      }
+    ],
+    "preferred_source_degraded": true,
+    "primary_measurement_acquisition_integrity": "passed",
+    "public_wording": "Acquisition status distinguishes primary monitoring evidence from mandatory contextual sources. A degraded context harvest may support a clearly labelled data-availability release, but not an environmental episode, source, compliance, exposure or health finding. No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met. No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+    "publication_kind": "data_coverage_status",
+    "scientific_episode_release": "not_applicable_no_screening_events",
+    "scientific_episode_release_display": "ASSESSMENT UNAVAILABLE",
+    "scientific_finding_social_publication_allowed": false,
+    "social_publication_allowed": true,
+    "social_publication_mode": "data_coverage_status_only",
+    "source_attribution_allowed": false,
+    "uk_ready_architecture": true,
+    "website_publication_allowed": true
+  },
+  "schema": "aq26_public_release_contract_v3"
+}

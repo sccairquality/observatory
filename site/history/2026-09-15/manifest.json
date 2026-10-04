@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "bytes": 1832,
+      "path": "assets/data/api_release_gate.json",
+      "sha256": "dc04cce3d061734cda87f250a481f1fdb9156506d8cb17b67f35849ca22f8296"
+    },
+    {
+      "bytes": 7260,
+      "path": "assets/data/current-observatory-status.json",
+      "sha256": "8aa78f35017bcae1f62e8157b92e8c3d143a20f28866a2bba05a14155264820a"
+    },
+    {
+      "bytes": 1071385,
+      "path": "assets/data/england_30_day_evidence_review.json",
+      "sha256": "cce3809ed882a63d90e480521a826bbc52b33b281ed121719db6a1d649007994"
+    },
+    {
+      "bytes": 2691,
+      "path": "assets/data/public-release-status.json",
+      "sha256": "f80626ef4c527d0c63b5007fd664be7a80fc43b896b149ca5803b27c72808f3b"
+    },
+    {
+      "bytes": 18035,
+      "path": "assets/data/public-release-summary.json",
+      "sha256": "bd13bae1201fd65ee55c8537766e85892c7ef9317c4bcb637f80b79f659e02a9"
+    },
+    {
+      "bytes": 43056,
+      "path": "current-data.html",
+      "sha256": "fe210948163d92cbdc667df8c3e73371b515644899c042974c6857dae16c2cbf"
+    },
+    {
+      "bytes": 20322,
+      "path": "overall-report.html",
+      "sha256": "5613166ceca8828d4e462c3afe46e893014780208abce5412442c575697e9adb"
+    },
+    {
+      "bytes": 22443,
+      "path": "readiness.html",
+      "sha256": "7972bf1a09bd5b51d0181a5f639e15f5a8a1fff3bcff1b0edeec04b96e8ee26e"
+    },
+    {
+      "bytes": 62408,
+      "path": "scientific-review.html",
+      "sha256": "4151baad46504716dfa3410a0de1390ed6c44f113ecab6472c6897307e03b662"
+    }
+  ],
+  "generated_at_utc": "2026-09-15T08:38:23+00:00",
+  "release_date": "2026-09-15",
+  "run_mode": "daily",
+  "schema": "aq26_public_history_snapshot_v1",
+  "scientific_boundary": "This folder preserves the public evidence state released on the stated date. It is a historical record, not a new source-attribution, health or compliance finding.",
+  "source_commit_sha": "0cf72b9b82fb41ae135e37f8efffcf4a6bba6baf",
+  "source_run_id": "34947383411",
+  "summary": {
+    "contextual_convergence_ready": null,
+    "episode_investigation_ready": null,
+    "fresh_physical_site_count": null,
+    "live_release_ready": null,
+    "measurement_publication_ready": null,
+    "physical_site_count": null,
+    "timeseries_count": null
+  }
+}

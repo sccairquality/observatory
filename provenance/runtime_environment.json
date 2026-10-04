@@ -1,9 +1,9 @@
 {
   "errors": [],
-  "generated_at_utc": "2026-08-17T15:57:19.651922+00:00",
+  "generated_at_utc": "2026-10-04T16:41:40.148100+00:00",
   "lock_path": "requirements-py311-linux.lock",
-  "lock_sha256": "b8e8a193dfb12e2a06c642ef3419881b7d1be5090aa53fd6f32fd1f2c716c834",
-  "locked_package_count": 57,
+  "lock_sha256": "81319a6969989ca51a5b25bc1068908bf357ad11cf391edf5bb9ca249036bbf8",
+  "locked_package_count": 59,
   "mismatched_packages": [],
   "missing_packages": [],
   "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",

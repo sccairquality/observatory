@@ -1,7 +1,8 @@
 {
   "checks": [
-    "canonical measurement/provider count identity",
-    "canonical quality-flag alias reconciliation",
+    "canonical primary-ground measurement/provider count identity",
+    "canonical primary-ground quality-flag alias reconciliation",
+    "current-particle route kept separate from primary-ground measurement semantics",
     "operational summary to public-release measurement reconciliation",
     "rendered reporting-stream denominator reconciliation",
     "pollutant-day versus unique station-day semantic separation",

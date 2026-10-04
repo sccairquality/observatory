@@ -1,33 +1,33 @@
 {
-  "schema": "aq26_social_profiles_v1",
-  "generated_at_utc": "2026-08-17T16:01:54+00:00",
-  "website": "https://sccairquality.com/",
+  "claim_boundary": "Profile links identify official AQ26 communication channels; they do not alter the scientific status of any AQ26 output.",
+  "generated_at_utc": "2026-10-04T16:51:40+00:00",
   "profiles": [
     {
+      "handle": "SCC Nexus Air Quality",
       "platform": "Facebook",
-      "url": "https://www.facebook.com/sccnexusairquality",
-      "handle": "SCC Nexus Air Quality"
+      "url": "https://www.facebook.com/sccnexusairquality"
     },
     {
+      "handle": "@sccnexusairquality",
       "platform": "Instagram",
-      "url": "https://www.instagram.com/sccnexusairquality/",
-      "handle": "@sccnexusairquality"
+      "url": "https://www.instagram.com/sccnexusairquality/"
     },
     {
+      "handle": "SCC Nexus Air Quality",
       "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/company/136204209",
-      "handle": "SCC Nexus Air Quality"
+      "url": "https://www.linkedin.com/company/136204209"
     },
     {
+      "handle": "@sccairquality",
       "platform": "TikTok",
-      "url": "https://www.tiktok.com/@sccairquality",
-      "handle": "@sccairquality"
+      "url": "https://www.tiktok.com/@sccairquality"
     },
     {
+      "handle": "@sccairquality",
       "platform": "X",
-      "url": "https://x.com/sccairquality",
-      "handle": "@sccairquality"
+      "url": "https://x.com/sccairquality"
     }
   ],
-  "claim_boundary": "Profile links identify official AQ26 communication channels; they do not alter the scientific status of any AQ26 output."
+  "schema": "aq26_social_profiles_v1",
+  "website": "https://sccairquality.com/"
 }
