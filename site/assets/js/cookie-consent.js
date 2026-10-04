@@ -3,19 +3,6 @@
 
   var STORAGE_KEY = 'aq26_cookie_choice';
   var banner = document.getElementById('cookie-banner');
-  var footer = document.querySelector('footer');
-  if (footer) {
-    var base = footer.querySelector('.footer-base span');
-    if (base) base.textContent = '© 2026 SCC Nexus Limited · SCC Air Quality';
-    if (!footer.querySelector('[data-scc-legal]')) {
-      var legal = document.createElement('div');
-      legal.setAttribute('data-scc-legal', '');
-      legal.style.cssText = 'max-width:1180px;margin:0 auto;padding:10px 20px 18px;font-size:.78rem;line-height:1.55;opacity:.82';
-      legal.innerHTML = 'SCC Nexus Limited · Registered in England and Wales · Company No. <a href="https://find-and-update.company-information.service.gov.uk/company/17458303" rel="noopener">17458303</a> · Registered office: 49 Station Road, Polegate, East Sussex, BN26 6EA.';
-      footer.appendChild(legal);
-    }
-  }
-
   var gaId = document.documentElement.getAttribute('data-ga-id') || window.AQ26_GA_MEASUREMENT_ID || '';
 
   function hideBanner() {
