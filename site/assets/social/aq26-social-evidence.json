@@ -120,7 +120,7 @@
       "status": "acquired"
     }
   ],
-  "contract_sha256": "ae196708960c983bca0ab8f0d8379b185222c877f15a751e71d76ce1946f9056",
+  "contract_sha256": "753cf50b023ba2bd3b1a2eff884015708cf6f433f9bf35b584dbe5b4da513370",
   "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
   "coverage_message": "Official English monitoring identities were reconciled, but the England-wide current assessment was withheld because the governed coverage or freshness gate did not pass.",
   "coverage_status": "england_registry_reconciled_current_assessment_withheld",
@@ -131,7 +131,7 @@
   "engineering_assurance_is_not_endorsement": true,
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
   "facebook_caption": "This Air Quality Project weekly evidence status — 4 October 2026\n\nOfficial English monitoring identities were reconciled, but the England-wide current assessment was withheld because the governed coverage or freshness gate did not pass.\n133 canonically resolved physical sites; 132 returned accepted observations; 131 met the freshness gate. 234 of 237 pollutant streams supplied accepted observations.\nMandatory context harvest: PASSED; failures: none recorded.\nNo England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.\n6 required evidence dimension(s) still lack a analysis-quality-accepted source; 11 configured join(s) remain pending or blocked.\n\nScreening evidence only — no source attribution, health finding or regulatory determination.\nSource: Defra UK-AIR Sensor Observation Service and This Air Quality Project cross-source audit\nCurrent evidence: https://sccairquality.com/current-data.html\n\n#AirQuality #EnvironmentalData #AirQualityEngland",
-  "generated_at_utc": "2026-10-04T16:44:52+00:00",
+  "generated_at_utc": "2026-10-04T17:06:01+00:00",
   "generated_files": [
     "/assets/social/aq26-weekly-card.jpg",
     "/assets/social/aq26-facebook-briefing.jpg",

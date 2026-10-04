@@ -22,7 +22,7 @@
     "status": "not_assessable_incomplete_england_coverage"
   },
   "claim_boundary": "Screening evidence only — no source attribution, causal finding, permit-breach determination, exposure estimate or health conclusion.",
-  "contract_sha256": "cd36e34741c8ed226f32474cab9fbec4f13faa0902c5e72edca7471ea6bb53cf",
+  "contract_sha256": "3f0d22761edba0deddb41e5724891adc65e19f975908292a79e74188fe693b9e",
   "convergence": {
     "applicable_join_count": 0,
     "catalogue_pending_is_episode_evidence": false,
@@ -215,9 +215,9 @@
       "PM2.5": 12
     }
   },
-  "generated_at_utc": "2026-10-04T16:44:52+00:00",
+  "generated_at_utc": "2026-10-04T17:06:01+00:00",
   "measurement": {
-    "analysis_window_valid_observation_count": 16252,
+    "analysis_window_valid_observation_count": 16021,
     "catalogued_candidate_site_count": 133,
     "count_definitions": {
       "analysis_window_valid_observation_count": "Quality-accepted numeric observations inside the exact AQ26 analysis window.",
@@ -243,29 +243,29 @@
       "freshness_threshold_hours": 4.0,
       "interpretation": "Some reporting sites met the freshness threshold and others did not.",
       "lag_pattern": "mixed_fresh_and_stale_sites",
-      "median_reporting_age_hours": 1.728,
-      "newest_reporting_age_hours": 1.728,
+      "median_reporting_age_hours": 2.083,
+      "newest_reporting_age_hours": 2.083,
       "no_numeric_data_site_count": 1,
-      "oldest_reporting_age_hours": 6.728,
+      "oldest_reporting_age_hours": 7.083,
       "reporting_site_count": 132,
-      "similar_timestamp_cluster_share": 0.985,
+      "similar_timestamp_cluster_share": 0.992,
       "stale_reporting_site_count": 1,
       "status": "partial_freshness"
     },
     "identified_physical_site_count": 133,
-    "median_reporting_age_hours": 1.728,
-    "newest_reporting_age_hours": 1.728,
-    "oldest_reporting_age_hours": 6.728,
+    "median_reporting_age_hours": 2.083,
+    "newest_reporting_age_hours": 2.083,
+    "oldest_reporting_age_hours": 7.083,
     "physical_site_count": 133,
     "pollutant_label": "PM₁₀ and PM₂.₅",
     "pollutants": {
       "pm10": 110,
       "pm2_5": 127
     },
-    "provider_expected_slot_count": 16827,
+    "provider_expected_slot_count": 16590,
     "provider_lag_pattern": "mixed_fresh_and_stale_sites",
     "provider_missing_slot_count": 0,
-    "provider_numeric_observation_count": 16827,
+    "provider_numeric_observation_count": 16590,
     "quality_flags": {
       "incomplete_24h": 4,
       "invalid_latest_values": 8,

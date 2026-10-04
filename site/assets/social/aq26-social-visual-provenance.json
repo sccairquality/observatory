@@ -26,7 +26,7 @@
       "width": 1080
     },
     "aq26-instagram-01.jpg": {
-      "bytes": 151226,
+      "bytes": 151460,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -50,7 +50,7 @@
           "confuse them."
         ]
       },
-      "sha256": "358f37fb5c800a2047c5f9a883236004b1c5d0969a35a987c9a947877319258a",
+      "sha256": "92e1725ec3bb6310463b3c7c6551e936c9529a0e8105d8e7edd24337f5414127",
       "width": 1080
     },
     "aq26-instagram-02.jpg": {
@@ -78,7 +78,7 @@
       "width": 1080
     },
     "aq26-instagram-03.jpg": {
-      "bytes": 158160,
+      "bytes": 158405,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -98,7 +98,7 @@
           "assessment withheld"
         ]
       },
-      "sha256": "8980db656f3767a8139e47a5aed5ee32a251f2c539b277eceb50cf67b4795089",
+      "sha256": "a2dc6b61ea5fa450d31578e4e6df6f9a34597e6e29c916f5ddac3cebd6720bdb",
       "width": 1080
     },
     "aq26-instagram-04.jpg": {
@@ -253,8 +253,8 @@
       "preserve_reviewed_panel": true
     },
     "decorative_assets_are_not_evidence": true,
-    "evidence_payload_sha256_after": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
-    "evidence_payload_sha256_before": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
+    "evidence_payload_sha256_after": "5e15dc22ee106da5b1d2d269b6e6ed651ecf299646f0275d36b16b8d44c4623b",
+    "evidence_payload_sha256_before": "5e15dc22ee106da5b1d2d269b6e6ed651ecf299646f0275d36b16b8d44c4623b",
     "fallback_policy": "fail_closed",
     "fresh_ai_generation_during_release": false,
     "iso_weekday": 6,

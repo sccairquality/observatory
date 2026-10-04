@@ -14,11 +14,11 @@
     "instagram": [
       {
         "alt_text": "England 30-day official monitoring review (2026-09-04 to 2026-10-03): 172 active AURN sites discovered; 142/143 configured stations reporting; 9/9 English regions; 9,720 valid pollutant-day observations across 4,224 unique station-days; 97.6% configured-stream completeness. The visual separates the completed national review from the current live-data service. The current live screen is reported separately. ASSESSMENT UNAVAILABLE is a data-availability statement, not evidence of clean air or zero pollution. Screening evidence only — provisional monitoring evidence; no source attribution, health finding, legal-compliance finding or regulatory determination. Carousel slide 1 of 5.",
-        "bytes": 151226,
+        "bytes": 151460,
         "format": "JPEG",
         "height": 1350,
         "path": "assets/social/aq26-instagram-01.jpg",
-        "sha256": "358f37fb5c800a2047c5f9a883236004b1c5d0969a35a987c9a947877319258a",
+        "sha256": "92e1725ec3bb6310463b3c7c6551e936c9529a0e8105d8e7edd24337f5414127",
         "width": 1080
       },
       {
@@ -32,11 +32,11 @@
       },
       {
         "alt_text": "England 30-day official monitoring review (2026-09-04 to 2026-10-03): 172 active AURN sites discovered; 142/143 configured stations reporting; 9/9 English regions; 9,720 valid pollutant-day observations across 4,224 unique station-days; 97.6% configured-stream completeness. The visual separates the completed national review from the current live-data service. The current live screen is reported separately. ASSESSMENT UNAVAILABLE is a data-availability statement, not evidence of clean air or zero pollution. Screening evidence only — provisional monitoring evidence; no source attribution, health finding, legal-compliance finding or regulatory determination. Carousel slide 3 of 5.",
-        "bytes": 158160,
+        "bytes": 158405,
         "format": "JPEG",
         "height": 1350,
         "path": "assets/social/aq26-instagram-03.jpg",
-        "sha256": "8980db656f3767a8139e47a5aed5ee32a251f2c539b277eceb50cf67b4795089",
+        "sha256": "a2dc6b61ea5fa450d31578e4e6df6f9a34597e6e29c916f5ddac3cebd6720bdb",
         "width": 1080
       },
       {
@@ -124,7 +124,7 @@
       "status": "acquired"
     }
   ],
-  "contract_sha256": "ae196708960c983bca0ab8f0d8379b185222c877f15a751e71d76ce1946f9056",
+  "contract_sha256": "753cf50b023ba2bd3b1a2eff884015708cf6f433f9bf35b584dbe5b4da513370",
   "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
   "coverage_message": "Official English monitoring identities were reconciled, but the England-wide current assessment was withheld because the governed coverage or freshness gate did not pass.",
   "coverage_status": "england_registry_reconciled_current_assessment_withheld",
@@ -142,7 +142,7 @@
   "engineering_assurance_is_not_endorsement": true,
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
   "facebook_caption": "England 30-day official monitoring review (2026-09-04 to 2026-10-03): 172 active AURN sites discovered; 142/143 configured stations reporting; 9/9 English regions; 9,720 valid pollutant-day observations across 4,224 unique station-days; 97.6% configured-stream completeness.\n\nThe current live screen is reported separately. ASSESSMENT UNAVAILABLE is a data-availability statement, not evidence of clean air or zero pollution.\n\nScreening evidence only — provisional monitoring evidence; no source attribution, health finding, legal-compliance finding or regulatory determination.\nhttps://sccairquality.com/england-air-quality-review.html\n\n#AirQuality #EnvironmentalData #DataTransparency",
-  "generated_at_utc": "2026-10-04T16:44:52+00:00",
+  "generated_at_utc": "2026-10-04T17:06:01+00:00",
   "generated_files": [
     "/assets/social/aq26-weekly-card.jpg",
     "/assets/social/aq26-facebook-briefing.jpg",
@@ -300,7 +300,7 @@
         "width": 1080
       },
       "aq26-instagram-01.jpg": {
-        "bytes": 151226,
+        "bytes": 151460,
         "format": "JPEG",
         "height": 1350,
         "layout": {
@@ -324,7 +324,7 @@
             "confuse them."
           ]
         },
-        "sha256": "358f37fb5c800a2047c5f9a883236004b1c5d0969a35a987c9a947877319258a",
+        "sha256": "92e1725ec3bb6310463b3c7c6551e936c9529a0e8105d8e7edd24337f5414127",
         "width": 1080
       },
       "aq26-instagram-02.jpg": {
@@ -352,7 +352,7 @@
         "width": 1080
       },
       "aq26-instagram-03.jpg": {
-        "bytes": 158160,
+        "bytes": 158405,
         "format": "JPEG",
         "height": 1350,
         "layout": {
@@ -372,7 +372,7 @@
             "assessment withheld"
           ]
         },
-        "sha256": "8980db656f3767a8139e47a5aed5ee32a251f2c539b277eceb50cf67b4795089",
+        "sha256": "a2dc6b61ea5fa450d31578e4e6df6f9a34597e6e29c916f5ddac3cebd6720bdb",
         "width": 1080
       },
       "aq26-instagram-04.jpg": {
@@ -527,8 +527,8 @@
         "preserve_reviewed_panel": true
       },
       "decorative_assets_are_not_evidence": true,
-      "evidence_payload_sha256_after": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
-      "evidence_payload_sha256_before": "fff4433fad30d8fcbed4bc23850c47a7dd0e0765c932ff3ba6f71ed8eed6d101",
+      "evidence_payload_sha256_after": "5e15dc22ee106da5b1d2d269b6e6ed651ecf299646f0275d36b16b8d44c4623b",
+      "evidence_payload_sha256_before": "5e15dc22ee106da5b1d2d269b6e6ed651ecf299646f0275d36b16b8d44c4623b",
       "fallback_policy": "fail_closed",
       "fresh_ai_generation_during_release": false,
       "iso_weekday": 6,

@@ -62,7 +62,7 @@
   "evidence_policy": "Every known stream is retained with an explicit stage and disposition. Credentials, connectivity, metadata, records, validation and production usability are distinct. No missing stream may be silently treated as considered.",
   "failed_sources": [],
   "fallback_source_used": null,
-  "generated_at_utc": "2026-10-04T16:44:52+00:00",
+  "generated_at_utc": "2026-10-04T17:06:01+00:00",
   "live_release_ready": false,
   "mandatory_source_groups": [
     {
@@ -84,7 +84,7 @@
           "id": "laqn_imperial",
           "name": "Imperial College London LAQN API",
           "passed": true,
-          "record_count": 848,
+          "record_count": 849,
           "role": "validated_london_continuity_fallback"
         }
       ],
@@ -335,7 +335,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 848,
+      "record_count": 849,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [

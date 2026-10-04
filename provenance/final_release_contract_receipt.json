@@ -2,39 +2,39 @@
   "authoritative_status": "outputs/api/public_release_status.json",
   "authoritative_summary": "outputs/api/public_release_summary.json",
   "canonical_monitoring_snapshot": "outputs/primary_ground/canonical_monitoring_snapshot.json",
-  "canonical_monitoring_snapshot_sha256": "7d52eb611d1c719b2dd7a4e94342d601d3b317b11b2e40b0897e66f17a2dea7c",
-  "contract_sha256": "9f7e0b484139c1384e89934c5b4bcff44b1b333846aa6a824e101152e8be26ae",
+  "canonical_monitoring_snapshot_sha256": "e15a8d4c055d8177ce1d18db50bee3482746923b7fd5066de8a19e8846c147d3",
+  "contract_sha256": "1e14f6a10dbc447441039de780df7a7dedde4f9b22763df65b1b11b43738500c",
   "measurement": {
-    "analysis_excluded_observation_count": 575,
-    "analysis_window_valid_observation_count": 16252,
+    "analysis_excluded_observation_count": 569,
+    "analysis_window_valid_observation_count": 16021,
     "count_reconciliation_passed": true,
     "data_capture_percent": 100.0,
     "fresh_physical_site_count": 131,
     "fresh_timeseries_count": 231,
     "physical_site_count": 133,
-    "provider_expected_slot_count": 16827,
+    "provider_expected_slot_count": 16590,
     "provider_missing_slot_count": 0,
-    "provider_numeric_observation_count": 16827,
+    "provider_numeric_observation_count": 16590,
     "quality_accepted_data_capture_percent": 96.6,
     "timeseries_count": 237
   },
   "provider_site_identity_count": 133,
-  "public_release_status_sha256": "eaf6147370b8b1b21bfa9505b52779f95f5d55aabc4c39614122d81d825c74d7",
-  "public_release_summary_sha256": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409",
+  "public_release_status_sha256": "bf5cd9ddc57824d4ae30d1c68e77645ed1f2430ab4d7135171bad4e76089c5a6",
+  "public_release_summary_sha256": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602",
   "publication_authority": false,
   "reporting_physical_site_count": 132,
   "reporting_provider_site_identity_count": 132,
   "schema": "aq26_final_release_contract_receipt_v1",
-  "sealed_at_utc": "2026-10-04T16:51:57+00:00",
+  "sealed_at_utc": "2026-10-04T17:12:56+00:00",
   "site_status_sha256": {
-    "site_public/assets/data/public-release-status.json": "eaf6147370b8b1b21bfa9505b52779f95f5d55aabc4c39614122d81d825c74d7",
-    "site_test/assets/data/public-release-status.json": "eaf6147370b8b1b21bfa9505b52779f95f5d55aabc4c39614122d81d825c74d7",
-    "site_unredacted/assets/data/public-release-status.json": "eaf6147370b8b1b21bfa9505b52779f95f5d55aabc4c39614122d81d825c74d7"
+    "site_public/assets/data/public-release-status.json": "bf5cd9ddc57824d4ae30d1c68e77645ed1f2430ab4d7135171bad4e76089c5a6",
+    "site_test/assets/data/public-release-status.json": "bf5cd9ddc57824d4ae30d1c68e77645ed1f2430ab4d7135171bad4e76089c5a6",
+    "site_unredacted/assets/data/public-release-status.json": "bf5cd9ddc57824d4ae30d1c68e77645ed1f2430ab4d7135171bad4e76089c5a6"
   },
   "site_summary_sha256": {
-    "site_public/assets/data/public-release-summary.json": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409",
-    "site_test/assets/data/public-release-summary.json": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409",
-    "site_unredacted/assets/data/public-release-summary.json": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409"
+    "site_public/assets/data/public-release-summary.json": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602",
+    "site_test/assets/data/public-release-summary.json": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602",
+    "site_unredacted/assets/data/public-release-summary.json": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602"
   },
   "status": "pass"
 }

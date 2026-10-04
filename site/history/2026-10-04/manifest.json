@@ -3,32 +3,32 @@
     {
       "bytes": 1832,
       "path": "assets/data/api_release_gate.json",
-      "sha256": "b702357a44e9892d87458ecf2eecb0fd6e08ee5d2ad500c2b0e043e3165daea5"
+      "sha256": "465dd090af36a43607917f67a61e4f9a1bbc7590b769082a0accb252ff32c936"
     },
     {
       "bytes": 7213,
       "path": "assets/data/current-observatory-status.json",
-      "sha256": "d90ffd455b87fec77204a4bec0b4f3370dab03186271fdb64b88f53408008a6d"
+      "sha256": "7fdb74750a6dfea41e0108529a16e2e1187d987f0b2c2f0cb218188557e1f60f"
     },
     {
       "bytes": 1076960,
       "path": "assets/data/england_30_day_evidence_review.json",
-      "sha256": "002b70b59f1bddc1d190e356b1daf1404a9c7745184e50b36c81aaee3f478ef7"
+      "sha256": "b40ef68e255b27409280e04688723e10740767d3e8da11f7a343320ea697bdab"
     },
     {
       "bytes": 2692,
       "path": "assets/data/public-release-status.json",
-      "sha256": "a248a868843034b714ca16346a98f3d82dfdd26556f7b2986273ac4724a9f8fd"
+      "sha256": "3d053f1e9e1b8b0af3c7df950698abce19a4d821f9dcd13034929a41e244ca10"
     },
     {
       "bytes": 17986,
       "path": "assets/data/public-release-summary.json",
-      "sha256": "0eb659a46e41755adab0fec81c6a5056c09d51fdb287432f37ee22efc668aa54"
+      "sha256": "9f08fcab87707ecd205d3ad14a4a52abc7a53e991eab3679b236773a76819233"
     },
     {
-      "bytes": 42951,
+      "bytes": 43414,
       "path": "current-data.html",
-      "sha256": "a3c955d532afa48eaf36704cf8b87b84690d50bcd443aef0e5163e02eb7ba987"
+      "sha256": "1b3cd02196f3854d369b651ae0505b9cb46ff91b5710b698e25d5ddb9ab9928a"
     },
     {
       "bytes": 3472104,
@@ -41,33 +41,33 @@
       "sha256": "c87ec838b00395c09176a99a4964cdec46c4acf82f6035b8dc70d3816729cbdb"
     },
     {
-      "bytes": 20328,
+      "bytes": 20791,
       "path": "overall-report.html",
-      "sha256": "75ab0ac3cc21ae5cc184227e5a521cf427025f0fe55b0c2019c4c4962253f44e"
+      "sha256": "1385a02bfd6bbd53d5c6de78eff3cc5b7c48df4c7398a761bedc97988341e084"
     },
     {
-      "bytes": 22449,
+      "bytes": 22912,
       "path": "readiness.html",
-      "sha256": "3ddeb94223a935ba75be1702c26ad41f444793b93747c3de0f0843d55ed16f1c"
+      "sha256": "31cd8c99cc282913c64ad5780a32e3af09a86d98ef6638b13f291d20e0045282"
     },
     {
-      "bytes": 62528,
+      "bytes": 62994,
       "path": "scientific-review.html",
-      "sha256": "da26263a132bad70c82f2c6c8946c124dba8a48656e1c3df68bf607f061d7240"
+      "sha256": "84f44b5d3eba4a0ec18a94167856f5de75806b1bf54d0cbc85f6af72a2cce957"
     },
     {
-      "bytes": 57225,
+      "bytes": 57688,
       "path": "weekly-report.html",
-      "sha256": "f106a0b662a122c0673f4a4f61b1aaa49a611dbd02188ffe9c4618038d55fafc"
+      "sha256": "22ce777e49b8b2e3e6ce70757ecd096d03a1a7d4b189fb5565ab8ed8ec34a550"
     }
   ],
-  "generated_at_utc": "2026-10-04T16:51:56+00:00",
+  "generated_at_utc": "2026-10-04T17:12:55+00:00",
   "release_date": "2026-10-04",
   "run_mode": "weekly",
   "schema": "aq26_public_history_snapshot_v1",
   "scientific_boundary": "This folder preserves the public evidence state released on the stated date. It is a historical record, not a new source-attribution, health or compliance finding.",
-  "source_commit_sha": "280a9147c51ba6884e9e9e59b99d8f4d3f6291a4",
-  "source_run_id": "37217660751",
+  "source_commit_sha": "3894455dbc8919aa048900289b7db7b6daa95821",
+  "source_run_id": "37219014106",
   "summary": {
     "contextual_convergence_ready": null,
     "episode_investigation_ready": null,

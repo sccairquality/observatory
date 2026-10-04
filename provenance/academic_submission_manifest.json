@@ -20,17 +20,17 @@
     {
       "bytes": 2777,
       "path": "AQ26_academic_scientific_appraisal.md",
-      "sha256": "30baac5800c113d9f8cedb30204efd5592e2298954505e6a9071221739b7a282"
+      "sha256": "df23cc4cbb669a90c14d5c81ab41054ae059df1f390e8b84124ae9cb4584e765"
     },
     {
       "bytes": 4106,
       "path": "AQ26_academic_scientific_appraisal.pdf",
-      "sha256": "90d2b23efff9abf143914821919a732d517eac8f46be4f0e759bb162d416b1b7"
+      "sha256": "b9dbded384484d3166897a6c8072fb283c048266c4e4b438e6a2898e668d4225"
     },
     {
       "bytes": 8464,
       "path": "communication/aq26-particulate-social-package.json",
-      "sha256": "6a8c16c983a65d8f6877fa0dec89147f5100629b5db04a1c9b498c6f1f86e819"
+      "sha256": "13b8709a9a04ed97d487883c4ce8942c624288e0a93750942826642ffd52a994"
     },
     {
       "bytes": 3472104,
@@ -75,25 +75,25 @@
     {
       "bytes": 43198,
       "path": "provenance/cross_reference_audit.json",
-      "sha256": "b7db02e257df41e675fd825c7f984bef58acbac54e4bebac8900ef81fc3ad18d"
+      "sha256": "ff19a4a1cfd3d089a44aba0ff196d18a0f4f14d92c8529287670f782319e26e2"
     },
     {
       "bytes": 2080,
       "path": "provenance/england_network_coverage_gate.json",
-      "sha256": "0cfa912cca4061ce1711d775e18219193591b376ab67fc5529104f362905598d"
+      "sha256": "92448e27048281a0af1a42af675d3edda01de9ebe56295c0a078b4cb0d418fc4"
     },
     {
       "bytes": 18496,
       "path": "provenance/public_release_summary.json",
-      "sha256": "ce55c03f175985b428d48e507f4f18bebd2476f0af6912a701a0f66eddbaf409"
+      "sha256": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602"
     },
     {
       "bytes": 58389,
       "path": "provenance/source_coverage_audit.json",
-      "sha256": "84d7855e0f910ffdf0b043bede371e2160fffadc654dbb1fdf6b43446ab5c173"
+      "sha256": "87bd9a4fe9ea47b73addaa6369718665cb0821abe7bd64a39afc26a385b4dbb0"
     }
   ],
-  "generated_at_utc": "2026-10-04T16:51:58+00:00",
+  "generated_at_utc": "2026-10-04T17:12:57+00:00",
   "headline_metrics": {
     "active_aurn_sites_discovered": 172,
     "configured_stream_day_completeness_percent": 97.6,

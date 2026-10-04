@@ -20,7 +20,7 @@
   "drive_role": "archive_disabled_not_collected",
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
   "fresh_physical_site_count": 131,
-  "generated_at_utc": "2026-10-04T16:43:39+00:00",
+  "generated_at_utc": "2026-10-04T17:04:57+00:00",
   "implementation_counts": {
     "archive_disabled": 1,
     "collector_not_yet_implemented": 3,
@@ -39,12 +39,12 @@
     "timeseries_count": "Unique monitoring streams defined by source, station, pollutant, method, unit and averaging period."
   },
   "primary_measurement_physical_site_count": 133,
-  "primary_measurement_provider_expected_slot_count": 16827,
+  "primary_measurement_provider_expected_slot_count": 16590,
   "primary_measurement_provider_missing_slot_count": 0,
-  "primary_measurement_provider_numeric_observation_count": 16827,
+  "primary_measurement_provider_numeric_observation_count": 16590,
   "primary_measurement_sources_ready": 2,
   "primary_measurement_timeseries_count": 237,
-  "primary_measurement_valid_observation_count": 16252,
+  "primary_measurement_valid_observation_count": 16021,
   "primary_mode": "api_first_environmental_observatory",
   "reporting_measurement_timeseries_count": 234,
   "reporting_physical_site_count": 132,
@@ -125,7 +125,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 848,
+      "record_count": 849,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [

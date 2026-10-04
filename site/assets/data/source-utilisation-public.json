@@ -21,7 +21,7 @@
       "collector_status": "Quality checks passed; target linkage pending",
       "credential_status": "not_required",
       "next_action": "Complete comparator, meteorology and competing-source validation.",
-      "records_or_targets": 848,
+      "records_or_targets": 849,
       "role": "monitoring_context_only",
       "source": "Imperial College London LAQN API"
     },

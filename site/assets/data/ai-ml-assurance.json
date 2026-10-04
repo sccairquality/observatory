@@ -1,5 +1,5 @@
 {
-  "assurance_sha256": "9a8719484d7b5e450afd1f5e619a5a420a1185117fd448f8f817c596d03b76bf",
+  "assurance_sha256": "83a10917f7036eb643ff819ba3d4d2aef567b054559e0e092538ed54595a2331",
   "claim_boundary": "AI or ML may assist retrieval, triage and drafting only under frozen evidence, deterministic checks and human review. It cannot establish source contribution, causation, compliance, exposure, safety or health effects.",
   "code_manifest": [
     {
@@ -44,12 +44,12 @@
       "freshness_threshold_hours": 4.0,
       "interpretation": "Some reporting sites met the freshness threshold and others did not.",
       "lag_pattern": "mixed_fresh_and_stale_sites",
-      "median_reporting_age_hours": 1.728,
-      "newest_reporting_age_hours": 1.728,
+      "median_reporting_age_hours": 2.083,
+      "newest_reporting_age_hours": 2.083,
       "no_numeric_data_site_count": 1,
-      "oldest_reporting_age_hours": 6.728,
+      "oldest_reporting_age_hours": 7.083,
       "reporting_site_count": 132,
-      "similar_timestamp_cluster_share": 0.985,
+      "similar_timestamp_cluster_share": 0.992,
       "stale_reporting_site_count": 1,
       "status": "partial_freshness"
     },
@@ -65,36 +65,36 @@
     "reporting_site_count": 132,
     "source_universe_count": 54
   },
-  "generated_at_utc": "2026-10-04T16:51:40+00:00",
+  "generated_at_utc": "2026-10-04T17:12:40+00:00",
   "input_manifest": [
     {
       "path": "api/public_release_summary.json",
       "present": true,
-      "sha256": "2308ae76d7f02037205fdf9a28f6d70ee3d517e6326a9d74fc916c566ba0b565",
+      "sha256": "97b8a835ce72b829882923cc3b94f415a49f6d75e442c9717718894d680df4d7",
       "size_bytes": 17535
     },
     {
       "path": "primary_ground/monitoring_site_availability.json",
       "present": true,
-      "sha256": "bc4ed4b6e9db83038aff4311e8e07354614ead776663d11f3421b4a49a1fbda1",
+      "sha256": "7db9ef9bbc4837561f94ba13403fc5fa34b230adbcad6b25b2586c0b466ed32f",
       "size_bytes": 129927
     },
     {
       "path": "scc/source-universe.json",
       "present": true,
-      "sha256": "817af714416bf29475394bf0f4c26e5195be39fac07b0a348a8915c18f39e378",
+      "sha256": "d2ec06d31d68873c8ed637b75e72dab96811b80fea516953a02da57dd1ec2ec0",
       "size_bytes": 102635
     },
     {
       "path": "scc/cross-reference-register.json",
       "present": true,
-      "sha256": "cbb37672ddcf7cfba8001b07996e85c208ee2dd5a9a99a648560bd976718762a",
+      "sha256": "6cc3be2a28615ef40f89210033c30a79b1282b6dbbc523702413e4064e1a4d65",
       "size_bytes": 42012
     },
     {
       "path": "scientific/forensic_communication_dossier.json",
       "present": true,
-      "sha256": "1a4787682d5f9d19ec90a7c57ba3e2bba70a1bf8b1b1006fa68061d7420721d1",
+      "sha256": "235d912a7a3dfd0439fd5a7dd65d8bfcd15360f244829ab2a417ab523f53dd8b",
       "size_bytes": 7672
     }
   ],

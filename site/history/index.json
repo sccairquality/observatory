@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-04T16:58:29+00:00",
+  "generated_at_utc": "2026-10-04T17:15:01+00:00",
   "months": {
     "2026-08": [
       "2026-08-30"
@@ -23,8 +23,8 @@
     {
       "release_date": "2026-10-04",
       "run_mode": "weekly",
-      "source_commit_sha": "280a9147c51ba6884e9e9e59b99d8f4d3f6291a4",
-      "source_run_id": "37217660751",
+      "source_commit_sha": "3894455dbc8919aa048900289b7db7b6daa95821",
+      "source_run_id": "37219014106",
       "summary": {
         "contextual_convergence_ready": null,
         "episode_investigation_ready": null,
