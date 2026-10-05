@@ -85,7 +85,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 849,
+          "record_count": 730,
           "registered_in_run_catalogue": true
         }
       ],
@@ -130,7 +130,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 849,
+          "record_count": 730,
           "registered_in_run_catalogue": true
         },
         {
@@ -270,7 +270,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 454,
+          "record_count": 438,
           "registered_in_run_catalogue": true
         },
         {
@@ -400,7 +400,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 454,
+          "record_count": 438,
           "registered_in_run_catalogue": true
         },
         {
@@ -485,7 +485,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 849,
+          "record_count": 730,
           "registered_in_run_catalogue": true
         }
       ],
@@ -520,7 +520,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 849,
+          "record_count": 730,
           "registered_in_run_catalogue": true
         },
         {
@@ -715,7 +715,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 849
+          "record_count": 730
         },
         {
           "actual_stage": "metadata_only",
@@ -880,7 +880,7 @@
           "candidate_input_usable": true,
           "id": "nasa_firms",
           "minimum_stage": "records_downloaded",
-          "record_count": 454
+          "record_count": 438
         },
         {
           "actual_stage": "metadata_only",
@@ -947,7 +947,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 849
+          "record_count": 730
         },
         {
           "actual_stage": "metadata_only",

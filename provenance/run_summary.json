@@ -24,8 +24,8 @@
   "executed_join_count": 0,
   "facility_dossier_population_count": 0,
   "facility_monitor_baseline": "outputs/convergence/facility_monitor_baseline.json",
-  "fresh_physical_site_count": 131,
-  "generated": "2026-10-04T17:04:57+00:00",
+  "fresh_physical_site_count": 129,
+  "generated": "2026-10-05T08:36:38+00:00",
   "legacy_drive_inventory_counts": {
     "content_duplicate_object_count": 0,
     "content_unique_count": 0,
@@ -55,14 +55,14 @@
   "primary_measurement_fallback_reason": null,
   "primary_measurement_fallback_used": false,
   "primary_measurement_physical_site_count": 133,
-  "primary_measurement_provider_expected_slot_count": 16590,
+  "primary_measurement_provider_expected_slot_count": 16825,
   "primary_measurement_provider_missing_slot_count": 0,
-  "primary_measurement_provider_numeric_observation_count": 16590,
+  "primary_measurement_provider_numeric_observation_count": 16825,
   "primary_measurement_source": "Defra UK-AIR Sensor Observation Service",
   "primary_measurement_source_id": "uk_air_sos_current_particle",
   "primary_measurement_sources_ready": 2,
   "primary_measurement_timeseries_count": 237,
-  "primary_measurement_valid_observation_count": 16021,
+  "primary_measurement_valid_observation_count": 16217,
   "priority_join_execution": "outputs/convergence/priority_join_execution.json",
   "public_release_contract": "outputs/api/public_release_summary.json",
   "readiness": {
@@ -73,8 +73,8 @@
     "evidence_total": 0,
     "executed_join_count": 0,
     "external_review_ready": "ready_for_methodology_and_data_gap_interrogation",
-    "fresh_measurement_timeseries_count": 231,
-    "fresh_physical_site_count": 131,
+    "fresh_measurement_timeseries_count": 228,
+    "fresh_physical_site_count": 129,
     "gates": {
       "comparator_checked": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
       "meteorology_checked": "official_observations_available_event_alignment_not_applicable",
@@ -111,7 +111,7 @@
     "target_public_safe_counts": {},
     "validated_record_linkage_count": 0
   },
-  "reporting_measurement_timeseries_count": 234,
+  "reporting_measurement_timeseries_count": 233,
   "reporting_physical_site_count": 132,
   "reports": {
     "forensic_communication_json": "repository://outputs/scientific/forensic_communication_dossier.json",

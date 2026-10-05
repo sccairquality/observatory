@@ -1,7 +1,7 @@
 {
   "authoritative_public_summary": "outputs/api/public_release_summary.json",
   "claim_boundary": "The public website may report verified acquisition, quality screening and explicitly bounded record-linkage results. It may not convert them into source attribution or causal findings.",
-  "contract_sha256": "1e14f6a10dbc447441039de780df7a7dedde4f9b22763df65b1b11b43738500c",
+  "contract_sha256": "0a89efd49c9754c6819df59cd45a5f33c8e3142d4f8295ca2dff5f040fde09c5",
   "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
   "current_evidence_geography": "England",
   "data_availability_publication_allowed": true,
@@ -9,8 +9,8 @@
   "environmental_assessment_message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
   "final_release_contract_receipt": "outputs/api/final_release_contract_receipt.json",
-  "final_release_contract_sealed_at_utc": "2026-10-04T17:12:56+00:00",
-  "generated_at_utc": "2026-10-04T17:06:01+00:00",
+  "final_release_contract_sealed_at_utc": "2026-10-05T08:44:59+00:00",
+  "generated_at_utc": "2026-10-05T08:37:40+00:00",
   "harvest_integrity": {
     "complete_mandatory_harvest": true,
     "mandatory_context_harvest_status": "passed",
@@ -20,7 +20,7 @@
   },
   "measurement_count_reconciliation_passed": true,
   "programme_scope": "England",
-  "public_release_summary_sha256": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602",
+  "public_release_summary_sha256": "2e777ac87839a213375bb7aef28a59284b5842b524c514a2f4edc09963a3a9e4",
   "public_wording": "Acquisition status distinguishes primary monitoring evidence from mandatory contextual sources. A degraded context harvest may support a clearly labelled data-availability release, but not an environmental episode, source, compliance, exposure or health finding. No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met. No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
   "run_cadence": "weekly",
   "scientific_claim_publication_allowed": false,

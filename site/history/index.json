@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-04T17:15:01+00:00",
+  "generated_at_utc": "2026-10-05T08:48:07+00:00",
   "months": {
     "2026-08": [
       "2026-08-30"
@@ -15,11 +15,27 @@
       "2026-09-11"
     ],
     "2026-10": [
+      "2026-10-05",
       "2026-10-04"
     ]
   },
-  "release_count": 10,
+  "release_count": 11,
   "releases": [
+    {
+      "release_date": "2026-10-05",
+      "run_mode": "weekly",
+      "source_commit_sha": "3894455dbc8919aa048900289b7db7b6daa95821",
+      "source_run_id": "37284457267",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
     {
       "release_date": "2026-10-04",
       "run_mode": "weekly",
@@ -190,6 +206,9 @@
       "2026-10-04",
       "2026-09-30",
       "2026-09-29"
+    ],
+    "2026-W41": [
+      "2026-10-05"
     ]
   }
 }

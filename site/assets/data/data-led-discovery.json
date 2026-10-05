@@ -26,7 +26,7 @@
         "row_count_parsed": 8288,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "fad2afc649ce3366cb5405e6568fd02705b89d81644e8df9ba01b3a46887a69a",
+        "sha256": "ec2dba60ce1966b0626a7ef145235faa47c86f7df1b488d8ff91fd9c585efdce",
         "status_code": 200,
         "status_counts": {
           "unknown": 8288
@@ -46,7 +46,7 @@
         ]
       },
       "industrial_installations": {
-        "bytes": 328566,
+        "bytes": 328577,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -58,7 +58,7 @@
         "row_count_parsed": 2960,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "d9e0bc6a131a040529e7986463c1188391ef9fe91ba5e3cdaec8e5f1119860c0",
+        "sha256": "33ad8535e5c904961ddd1763076883411edb588d434dd51390ec5925dcc58358",
         "status_code": 200,
         "status_counts": {
           "unknown": 2960
@@ -85,7 +85,7 @@
         ]
       },
       "waste_operations": {
-        "bytes": 518800,
+        "bytes": 518798,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -97,7 +97,7 @@
         "row_count_parsed": 5546,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "503c242eaa6fe7345fae937c4b56dfe07044a5e2537e33040959e5f9cc8a23c4",
+        "sha256": "d9f7b4510bd01ee0f0dae9963fccdcf6110ca82ac15f1db421b4981deee0538f",
         "status_code": 200,
         "status_counts": {
           "Closure & Aftercare": 453,

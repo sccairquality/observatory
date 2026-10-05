@@ -2,11 +2,11 @@
 
 ## Academic and scientific appraisal dossier
 
-Generated: 2026-10-04T17:12:57+00:00
+Generated: 2026-10-05T08:45:01+00:00
 
 ### Abstract
 
-This dossier presents a reproducible descriptive review of official England air-quality monitoring data for 2026-09-04 to 2026-10-03. The accepted review identified 172 active AURN sites, with 142/143 configured pollutant-monitor stations reporting across 9/9 English regions. The analysis retained 9,720 valid pollutant-day observations at 97.6% configured-stream completeness.
+This dossier presents a reproducible descriptive review of official England air-quality monitoring data for 2026-09-05 to 2026-10-04. The accepted review identified 172 active AURN sites, with 142/143 configured pollutant-monitor stations reporting across 9/9 English regions. The analysis retained 9,723 valid pollutant-day observations at 97.6% configured-stream completeness.
 
 ### Research scope
 
@@ -21,10 +21,10 @@ The dossier includes the public methods and coverage standard, scientific assura
 - Active English AURN sites discovered: 172
 - Configured pollutant-monitor stations reporting: 142/143
 - English regions represented: 9/9
-- Valid pollutant-day observations: 9,720
-- Unique station-days: 4,224
+- Valid pollutant-day observations: 9,723
+- Unique station-days: 4,225
 - Configured-stream completeness: 97.6%
-- Contextual reference-value pollutant-day observations retained for follow-up: 260
+- Contextual reference-value pollutant-day observations retained for follow-up: 272
 - England network coverage gate: pass
 - Scientific release state: not_applicable_no_screening_events
 
@@ -38,4 +38,4 @@ The submission manifest records the SHA-256 checksum and byte size of every incl
 
 ### Suggested citation
 
-This Air Quality Project. England Air-Quality Evidence Observatory: academic and scientific appraisal dossier, generated 2026-10-04. SCC Nexus / This Air Quality Project. Descriptive monitoring evidence; no external endorsement claimed.
+This Air Quality Project. England Air-Quality Evidence Observatory: academic and scientific appraisal dossier, generated 2026-10-05. SCC Nexus / This Air Quality Project. Descriptive monitoring evidence; no external endorsement claimed.

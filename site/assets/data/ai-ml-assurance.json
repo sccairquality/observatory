@@ -1,5 +1,5 @@
 {
-  "assurance_sha256": "83a10917f7036eb643ff819ba3d4d2aef567b054559e0e092538ed54595a2331",
+  "assurance_sha256": "ff8c45d2e54f56443558a5b485db942abfec94085aa57fe721331515e10fc899",
   "claim_boundary": "AI or ML may assist retrieval, triage and drafting only under frozen evidence, deterministic checks and human review. It cannot establish source contribution, causation, compliance, exposure, safety or health effects.",
   "code_manifest": [
     {
@@ -37,20 +37,20 @@
   "evidence_state": {
     "assessment_status": "not_assessable_incomplete_england_coverage",
     "configured_join_count": 11,
-    "fresh_site_count": 131,
+    "fresh_site_count": 129,
     "freshness_diagnostic": {
       "claim_boundary": "This diagnostic concerns data recency and provider/network timing only. It does not describe air quality, source contribution, compliance, exposure or health risk.",
-      "fresh_reporting_site_count": 131,
+      "fresh_reporting_site_count": 129,
       "freshness_threshold_hours": 4.0,
       "interpretation": "Some reporting sites met the freshness threshold and others did not.",
       "lag_pattern": "mixed_fresh_and_stale_sites",
-      "median_reporting_age_hours": 2.083,
-      "newest_reporting_age_hours": 2.083,
+      "median_reporting_age_hours": 1.611,
+      "newest_reporting_age_hours": 1.611,
       "no_numeric_data_site_count": 1,
-      "oldest_reporting_age_hours": 7.083,
+      "oldest_reporting_age_hours": 18.611,
       "reporting_site_count": 132,
-      "similar_timestamp_cluster_share": 0.992,
-      "stale_reporting_site_count": 1,
+      "similar_timestamp_cluster_share": 0.947,
+      "stale_reporting_site_count": 3,
       "status": "partial_freshness"
     },
     "identified_site_count": 133,
@@ -65,36 +65,36 @@
     "reporting_site_count": 132,
     "source_universe_count": 54
   },
-  "generated_at_utc": "2026-10-04T17:12:40+00:00",
+  "generated_at_utc": "2026-10-05T08:44:31+00:00",
   "input_manifest": [
     {
       "path": "api/public_release_summary.json",
       "present": true,
-      "sha256": "97b8a835ce72b829882923cc3b94f415a49f6d75e442c9717718894d680df4d7",
-      "size_bytes": 17535
+      "sha256": "c0030d32c2a50c76284cc42c09bfcee71e757f0dbc037a0254bfae1ee00c266f",
+      "size_bytes": 17538
     },
     {
       "path": "primary_ground/monitoring_site_availability.json",
       "present": true,
-      "sha256": "7db9ef9bbc4837561f94ba13403fc5fa34b230adbcad6b25b2586c0b466ed32f",
-      "size_bytes": 129927
+      "sha256": "e88546017a3319d13a5838847c77da65daa9b76fa447db42fd9e930ee53bd68f",
+      "size_bytes": 129934
     },
     {
       "path": "scc/source-universe.json",
       "present": true,
-      "sha256": "d2ec06d31d68873c8ed637b75e72dab96811b80fea516953a02da57dd1ec2ec0",
+      "sha256": "80abb156bb4c29b4e56110447ef3d1d7ab1398d68ee5f4ac1131d9a5c4166b8c",
       "size_bytes": 102635
     },
     {
       "path": "scc/cross-reference-register.json",
       "present": true,
-      "sha256": "6cc3be2a28615ef40f89210033c30a79b1282b6dbbc523702413e4064e1a4d65",
+      "sha256": "33fc4e4dc361f402494a98dfe843a35eae51a59c0adfc45987bcddfc4c0165ca",
       "size_bytes": 42012
     },
     {
       "path": "scientific/forensic_communication_dossier.json",
       "present": true,
-      "sha256": "235d912a7a3dfd0439fd5a7dd65d8bfcd15360f244829ab2a417ab523f53dd8b",
+      "sha256": "442d7810b219a4e295e933a61ce81addd27cf6abd6687283071159345676a448",
       "size_bytes": 7672
     }
   ],

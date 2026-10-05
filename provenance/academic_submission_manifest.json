@@ -20,22 +20,22 @@
     {
       "bytes": 2777,
       "path": "AQ26_academic_scientific_appraisal.md",
-      "sha256": "df23cc4cbb669a90c14d5c81ab41054ae059df1f390e8b84124ae9cb4584e765"
+      "sha256": "eef7f4e50e7693617bcf94b4e830c7fce071ef67cd519bc75c3a79552e8c047b"
     },
     {
-      "bytes": 4106,
+      "bytes": 4104,
       "path": "AQ26_academic_scientific_appraisal.pdf",
-      "sha256": "b9dbded384484d3166897a6c8072fb283c048266c4e4b438e6a2898e668d4225"
+      "sha256": "45dead2acfb73213c06d01e7fe72922da46e4a30e154513b2c1d35a1b22364fb"
     },
     {
-      "bytes": 8464,
+      "bytes": 8482,
       "path": "communication/aq26-particulate-social-package.json",
-      "sha256": "13b8709a9a04ed97d487883c4ce8942c624288e0a93750942826642ffd52a994"
+      "sha256": "dc20899b1801aa43709bad232dafce73a40016bede281120866f1e11efe46a42"
     },
     {
-      "bytes": 3472104,
+      "bytes": 3471407,
       "path": "data/england_30_day_daily_evidence.csv",
-      "sha256": "87f972fd9a1451c3bae759396bcbf729194b1127e187ebd528d60b90482e2697"
+      "sha256": "f97d645de0e438f0d23c980271734fc27bfffe643429e50a19ae41b4c99f5f84"
     },
     {
       "bytes": 47285,
@@ -75,40 +75,40 @@
     {
       "bytes": 43198,
       "path": "provenance/cross_reference_audit.json",
-      "sha256": "ff19a4a1cfd3d089a44aba0ff196d18a0f4f14d92c8529287670f782319e26e2"
+      "sha256": "950a1445d87e0f340cc43428cc80bf871743ef1a93304f271aed9981bf73839b"
     },
     {
       "bytes": 2080,
       "path": "provenance/england_network_coverage_gate.json",
-      "sha256": "92448e27048281a0af1a42af675d3edda01de9ebe56295c0a078b4cb0d418fc4"
+      "sha256": "c1933864a80adb3deeeab5b42015afc1ef8ceaf25789af49616868abcc1e594a"
     },
     {
-      "bytes": 18496,
+      "bytes": 18499,
       "path": "provenance/public_release_summary.json",
-      "sha256": "253c917ea4b1dea88630304e6ee4faf1e5cde28d2aca70ff98c9d291059fd602"
+      "sha256": "2e777ac87839a213375bb7aef28a59284b5842b524c514a2f4edc09963a3a9e4"
     },
     {
       "bytes": 58389,
       "path": "provenance/source_coverage_audit.json",
-      "sha256": "87bd9a4fe9ea47b73addaa6369718665cb0821abe7bd64a39afc26a385b4dbb0"
+      "sha256": "c8abf3e03a0d95f8dec8fc58581ab25b4ec136c970fafc8e3ca42cc31177d199"
     }
   ],
-  "generated_at_utc": "2026-10-04T17:12:57+00:00",
+  "generated_at_utc": "2026-10-05T08:45:01+00:00",
   "headline_metrics": {
     "active_aurn_sites_discovered": 172,
     "configured_stream_day_completeness_percent": 97.6,
     "configured_target_pollutant_station_count": 143,
-    "period_end": "2026-10-03",
-    "period_start": "2026-09-04",
+    "period_end": "2026-10-04",
+    "period_start": "2026-09-05",
     "regions_reporting": 9,
     "reporting_station_count": 142,
-    "unique_station_days": 4224,
-    "valid_pollutant_day_observations": 9720,
-    "who_context_pollutant_day_observations": 260
+    "unique_station_days": 4225,
+    "valid_pollutant_day_observations": 9723,
+    "who_context_pollutant_day_observations": 272
   },
   "review_period": {
-    "end": "2026-10-03",
-    "start": "2026-09-04"
+    "end": "2026-10-04",
+    "start": "2026-09-05"
   },
   "schema": "aq26_academic_submission_pack_v1",
   "scientific_boundary": "Descriptive monitoring and screening evidence only; no source attribution, causation, exposure, health-impact, permit-compliance or regulatory determination.",
