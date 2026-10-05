@@ -26,7 +26,7 @@
       "width": 1080
     },
     "aq26-instagram-01.jpg": {
-      "bytes": 151529,
+      "bytes": 151609,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -50,7 +50,7 @@
           "confuse them."
         ]
       },
-      "sha256": "6d2d7faeba749b32b58b2c19c91b8da2d080ef344f9413f30ae2f8aa1ab6f29b",
+      "sha256": "a20b153e25ce0a659f5d6b9f296e5c7b8f0961fc7ba663298be59dc0ea80da1a",
       "width": 1080
     },
     "aq26-instagram-02.jpg": {
@@ -78,7 +78,7 @@
       "width": 1080
     },
     "aq26-instagram-03.jpg": {
-      "bytes": 158807,
+      "bytes": 158499,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -98,7 +98,7 @@
           "assessment withheld"
         ]
       },
-      "sha256": "dd62dbaa9b70db6f3e31a0e830d94def36aee89fcd51461df2cbe323ee08a905",
+      "sha256": "3b9a486cff4a3327783001a14ecc3efcdf64bb0743502ba155c517522d6ba1f5",
       "width": 1080
     },
     "aq26-instagram-04.jpg": {
@@ -253,90 +253,90 @@
       "preserve_reviewed_panel": true
     },
     "decorative_assets_are_not_evidence": true,
-    "evidence_payload_sha256_after": "04c191185c7fc19dd746b8649af57db7d2a2f73e287b1f92607df307b4b8f5ea",
-    "evidence_payload_sha256_before": "04c191185c7fc19dd746b8649af57db7d2a2f73e287b1f92607df307b4b8f5ea",
+    "evidence_payload_sha256_after": "b34306d6dd423d143c59a08faace2592f2a0517215dfc256033043f07f5ef963",
+    "evidence_payload_sha256_before": "b34306d6dd423d143c59a08faace2592f2a0517215dfc256033043f07f5ef963",
     "fallback_policy": "fail_closed",
     "fresh_ai_generation_during_release": false,
     "iso_weekday": 0,
     "manifest_sha256": "d59534a78c24f7d5513f776bdc2509df04bcefcf421e762208eaa6c27a5529b8",
     "outputs": {
       "aq26-facebook-briefing.jpg": {
-        "bytes": 187772,
+        "bytes": 187854,
         "height": 1350,
-        "input_sha256": "653b3cb67599a837d6c938623ef297cd1cbc52abdc81d093271e4e397cce9325",
-        "output_sha256": "4cc9096e4c99a7d6dce6013c58899d8250914d8a96c9658ddf310a6785bc73d4",
+        "input_sha256": "197d879abdca50b5257c8941495cf21dfd422bdd75b63c980d2d8cfa04e9dbc0",
+        "output_sha256": "160818a86676e820f826949aa39bdb37d9c6580e7e318ce7d9648320c26ca254",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-01.jpg": {
-        "bytes": 144372,
+        "bytes": 144498,
         "height": 1350,
-        "input_sha256": "0fc95a0d04d8338687b600edb5c8b49fd95bd8a84823c5be69af8a8ef32283f8",
-        "output_sha256": "086bd9c54c7bbfd41915a8103f5130d537c6d1e91d065bc40c63f196e4755301",
+        "input_sha256": "5cf5a917e5bf795b9ba7f93ed87e964714007dc44a90cf9e96f228b5b12e1a49",
+        "output_sha256": "3a7fa1ed1f73003b167604144487893f27be6cb219b46fb0a2ea5d4bcb5b5423",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-02.jpg": {
-        "bytes": 134588,
+        "bytes": 134409,
         "height": 1350,
-        "input_sha256": "6672c30f87b980d47e756a6ffa9b8127d31c2e390246d4114ad731277d78c300",
-        "output_sha256": "7e7247405d584d76d483782f1b440e7d49286807b05abeede63020bac44278a1",
+        "input_sha256": "25810f89520a26e99dcb700d6d4e76ddf31bdce59395e7c3680f6af2879c6358",
+        "output_sha256": "6be12b6d493710fc4b2b51063b4df47965e2727302bb92e344f5c63d4b16958a",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-03.jpg": {
-        "bytes": 116456,
+        "bytes": 116454,
         "height": 1350,
-        "input_sha256": "19735bc699d70905e273770a51f8ed9f63425583b29ea0b0e6425565b8711de7",
-        "output_sha256": "7c85e478a4ccb9a9dfc317b234d07cf7e9453ff3620a2a62bc357006395bcf27",
+        "input_sha256": "7746a4e4494264c2c60f4355065bbf850390af39969c006c05cb5db2971480a1",
+        "output_sha256": "e5df189123c68549cc886c4570f2cd053e566614a78da7ea775ea409644db839",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-04.jpg": {
-        "bytes": 149115,
+        "bytes": 149078,
         "height": 1350,
-        "input_sha256": "1d29c873e3d9c5699d9c6167814ab2befef588b77068bc5351c4d56e138a15fa",
-        "output_sha256": "15c2578bddb6118d946b3811150db15ffc4b2f06b75df964cf2811a1c93c665e",
+        "input_sha256": "f05999b66cca4a075ed4030cedf00d4a3dd8480838bce879484a6d3cfbefe9f1",
+        "output_sha256": "592a756dafad3af05e108220df8c62d6c5ce9a10ce000584606caeb4c7439df1",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-05.jpg": {
-        "bytes": 152555,
+        "bytes": 152536,
         "height": 1350,
-        "input_sha256": "ba382b7463e740efd16e7c7b593b25309aa15383f71d7b2a46c1d231eba58ea7",
-        "output_sha256": "7203b5ad093c11c81a6727747693bdcb54416cd2b96911c32f9c92e4d9636122",
+        "input_sha256": "7006c26e0d93be13687b2f90bffab5185b7f63fb7757a0cbc0bf0f7b5aff1d5e",
+        "output_sha256": "a7fc845560928efbcbea05eedeb048b7213166d92d7be318cb916abf6b4e73f0",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-website-share.jpg": {
-        "bytes": 103045,
+        "bytes": 103195,
         "height": 630,
-        "input_sha256": "c4677df0502ab7093af37f58270c6e75cb47014e6402f9a8e6dcd122f40181b4",
-        "output_sha256": "cfbacbb717b8d606450772cf5793da5405cc4deedefc739052fff218092268b5",
+        "input_sha256": "f7a85c1a6f92a91b6258cb201339d00ab85793fac4d6fd1b9ff047dd1d836b93",
+        "output_sha256": "660ca7b2e5d3b68193c4ddfd110e160b20562957f507cfcc41b4badadc8f6b01",
         "panel_scale": 0.92,
         "width": 1200
       },
       "aq26-weekly-card.jpg": {
-        "bytes": 173073,
+        "bytes": 173144,
         "height": 1080,
-        "input_sha256": "ca48ec36104c1c24b54b2be9e2cb202fee90b3425e909c75961bdf029e28591b",
-        "output_sha256": "c4acb9e045b004fe39bca6207e68573538e67f31848334472ecf54856ef7add5",
+        "input_sha256": "cc2d0ad54f3efbbbca65403ef35221eaf8bbf8fb2554fda2feb4788c9ecda3e9",
+        "output_sha256": "be8d2bacdc9cf72e9848e75670e8a2fcaf57fcd40b7046039dad507644fd0b52",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-weekly-card.png": {
-        "bytes": 381346,
+        "bytes": 382009,
         "height": 1080,
-        "input_sha256": "7f978306e5fda3105e5095f947eb6c70aaec481750dfb5346c0608f4d9011347",
-        "output_sha256": "7362bb58e74a5a7bd19d00d4a0eb98c3eba51b0676d8a22617dae3ca15971379",
+        "input_sha256": "1c3a06d64cc03b1a8236cdd87e2bf23f8d8448b60fffa485ac0bfed9314e0ed5",
+        "output_sha256": "0381fcc420b0a54f3cd5b9df101099a5bb780bcb807f49f57a1770022a07372f",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-x-briefing.jpg": {
-        "bytes": 164024,
+        "bytes": 164093,
         "height": 900,
-        "input_sha256": "4c3c0ae98d33b30d2782a0ad0cc126abc217aa0c5c959ef2b185e2e989166099",
-        "output_sha256": "60cc8544c48bcf64ae02d14a081b6e83d4198157351119cfdb80f9d8536d9a47",
+        "input_sha256": "e5036a344cf6494d9b0bf7ed0a7b7799dc24d38cced9705c9f63d092a931abe4",
+        "output_sha256": "0c24d4bf42c734f0b5ba8cdbf23d56c915d6b000e66fb3235d2d19a0167b0a4f",
         "panel_scale": 0.92,
         "width": 1600
       }

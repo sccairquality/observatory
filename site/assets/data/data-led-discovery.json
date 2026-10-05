@@ -14,7 +14,7 @@
     "regional_context_total": 0,
     "registers": {
       "enforcement_action": {
-        "bytes": 295875,
+        "bytes": 294383,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -23,21 +23,21 @@
         "regional_context_count": 0,
         "register": "enforcement_action",
         "regulatory_role": "enforcement_candidate",
-        "row_count_parsed": 8288,
+        "row_count_parsed": 8228,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "ec2dba60ce1966b0626a7ef145235faa47c86f7df1b488d8ff91fd9c585efdce",
+        "sha256": "da55ddb08a5af4480eb54e9d9d659cf0d7a66e30ff6573a056262ae6b0ec32ab",
         "status_code": 200,
         "status_counts": {
-          "unknown": 8288
+          "unknown": 8228
         },
         "target_match_count": 0,
         "target_matches": [],
         "top_fields": {
-          "action_date": 8288,
-          "action_number": 8288,
-          "address": 8032,
-          "offender": 8288
+          "action_date": 8228,
+          "action_number": 8228,
+          "address": 7975,
+          "offender": 8228
         },
         "url": "https://environment.data.gov.uk/public-register/downloads/enforcement-action",
         "zip_members": [
@@ -46,7 +46,7 @@
         ]
       },
       "industrial_installations": {
-        "bytes": 328577,
+        "bytes": 328601,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -58,7 +58,7 @@
         "row_count_parsed": 2960,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "33ad8535e5c904961ddd1763076883411edb588d434dd51390ec5925dcc58358",
+        "sha256": "a342af66baac7fe303210d999f0fc482df0c48efe054e6ce598da72513e1ab65",
         "status_code": 200,
         "status_counts": {
           "unknown": 2960
@@ -97,7 +97,7 @@
         "row_count_parsed": 5546,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "d9f7b4510bd01ee0f0dae9963fccdcf6110ca82ac15f1db421b4981deee0538f",
+        "sha256": "b0a4f0f938abdbd301eeb49456ab582d10813d07c08285f9ea20169183666e83",
         "status_code": 200,
         "status_counts": {
           "Closure & Aftercare": 453,

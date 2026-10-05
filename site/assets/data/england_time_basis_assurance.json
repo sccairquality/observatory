@@ -7,7 +7,7 @@
   "annual_files_with_parser_diagnostics": 143,
   "errors": [],
   "excluded_unrecognised_status_observations": 0,
-  "generated_at_utc": "2026-10-05T08:44:21.109571+00:00",
+  "generated_at_utc": "2026-10-05T17:54:36.387058+00:00",
   "hour_ending_24_preserved": true,
   "parsed_24_00_pollutant_observations": 86064,
   "quality_accepted_observations": 2063688,

@@ -7,7 +7,7 @@
   },
   "endorsement_claimed": false,
   "framework_public_name": "AQ26 Evidence Assurance Framework",
-  "generated_at_utc": "2026-10-05T08:44:31+00:00",
+  "generated_at_utc": "2026-10-05T17:54:47+00:00",
   "presentation": {
     "ai_generated_during_release": false,
     "css_sha256": "bea6769976badf7923f2eb0430ebecea4458300b05f4301603e02ccb9a57abc5",
@@ -22,7 +22,7 @@
     "england_network_national_publication_ready": false,
     "england_network_review_status": "partial_england_network_review",
     "england_regions_reporting": 9,
-    "generated_at_utc": "2026-10-05T08:37:40+00:00",
+    "generated_at_utc": "2026-10-05T17:47:59+00:00",
     "harvest": "passed",
     "publication_authority": true,
     "run_mode": "weekly",

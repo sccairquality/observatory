@@ -85,7 +85,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 730,
+          "record_count": 858,
           "registered_in_run_catalogue": true
         }
       ],
@@ -130,7 +130,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 730,
+          "record_count": 858,
           "registered_in_run_catalogue": true
         },
         {
@@ -270,7 +270,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 438,
+          "record_count": 465,
           "registered_in_run_catalogue": true
         },
         {
@@ -315,7 +315,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 16794,
+          "record_count": 16734,
           "registered_in_run_catalogue": true
         },
         {
@@ -400,7 +400,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 438,
+          "record_count": 465,
           "registered_in_run_catalogue": true
         },
         {
@@ -485,7 +485,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 730,
+          "record_count": 858,
           "registered_in_run_catalogue": true
         }
       ],
@@ -520,7 +520,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 730,
+          "record_count": 858,
           "registered_in_run_catalogue": true
         },
         {
@@ -530,7 +530,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 16794,
+          "record_count": 16734,
           "registered_in_run_catalogue": true
         },
         {
@@ -597,7 +597,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16794
+          "record_count": 16734
         },
         {
           "actual_stage": "credential_present",
@@ -640,7 +640,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16794
+          "record_count": 16734
         },
         {
           "actual_stage": "not_configured",
@@ -715,7 +715,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 730
+          "record_count": 858
         },
         {
           "actual_stage": "metadata_only",
@@ -880,7 +880,7 @@
           "candidate_input_usable": true,
           "id": "nasa_firms",
           "minimum_stage": "records_downloaded",
-          "record_count": 438
+          "record_count": 465
         },
         {
           "actual_stage": "metadata_only",
@@ -947,7 +947,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 730
+          "record_count": 858
         },
         {
           "actual_stage": "metadata_only",
@@ -1027,7 +1027,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16794
+          "record_count": 16734
         },
         {
           "actual_stage": "not_configured",

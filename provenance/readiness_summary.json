@@ -6,8 +6,8 @@
   "evidence_total": 0,
   "executed_join_count": 0,
   "external_review_ready": "ready_for_methodology_and_data_gap_interrogation",
-  "fresh_measurement_timeseries_count": 228,
-  "fresh_physical_site_count": 129,
+  "fresh_measurement_timeseries_count": 233,
+  "fresh_physical_site_count": 131,
   "gates": {
     "comparator_checked": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
     "meteorology_checked": "official_meteorology_acquired_no_event_alignment_not_applicable",
@@ -38,7 +38,7 @@
     "Keep the legacy Drive archive disabled; reacquire any potentially useful historic record from its original publisher before independent validation."
   ],
   "rejected_generic_matches": 0,
-  "reporting_measurement_timeseries_count": 233,
+  "reporting_measurement_timeseries_count": 234,
   "reporting_physical_site_count": 132,
   "screening_event_count": 0,
   "substantive_evidence_candidate_count": 0,

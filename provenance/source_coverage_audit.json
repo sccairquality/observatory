@@ -1,6 +1,6 @@
 {
   "all_known_sources_considered": true,
-  "bounded_data_availability_release_ready": false,
+  "bounded_data_availability_release_ready": true,
   "catalogue_source_count": 54,
   "claim_boundary": "Coverage and successful access do not establish source attribution, causation, permit breach, exposure, health impact or legal non-compliance.",
   "class_counts": {
@@ -62,8 +62,8 @@
   "evidence_policy": "Every known stream is retained with an explicit stage and disposition. Credentials, connectivity, metadata, records, validation and production usability are distinct. No missing stream may be silently treated as considered.",
   "failed_sources": [],
   "fallback_source_used": null,
-  "generated_at_utc": "2026-10-05T08:37:39+00:00",
-  "live_release_ready": false,
+  "generated_at_utc": "2026-10-05T17:47:58+00:00",
+  "live_release_ready": true,
   "mandatory_source_groups": [
     {
       "alternatives": [
@@ -84,7 +84,7 @@
           "id": "laqn_imperial",
           "name": "Imperial College London LAQN API",
           "passed": true,
-          "record_count": 730,
+          "record_count": 858,
           "role": "validated_london_continuity_fallback"
         }
       ],
@@ -105,8 +105,10 @@
       "expected_stage": "metadata_only",
       "id": "uk_air_atom",
       "name": "Defra UK-AIR Atom downloads",
+      "not_applicable": false,
       "passed": true,
       "record_count": 0,
+      "required_for_run": true,
       "secret_status": "not_required"
     },
     {
@@ -115,8 +117,10 @@
       "expected_stage": "records_downloaded",
       "id": "environment_agency_public_register",
       "name": "Environment Agency Public Register",
+      "not_applicable": false,
       "passed": true,
-      "record_count": 16794,
+      "record_count": 16734,
+      "required_for_run": true,
       "secret_status": "not_required"
     },
     {
@@ -125,8 +129,10 @@
       "expected_stage": "records_downloaded",
       "id": "planning_data",
       "name": "Planning Data API",
-      "passed": false,
+      "not_applicable": true,
+      "passed": true,
       "record_count": 0,
+      "required_for_run": false,
       "secret_status": "not_required"
     },
     {
@@ -135,8 +141,10 @@
       "expected_stage": "metadata_only",
       "id": "naei",
       "name": "National Atmospheric Emissions Inventory",
+      "not_applicable": false,
       "passed": true,
       "record_count": 0,
+      "required_for_run": true,
       "secret_status": "not_required"
     },
     {
@@ -145,8 +153,10 @@
       "expected_stage": "connectivity_confirmed",
       "id": "openaq",
       "name": "OpenAQ v3",
+      "not_applicable": false,
       "passed": true,
       "record_count": 0,
+      "required_for_run": true,
       "secret_status": "present"
     },
     {
@@ -155,8 +165,10 @@
       "expected_stage": "records_downloaded",
       "id": "met_office_land_observations",
       "name": "Met Office Weather DataHub Land Observations",
+      "not_applicable": false,
       "passed": true,
       "record_count": 576,
+      "required_for_run": true,
       "secret_status": "present"
     },
     {
@@ -165,8 +177,10 @@
       "expected_stage": "metadata_only",
       "id": "dft_road_traffic",
       "name": "Department for Transport Road Traffic Statistics API",
+      "not_applicable": false,
       "passed": true,
       "record_count": 10000,
+      "required_for_run": true,
       "secret_status": "not_required"
     },
     {
@@ -175,8 +189,10 @@
       "expected_stage": "metadata_only",
       "id": "cams",
       "name": "Copernicus Atmosphere Monitoring Service",
+      "not_applicable": false,
       "passed": true,
       "record_count": 2,
+      "required_for_run": true,
       "secret_status": "present"
     },
     {
@@ -185,8 +201,10 @@
       "expected_stage": "metadata_only",
       "id": "cdse_sentinel5p",
       "name": "Copernicus Data Space STAC Sentinel-5P",
+      "not_applicable": false,
       "passed": true,
       "record_count": 0,
+      "required_for_run": true,
       "secret_status": "not_required"
     },
     {
@@ -195,8 +213,10 @@
       "expected_stage": "metadata_only",
       "id": "nasa_earthdata_cmr",
       "name": "NASA Earthdata Common Metadata Repository",
+      "not_applicable": false,
       "passed": true,
       "record_count": 22,
+      "required_for_run": true,
       "secret_status": "present"
     },
     {
@@ -205,8 +225,10 @@
       "expected_stage": "records_downloaded",
       "id": "nasa_firms",
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
+      "not_applicable": false,
       "passed": true,
-      "record_count": 438,
+      "record_count": 465,
+      "required_for_run": true,
       "secret_status": "present"
     }
   ],
@@ -250,15 +272,7 @@
     "waste_data_interrogator",
     "whatdotheyknow"
   ],
-  "release_blockers": [
-    {
-      "actual_stage": "not_applicable_no_discovered_event",
-      "expected_stage": "records_downloaded",
-      "id": "planning_data",
-      "kind": "mandatory_stream",
-      "reason": "mandatory evidence stream has not reached its minimum validated stage"
-    }
-  ],
+  "release_blockers": [],
   "silent_omissions": [],
   "sources": [
     {
@@ -335,7 +349,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 730,
+      "record_count": 858,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -363,7 +377,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 16794,
+      "record_count": 16734,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -1427,7 +1441,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 438,
+      "record_count": 465,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1742,7 +1756,7 @@
     "quality_validated": 2,
     "records_downloaded": 7
   },
-  "status": "test_environment_ready_with_release_blockers",
+  "status": "live_release_ready",
   "test_environment_ready": true,
   "undeclared_outputs": []
 }
