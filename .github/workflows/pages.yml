@@ -55,7 +55,13 @@ jobs:
           root = Path('_pages')
           prefix = '/observatory'
 
-          attr_pat = re.compile(r'(?P<attr>\b(?:href|src|action|poster)\s*=\s*["\'])(?P<url>/[^/][^"\']*)(?P<end>["\'])', re.I)
+          attr_pat = re.compile(r'(?P<attr>\b(?:href|src|action|poster)\s*=\s*["\'])(?P<url>/(?!/)[^"\']*)(?P<end>["\'])', re.I)
+          # A root href="/" must be matched without consuming its closing quote.
+          # Otherwise the regex swallows the following navigation href and leaves
+          # /current-data.html unresolved in the GitHub Pages subpath.
+          assert attr_pat.search('<a href="/">Home</a><a href="/current-data.html">').group('url') == '/'
+          assert [m.group('url') for m in attr_pat.finditer('<a href="/">Home</a><a href="/current-data.html">')] == ['/', '/current-data.html']
+
           srcset_pat = re.compile(r'(?P<attr>\bsrcset\s*=\s*["\'])(?P<body>[^"\']*)(?P<end>["\'])', re.I)
 
           def rewrite_attr(match):
