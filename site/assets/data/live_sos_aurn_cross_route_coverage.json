@@ -6,7 +6,7 @@
   "live_sos_assessment_available": true,
   "live_sos_coverage_of_dynamic_pm_registry_percent": 82.3,
   "live_sos_matched_configured_pm_site_count": 107,
-  "live_sos_sites_without_valid_30day_official_pm_evidence_count": 0,
+  "live_sos_sites_without_valid_30day_official_pm_evidence_count": 1,
   "live_source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
   "missing_live_sos_sites_with_valid_30day_official_pm_evidence_count": 22,
   "missing_live_sos_sites_without_valid_30day_official_pm_evidence_count": 1,
@@ -256,7 +256,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "live_sos_and_valid_30day",
+      "cross_route_status": "live_sos_but_no_valid_30day_pm_evidence",
       "live_sos_eligible_match": true,
       "name": "Southend Shoeburyness",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01096",
@@ -267,7 +267,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01096",
-      "valid_30day_official_hourly_pm_evidence": true
+      "valid_30day_official_hourly_pm_evidence": false
     },
     {
       "cross_route_status": "live_sos_and_valid_30day",
@@ -1818,6 +1818,6 @@
     }
   ],
   "status": "reconciled",
-  "valid_30day_official_hourly_pm_site_count": 129,
-  "valid_30day_pm_coverage_of_dynamic_registry_percent": 99.2
+  "valid_30day_official_hourly_pm_site_count": 128,
+  "valid_30day_pm_coverage_of_dynamic_registry_percent": 98.5
 }

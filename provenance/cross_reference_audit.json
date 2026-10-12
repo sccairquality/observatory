@@ -85,7 +85,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 858,
+          "record_count": 694,
           "registered_in_run_catalogue": true
         }
       ],
@@ -130,7 +130,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 858,
+          "record_count": 694,
           "registered_in_run_catalogue": true
         },
         {
@@ -185,7 +185,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 576,
+          "record_count": 528,
           "registered_in_run_catalogue": true
         }
       ],
@@ -270,7 +270,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 465,
+          "record_count": 420,
           "registered_in_run_catalogue": true
         },
         {
@@ -290,7 +290,7 @@
           "minimum_stage": "metadata_only",
           "operational_records_available": false,
           "quality_validated": false,
-          "record_count": 22,
+          "record_count": 30,
           "registered_in_run_catalogue": true
         }
       ],
@@ -315,7 +315,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 16734,
+          "record_count": 22999,
           "registered_in_run_catalogue": true
         },
         {
@@ -400,7 +400,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 465,
+          "record_count": 420,
           "registered_in_run_catalogue": true
         },
         {
@@ -440,7 +440,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 576,
+          "record_count": 528,
           "registered_in_run_catalogue": true
         },
         {
@@ -485,7 +485,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 858,
+          "record_count": 694,
           "registered_in_run_catalogue": true
         }
       ],
@@ -520,7 +520,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 858,
+          "record_count": 694,
           "registered_in_run_catalogue": true
         },
         {
@@ -530,7 +530,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 16734,
+          "record_count": 22999,
           "registered_in_run_catalogue": true
         },
         {
@@ -550,7 +550,7 @@
           "minimum_stage": "metadata_only",
           "operational_records_available": false,
           "quality_validated": false,
-          "record_count": 22,
+          "record_count": 30,
           "registered_in_run_catalogue": true
         }
       ],
@@ -597,7 +597,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16734
+          "record_count": 22999
         },
         {
           "actual_stage": "credential_present",
@@ -640,7 +640,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16734
+          "record_count": 22999
         },
         {
           "actual_stage": "not_configured",
@@ -715,7 +715,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 858
+          "record_count": 694
         },
         {
           "actual_stage": "metadata_only",
@@ -736,7 +736,7 @@
           "candidate_input_usable": true,
           "id": "purpleair",
           "minimum_stage": "records_downloaded",
-          "record_count": 311
+          "record_count": 199
         }
       ],
       "status": "candidate_inputs_available",
@@ -776,7 +776,7 @@
           "candidate_input_usable": true,
           "id": "met_office_land_observations",
           "minimum_stage": "records_downloaded",
-          "record_count": 576
+          "record_count": 528
         },
         {
           "actual_stage": "not_applicable_no_discovered_event",
@@ -880,14 +880,14 @@
           "candidate_input_usable": true,
           "id": "nasa_firms",
           "minimum_stage": "records_downloaded",
-          "record_count": 465
+          "record_count": 420
         },
         {
           "actual_stage": "metadata_only",
           "candidate_input_usable": true,
           "id": "nasa_earthdata_cmr",
           "minimum_stage": "metadata_only",
-          "record_count": 22
+          "record_count": 30
         },
         {
           "actual_stage": "metadata_only",
@@ -947,7 +947,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 858
+          "record_count": 694
         },
         {
           "actual_stage": "metadata_only",
@@ -1027,7 +1027,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 16734
+          "record_count": 22999
         },
         {
           "actual_stage": "not_configured",

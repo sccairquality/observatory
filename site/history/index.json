@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-05T17:57:14+00:00",
+  "generated_at_utc": "2026-10-12T08:48:30+00:00",
   "months": {
     "2026-08": [
       "2026-08-30"
@@ -15,12 +15,124 @@
       "2026-09-11"
     ],
     "2026-10": [
+      "2026-10-12",
+      "2026-10-11",
+      "2026-10-10",
+      "2026-10-09",
+      "2026-10-08",
+      "2026-10-07",
+      "2026-10-06",
       "2026-10-05",
       "2026-10-04"
     ]
   },
-  "release_count": 11,
+  "release_count": 18,
   "releases": [
+    {
+      "release_date": "2026-10-12",
+      "run_mode": "weekly",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "38224686393",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-11",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "38125074179",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-10",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "38038065283",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-09",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "37905680862",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-08",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "37750630735",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-07",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "37594564083",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-10-06",
+      "run_mode": "daily",
+      "source_commit_sha": "ef39425c6767fea144703c45d6ab2b4dba0030e8",
+      "source_run_id": "37436763405",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
     {
       "release_date": "2026-10-05",
       "run_mode": "weekly",
@@ -208,7 +320,16 @@
       "2026-09-29"
     ],
     "2026-W41": [
+      "2026-10-11",
+      "2026-10-10",
+      "2026-10-09",
+      "2026-10-08",
+      "2026-10-07",
+      "2026-10-06",
       "2026-10-05"
+    ],
+    "2026-W42": [
+      "2026-10-12"
     ]
   }
 }

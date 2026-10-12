@@ -7,7 +7,7 @@
       "note": "current primary-source measurement streams"
     },
     {
-      "count": 131,
+      "count": 127,
       "label": "Fresh identifiable physical sites",
       "note": "sites, not pollutant series"
     },
@@ -38,8 +38,8 @@
     "laqn_endpoint_count": 5,
     "laqn_endpoint_ok_count": 5,
     "ok": true,
-    "uk_air_entries": 544,
-    "uk_air_source_links": 5316,
+    "uk_air_entries": 465,
+    "uk_air_source_links": 6695,
     "uk_air_years": [
       2026,
       2025
@@ -170,7 +170,7 @@
   "summary_metrics": {
     "drive_inventory": 0,
     "executed_cross_source_joins": 0,
-    "fresh_physical_sites": 131,
+    "fresh_physical_sites": 127,
     "legacy_archive_inventory": 0,
     "official_permit_or_filing_records": 0,
     "primary_measurement_timeseries": 237,

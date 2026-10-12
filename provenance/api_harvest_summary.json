@@ -19,8 +19,8 @@
   ],
   "drive_role": "archive_disabled_not_collected",
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
-  "fresh_physical_site_count": 131,
-  "generated_at_utc": "2026-10-05T17:46:51+00:00",
+  "fresh_physical_site_count": 127,
+  "generated_at_utc": "2026-10-12T08:40:36+00:00",
   "implementation_counts": {
     "archive_disabled": 1,
     "collector_not_yet_implemented": 3,
@@ -44,10 +44,10 @@
   "primary_measurement_provider_numeric_observation_count": 16827,
   "primary_measurement_sources_ready": 2,
   "primary_measurement_timeseries_count": 237,
-  "primary_measurement_valid_observation_count": 16268,
+  "primary_measurement_valid_observation_count": 16336,
   "primary_mode": "api_first_environmental_observatory",
   "reporting_measurement_timeseries_count": 234,
-  "reporting_physical_site_count": 132,
+  "reporting_physical_site_count": 131,
   "scientific_boundary": "API observations, regulatory records, models and satellite catalogues are screened as separate evidence classes. No single source establishes attribution, causation, permit breach, health impact or legal non-compliance.",
   "source_count": 54,
   "sources": [
@@ -125,7 +125,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 858,
+      "record_count": 694,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -153,7 +153,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 16734,
+      "record_count": 22999,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -346,7 +346,7 @@
       "name": "Met Office Weather DataHub Land Observations",
       "ok": true,
       "priority": 1,
-      "record_count": 576,
+      "record_count": 528,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -457,7 +457,7 @@
       "name": "NASA Earthdata Common Metadata Repository",
       "ok": true,
       "priority": null,
-      "record_count": 22,
+      "record_count": 30,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -484,7 +484,7 @@
       "name": "PurpleAir API",
       "ok": true,
       "priority": null,
-      "record_count": 311,
+      "record_count": 199,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1217,7 +1217,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 465,
+      "record_count": 420,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [

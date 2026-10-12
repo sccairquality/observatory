@@ -2,39 +2,39 @@
   "authoritative_status": "outputs/api/public_release_status.json",
   "authoritative_summary": "outputs/api/public_release_summary.json",
   "canonical_monitoring_snapshot": "outputs/primary_ground/canonical_monitoring_snapshot.json",
-  "canonical_monitoring_snapshot_sha256": "5fb05325faa9bdf4de9bbfbdf4bb2ae01810bb7fe2b17a49aef61fac1ce8e97c",
-  "contract_sha256": "de68a0058be4e9323457eaacd217db592027839af747f5ae0d2e83ec923aee9b",
+  "canonical_monitoring_snapshot_sha256": "5c25a44b1b3fea0d8ab3d19373da572690ac3a437f4747089c3ca14785880d45",
+  "contract_sha256": "4a5bb13f6df35dd9496784d36dc7e07642d0fcaa0d872086666c771ce31a5704",
   "measurement": {
-    "analysis_excluded_observation_count": 559,
-    "analysis_window_valid_observation_count": 16268,
+    "analysis_excluded_observation_count": 491,
+    "analysis_window_valid_observation_count": 16336,
     "count_reconciliation_passed": true,
     "data_capture_percent": 100.0,
-    "fresh_physical_site_count": 131,
-    "fresh_timeseries_count": 233,
+    "fresh_physical_site_count": 127,
+    "fresh_timeseries_count": 228,
     "physical_site_count": 133,
     "provider_expected_slot_count": 16827,
     "provider_missing_slot_count": 0,
     "provider_numeric_observation_count": 16827,
-    "quality_accepted_data_capture_percent": 96.7,
+    "quality_accepted_data_capture_percent": 97.1,
     "timeseries_count": 237
   },
   "provider_site_identity_count": 133,
-  "public_release_status_sha256": "01c86769d298b87debbae4664c1adba9cb1de0d0432a5fab1ed21075632ea5e1",
-  "public_release_summary_sha256": "67316cd9b5aa2c2219e803df441719505c4289a039afd7c9cccd3cd4770941bd",
+  "public_release_status_sha256": "cb87c704162c7d1ae75a45c926a5aae6f5f130fb5a8e5bd010ead034d5f596f8",
+  "public_release_summary_sha256": "565e0fff73f63a618d18548b7fc58558459c6fa0dc3d70ce8bf353d90a77ce80",
   "publication_authority": false,
-  "reporting_physical_site_count": 132,
-  "reporting_provider_site_identity_count": 132,
+  "reporting_physical_site_count": 131,
+  "reporting_provider_site_identity_count": 131,
   "schema": "aq26_final_release_contract_receipt_v1",
-  "sealed_at_utc": "2026-10-05T17:55:15+00:00",
+  "sealed_at_utc": "2026-10-12T08:45:21+00:00",
   "site_status_sha256": {
-    "site_public/assets/data/public-release-status.json": "01c86769d298b87debbae4664c1adba9cb1de0d0432a5fab1ed21075632ea5e1",
-    "site_test/assets/data/public-release-status.json": "01c86769d298b87debbae4664c1adba9cb1de0d0432a5fab1ed21075632ea5e1",
-    "site_unredacted/assets/data/public-release-status.json": "01c86769d298b87debbae4664c1adba9cb1de0d0432a5fab1ed21075632ea5e1"
+    "site_public/assets/data/public-release-status.json": "cb87c704162c7d1ae75a45c926a5aae6f5f130fb5a8e5bd010ead034d5f596f8",
+    "site_test/assets/data/public-release-status.json": "cb87c704162c7d1ae75a45c926a5aae6f5f130fb5a8e5bd010ead034d5f596f8",
+    "site_unredacted/assets/data/public-release-status.json": "cb87c704162c7d1ae75a45c926a5aae6f5f130fb5a8e5bd010ead034d5f596f8"
   },
   "site_summary_sha256": {
-    "site_public/assets/data/public-release-summary.json": "67316cd9b5aa2c2219e803df441719505c4289a039afd7c9cccd3cd4770941bd",
-    "site_test/assets/data/public-release-summary.json": "67316cd9b5aa2c2219e803df441719505c4289a039afd7c9cccd3cd4770941bd",
-    "site_unredacted/assets/data/public-release-summary.json": "67316cd9b5aa2c2219e803df441719505c4289a039afd7c9cccd3cd4770941bd"
+    "site_public/assets/data/public-release-summary.json": "565e0fff73f63a618d18548b7fc58558459c6fa0dc3d70ce8bf353d90a77ce80",
+    "site_test/assets/data/public-release-summary.json": "565e0fff73f63a618d18548b7fc58558459c6fa0dc3d70ce8bf353d90a77ce80",
+    "site_unredacted/assets/data/public-release-summary.json": "565e0fff73f63a618d18548b7fc58558459c6fa0dc3d70ce8bf353d90a77ce80"
   },
   "status": "pass"
 }
