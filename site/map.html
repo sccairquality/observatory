@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () { if (window.L) AQ26In
       }
       var features = geojson.features.filter(function(f) {
         var coordinates = f && f.geometry && f.geometry.coordinates;
-        return f.geometry.type === 'Point' && Array.isArray(coordinates) &&
+        return f && f.geometry && f.geometry.type === 'Point' && Array.isArray(coordinates) &&
           coordinates.length >= 2 && Number.isFinite(coordinates[0]) &&
           Number.isFinite(coordinates[1]) && Math.abs(coordinates[0]) <= 180 &&
           Math.abs(coordinates[1]) <= 90;
