@@ -2,12 +2,12 @@
   "evidence_classes": [],
   "evidence_funnel": [
     {
-      "count": 237,
+      "count": 24,
       "label": "Harvested pollutant time series",
       "note": "current primary-source measurement streams"
     },
     {
-      "count": 127,
+      "count": 5,
       "label": "Fresh identifiable physical sites",
       "note": "sites, not pollutant series"
     },
@@ -170,10 +170,10 @@
   "summary_metrics": {
     "drive_inventory": 0,
     "executed_cross_source_joins": 0,
-    "fresh_physical_sites": 127,
+    "fresh_physical_sites": 5,
     "legacy_archive_inventory": 0,
     "official_permit_or_filing_records": 0,
-    "primary_measurement_timeseries": 237,
+    "primary_measurement_timeseries": 24,
     "public_claim_level": "Screening and readiness notes only",
     "public_safe_records": 0,
     "quarantined_legacy_records": 0,

@@ -14,7 +14,7 @@
     "regional_context_total": 0,
     "registers": {
       "enforcement_action": {
-        "bytes": 335377,
+        "bytes": 335320,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -26,7 +26,7 @@
         "row_count_parsed": 8228,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "4ec5bfdf72f242e9478cedf59b9178006a9f46cb27ad7bd1f2929a5fc4c91433",
+        "sha256": "8f586cdead583fafbd83b337fd98fa49e3eae5cb24be726263b2ca2a2b142b80",
         "status_code": 200,
         "status_counts": {
           "Caution": 10,
@@ -53,7 +53,7 @@
         ]
       },
       "industrial_installations": {
-        "bytes": 567667,
+        "bytes": 567086,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -62,28 +62,28 @@
         "regional_context_count": 0,
         "register": "industrial_installations",
         "regulatory_role": "principal_installation_candidate",
-        "row_count_parsed": 5180,
+        "row_count_parsed": 5175,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "c474545a18394333ebaa631af245d929ff2fe2e77783381fa50c2ad9cc975f42",
+        "sha256": "09a42e5716ef2365689b062a571d65be6f1ad13637d6bec9ac3c15a0de2371e3",
         "status_code": 200,
         "status_counts": {
-          "unknown": 5180
+          "unknown": 5175
         },
         "target_match_count": 0,
         "target_matches": [],
         "top_fields": {
-          "activity_type_description": 5180,
-          "document_url": 1802,
-          "easting": 5180,
-          "local_authority": 5180,
-          "name": 5180,
-          "northing": 5180,
-          "permission_date": 5180,
-          "permission_number": 5180,
-          "site_address": 5180,
-          "site_grid_reference": 5179,
-          "site_postcode": 5178
+          "activity_type_description": 5175,
+          "document_url": 1801,
+          "easting": 5175,
+          "local_authority": 5175,
+          "name": 5175,
+          "northing": 5175,
+          "permission_date": 5175,
+          "permission_number": 5175,
+          "site_address": 5175,
+          "site_grid_reference": 5174,
+          "site_postcode": 5173
         },
         "url": "https://environment.data.gov.uk/public-register/downloads/industrial-installations",
         "zip_members": [
@@ -92,7 +92,7 @@
         ]
       },
       "waste_operations": {
-        "bytes": 893993,
+        "bytes": 885840,
         "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only.",
         "ok": true,
         "operator_only_ambiguous_count": 0,
@@ -104,12 +104,12 @@
         "row_count_parsed": 9591,
         "row_limit_reached": false,
         "schema_validated": true,
-        "sha256": "c446ff24934b6846e3766da3f75fe56d8d000f778ec7b1155f7d954b0f9a6422",
+        "sha256": "b17afd75d724094215e0786fbea1d012a5ade59277a38d6311adff3991901170",
         "status_code": 200,
         "status_counts": {
           "Closure & Aftercare": 770,
-          "Effective": 8764,
-          "Fully Suspended": 11,
+          "Effective": 8765,
+          "Fully Suspended": 10,
           "Part Surrendered": 2,
           "Partially Revoked": 16,
           "Partially Suspended": 28
@@ -121,7 +121,7 @@
           "easting": 9587,
           "issued_date": 9591,
           "licence_holder_name": 9591,
-          "local_authority": 8996,
+          "local_authority": 8995,
           "northing": 9587,
           "permit_number": 9591,
           "pre_ea_permit_ref": 9590,
@@ -129,13 +129,13 @@
           "site_address": 9589,
           "site_grid_reference": 9587,
           "site_name": 9589,
-          "site_postcode": 8938,
+          "site_postcode": 8936,
           "site_type": 9589,
           "status": 9591,
-          "suspended_date": 9,
+          "suspended_date": 8,
           "trading_name": 45,
-          "transfer_date": 1361,
-          "variation_date": 3975,
+          "transfer_date": 1357,
+          "variation_date": 3976,
           "waste_management_licence_no": 9591
         },
         "url": "https://environment.data.gov.uk/public-register/downloads/waste-operations",

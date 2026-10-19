@@ -6,8 +6,8 @@
   "evidence_total": 0,
   "executed_join_count": 0,
   "external_review_ready": "ready_for_methodology_and_data_gap_interrogation",
-  "fresh_measurement_timeseries_count": 228,
-  "fresh_physical_site_count": 127,
+  "fresh_measurement_timeseries_count": 6,
+  "fresh_physical_site_count": 5,
   "gates": {
     "comparator_checked": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
     "meteorology_checked": "official_meteorology_acquired_no_event_alignment_not_applicable",
@@ -25,8 +25,8 @@
   "matching_policy": "Only strict legacy records promoted through source, authority, date, SHA-256, lineage, parser, quality and target-linkage validation are included.",
   "overall": "api_led_screening_and_evidence_convergence_not_source_determination",
   "primary_evidence_policy": "Current England operational-scope primary-source harvesting and reproducible cross-source joins lead analysis. Every release is limited to the geography actually evidenced. The legacy Google Drive archive is disabled and has no scientific influence.",
-  "primary_measurement_timeseries_count": 237,
-  "primary_physical_site_count": 133,
+  "primary_measurement_timeseries_count": 24,
+  "primary_physical_site_count": 18,
   "public_claim_level": "screening_and_readiness_notes_only",
   "public_safe_count": 0,
   "recommended_next_evidence_tasks": [
@@ -38,8 +38,8 @@
     "Keep the legacy Drive archive disabled; reacquire any potentially useful historic record from its original publisher before independent validation."
   ],
   "rejected_generic_matches": 0,
-  "reporting_measurement_timeseries_count": 234,
-  "reporting_physical_site_count": 131,
+  "reporting_measurement_timeseries_count": 9,
+  "reporting_physical_site_count": 8,
   "screening_event_count": 0,
   "substantive_evidence_candidate_count": 0,
   "target_counts": {},

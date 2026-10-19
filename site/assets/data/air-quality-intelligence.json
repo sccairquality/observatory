@@ -82,7 +82,7 @@
     "cqc_care_directory": "not_configured",
     "defra_local_air_quality_management_and_aqma_records": "not_configured",
     "defra_uk_air_atom_downloads": "metadata_only",
-    "defra_uk_air_sensor_observation_service": "production_usable",
+    "defra_uk_air_sensor_observation_service": "failed",
     "department_for_transport_port_freight_statistics": "not_configured",
     "department_for_transport_road_traffic_statistics_api": "records_downloaded",
     "emep_ebas_atmospheric_composition_observations": "not_configured",

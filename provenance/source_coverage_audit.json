@@ -60,21 +60,23 @@
     "serpapi"
   ],
   "evidence_policy": "Every known stream is retained with an explicit stage and disposition. Credentials, connectivity, metadata, records, validation and production usability are distinct. No missing stream may be silently treated as considered.",
-  "failed_sources": [],
-  "fallback_source_used": null,
-  "generated_at_utc": "2026-10-12T08:41:31+00:00",
-  "live_release_ready": true,
+  "failed_sources": [
+    "uk_air_sos_current_particle"
+  ],
+  "fallback_source_used": "laqn_imperial",
+  "generated_at_utc": "2026-10-19T15:44:49+00:00",
+  "live_release_ready": false,
   "mandatory_source_groups": [
     {
       "alternatives": [
         {
-          "actual_stage": "quality_validated",
+          "actual_stage": "failed",
           "collector_implemented": true,
           "expected_stage": "quality_validated",
           "id": "uk_air_sos_current_particle",
           "name": "Defra UK-AIR Sensor Observation Service",
-          "passed": true,
-          "record_count": 237,
+          "passed": false,
+          "record_count": 0,
           "role": "preferred_england_source"
         },
         {
@@ -84,18 +86,18 @@
           "id": "laqn_imperial",
           "name": "Imperial College London LAQN API",
           "passed": true,
-          "record_count": 694,
+          "record_count": 744,
           "role": "validated_london_continuity_fallback"
         }
       ],
       "claim_boundary": "A validated fallback supports a geographically bounded data-availability release only. It does not make the current evidence England-wide and does not permit attribution, compliance, exposure, health or causal conclusions.",
-      "fallback_active": false,
+      "fallback_active": true,
       "id": "primary_ground_measurement",
       "minimum_passing_sources": 1,
       "passed": true,
-      "passing_source_count": 2,
+      "passing_source_count": 1,
       "preferred_source_id": "uk_air_sos_current_particle",
-      "selected_source_id": "uk_air_sos_current_particle"
+      "selected_source_id": "laqn_imperial"
     }
   ],
   "mandatory_streams": [
@@ -119,7 +121,7 @@
       "name": "Environment Agency Public Register",
       "not_applicable": false,
       "passed": true,
-      "record_count": 22999,
+      "record_count": 22994,
       "required_for_run": true,
       "secret_status": "not_required"
     },
@@ -227,15 +229,24 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "not_applicable": false,
       "passed": true,
-      "record_count": 420,
+      "record_count": 277,
       "required_for_run": true,
       "secret_status": "present"
     }
   ],
   "missing_dispositions": [],
   "observed_source_count": 54,
-  "preferred_source_advisories": [],
-  "preferred_source_degraded": false,
+  "preferred_source_advisories": [
+    {
+      "actual_stage": "failed",
+      "fallback_source_id": "laqn_imperial",
+      "fallback_stage": "quality_validated",
+      "group_id": "primary_ground_measurement",
+      "id": "uk_air_sos_current_particle",
+      "reason": "preferred source unavailable; validated continuity fallback selected with bounded geography"
+    }
+  ],
+  "preferred_source_degraded": true,
   "registered_backlog": [
     "ceda_archive",
     "companies_house",
@@ -277,7 +288,7 @@
   "sources": [
     {
       "access": null,
-      "actual_stage": "quality_validated",
+      "actual_stage": "failed",
       "authentication_strategy": "none",
       "authority": "official",
       "cadence": "hourly",
@@ -288,13 +299,13 @@
       "enabled": true,
       "expected_stage": "quality_validated",
       "id": "uk_air_sos_current_particle",
-      "implementation_status": "implemented_records_acquired",
+      "implementation_status": "implemented_collector",
       "jurisdiction": null,
       "licence": "Open Government Licence",
       "name": "Defra UK-AIR Sensor Observation Service",
-      "ok": true,
+      "ok": false,
       "priority": null,
-      "record_count": 237,
+      "record_count": 0,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -349,7 +360,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 694,
+      "record_count": 744,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -377,7 +388,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 22999,
+      "record_count": 22994,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -708,7 +719,7 @@
       "name": "PurpleAir API",
       "ok": true,
       "priority": null,
-      "record_count": 199,
+      "record_count": 214,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1441,7 +1452,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 420,
+      "record_count": 277,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1750,13 +1761,14 @@
   "stage_counts": {
     "archive_disabled": 1,
     "credential_present": 7,
+    "failed": 1,
     "metadata_only": 5,
     "not_applicable_no_discovered_event": 4,
     "not_configured": 28,
-    "quality_validated": 2,
+    "quality_validated": 1,
     "records_downloaded": 7
   },
-  "status": "live_release_ready",
+  "status": "bounded_release_ready_with_validated_fallback",
   "test_environment_ready": true,
   "undeclared_outputs": []
 }

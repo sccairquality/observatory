@@ -2,8 +2,9 @@
   "claim_boundary": "Successful access or record download does not establish validity, independent corroboration, source attribution, causation, permit breach, exposure or health effect.",
   "data_universe": {
     "availability_counts": {
-      "actual_operational": 9,
+      "actual_operational": 8,
       "actual_partial": 12,
+      "degraded": 1,
       "disabled": 1,
       "potential_registered": 32
     },
@@ -16,12 +17,10 @@
         "dimension": "ground_measurement_quality",
         "independent_verification_possible": true,
         "operational_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -33,7 +32,6 @@
         ],
         "status": "quality_validated",
         "validated_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
@@ -46,12 +44,10 @@
         "dimension": "comparator_and_background",
         "independent_verification_possible": true,
         "operational_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -64,7 +60,6 @@
         ],
         "status": "quality_validated",
         "validated_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
@@ -226,12 +221,10 @@
         "dimension": "uncertainty_and_missingness",
         "independent_verification_possible": true,
         "operational_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -243,7 +236,6 @@
         ],
         "status": "quality_validated",
         "validated_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
@@ -255,12 +247,10 @@
         "dimension": "complete_provenance",
         "independent_verification_possible": true,
         "operational_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -272,7 +262,6 @@
         ],
         "status": "quality_validated",
         "validated_sources": [
-          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       }
@@ -534,7 +523,7 @@
         "status": "gaps_recorded"
       },
       "validation": {
-        "quality_validated_source_count": 2,
+        "quality_validated_source_count": 1,
         "status": "measured_not_assumed"
       },
       "verification": {
@@ -547,26 +536,26 @@
   "source_count": 54,
   "sources": [
     {
-      "actual_stage": "quality_validated",
+      "actual_stage": "failed",
       "authority": "official",
       "cadence": "hourly",
-      "canonical_stage": "production_usable",
+      "canonical_stage": "failed",
       "collector_implemented": true,
-      "collector_status": "Production usable within stated limitations",
-      "connectivity_successful": true,
+      "collector_status": "Failed",
+      "connectivity_successful": false,
       "credential_status": "not_required",
       "expected_stage": "quality_validated",
       "jurisdiction": null,
       "licence": "Open Government Licence",
-      "metadata_discovered": true,
+      "metadata_discovered": false,
       "metadata_or_index_count": 0,
-      "next_action": "Use only within documented scientific and claim boundaries.",
-      "production_ready": true,
-      "quality_validated": true,
-      "record_count": 237,
-      "records_downloaded": true,
-      "records_or_targets": 237,
-      "records_validated": true,
+      "next_action": "Repair and retest the collector before use.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
       "role": "ground_measurement",
       "secret_status": "not_required",
       "source": "Defra UK-AIR Sensor Observation Service",
@@ -575,7 +564,7 @@
       "source_registers": [
         "api_sources"
       ],
-      "status_detail": "implemented_records_acquired",
+      "status_detail": "implemented_collector",
       "target_linkage_validated": false
     },
     {
@@ -628,9 +617,9 @@
       "next_action": "Complete comparator, meteorology and competing-source validation.",
       "production_ready": false,
       "quality_validated": true,
-      "record_count": 694,
+      "record_count": 744,
       "records_downloaded": true,
-      "records_or_targets": 694,
+      "records_or_targets": 744,
       "records_validated": true,
       "role": "monitoring_context_only",
       "secret_status": "not_required",
@@ -661,9 +650,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 22999,
+      "record_count": 22994,
       "records_downloaded": true,
-      "records_or_targets": 22999,
+      "records_or_targets": 22994,
       "records_validated": false,
       "role": "official_source_candidate",
       "secret_status": "not_required",
@@ -1052,9 +1041,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 199,
+      "record_count": 214,
       "records_downloaded": true,
-      "records_or_targets": 199,
+      "records_or_targets": 214,
       "records_validated": false,
       "role": "low_cost_sensor_network",
       "secret_status": "present",
@@ -1920,9 +1909,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 420,
+      "record_count": 277,
       "records_downloaded": true,
-      "records_or_targets": 420,
+      "records_or_targets": 277,
       "records_validated": false,
       "role": "wildfire_and_burning_confounder",
       "secret_status": "present",
@@ -2291,9 +2280,9 @@
   "stage_counts": {
     "archive_disabled": 1,
     "credential_present": 7,
+    "failed": 1,
     "metadata_only": 5,
     "not_configured": 32,
-    "production_usable": 1,
     "quality_validated": 1,
     "records_downloaded": 7
   },

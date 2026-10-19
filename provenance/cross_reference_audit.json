@@ -69,13 +69,13 @@
       "candidate_source_available": true,
       "candidate_sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "operational_records_available": true,
-          "quality_validated": true,
-          "record_count": 237,
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
           "registered_in_run_catalogue": true
         },
         {
@@ -85,7 +85,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 694,
+          "record_count": 744,
           "registered_in_run_catalogue": true
         }
       ],
@@ -104,13 +104,13 @@
       "candidate_source_available": true,
       "candidate_sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "operational_records_available": true,
-          "quality_validated": true,
-          "record_count": 237,
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
           "registered_in_run_catalogue": true
         },
         {
@@ -130,7 +130,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 694,
+          "record_count": 744,
           "registered_in_run_catalogue": true
         },
         {
@@ -270,7 +270,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 420,
+          "record_count": 277,
           "registered_in_run_catalogue": true
         },
         {
@@ -315,7 +315,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 22999,
+          "record_count": 22994,
           "registered_in_run_catalogue": true
         },
         {
@@ -400,7 +400,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 420,
+          "record_count": 277,
           "registered_in_run_catalogue": true
         },
         {
@@ -469,13 +469,13 @@
       "candidate_source_available": true,
       "candidate_sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "operational_records_available": true,
-          "quality_validated": true,
-          "record_count": 237,
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
           "registered_in_run_catalogue": true
         },
         {
@@ -485,7 +485,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 694,
+          "record_count": 744,
           "registered_in_run_catalogue": true
         }
       ],
@@ -504,13 +504,13 @@
       "candidate_source_available": true,
       "candidate_sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "operational_records_available": true,
-          "quality_validated": true,
-          "record_count": 237,
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
           "registered_in_run_catalogue": true
         },
         {
@@ -520,7 +520,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": true,
-          "record_count": 694,
+          "record_count": 744,
           "registered_in_run_catalogue": true
         },
         {
@@ -530,7 +530,7 @@
           "minimum_stage": "records_downloaded",
           "operational_records_available": true,
           "quality_validated": false,
-          "record_count": 22999,
+          "record_count": 22994,
           "registered_in_run_catalogue": true
         },
         {
@@ -597,7 +597,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 22999
+          "record_count": 22994
         },
         {
           "actual_stage": "credential_present",
@@ -640,7 +640,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 22999
+          "record_count": 22994
         },
         {
           "actual_stage": "not_configured",
@@ -697,11 +697,11 @@
       "right": "facility",
       "sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "record_count": 237
+          "record_count": 0
         },
         {
           "actual_stage": "metadata_only",
@@ -715,7 +715,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 694
+          "record_count": 744
         },
         {
           "actual_stage": "metadata_only",
@@ -736,12 +736,12 @@
           "candidate_input_usable": true,
           "id": "purpleair",
           "minimum_stage": "records_downloaded",
-          "record_count": 199
+          "record_count": 214
         }
       ],
       "status": "candidate_inputs_available",
       "unmatched_left_row_count": 0,
-      "usable_source_count": 3,
+      "usable_source_count": 2,
       "validated_join": false,
       "validation": "coordinates_and_station_role_required",
       "validation_stage": "coordinate_geometry_join_validated_source_relationship_not_inferred"
@@ -880,7 +880,7 @@
           "candidate_input_usable": true,
           "id": "nasa_firms",
           "minimum_stage": "records_downloaded",
-          "record_count": 420
+          "record_count": 277
         },
         {
           "actual_stage": "metadata_only",
@@ -929,11 +929,11 @@
       "right": "monitor",
       "sources": [
         {
-          "actual_stage": "quality_validated",
-          "candidate_input_usable": true,
+          "actual_stage": "failed",
+          "candidate_input_usable": false,
           "id": "uk_air_sos_current_particle",
           "minimum_stage": "quality_validated",
-          "record_count": 237
+          "record_count": 0
         },
         {
           "actual_stage": "metadata_only",
@@ -947,7 +947,7 @@
           "candidate_input_usable": true,
           "id": "laqn_imperial",
           "minimum_stage": "records_downloaded",
-          "record_count": 694
+          "record_count": 744
         },
         {
           "actual_stage": "metadata_only",
@@ -980,7 +980,7 @@
       ],
       "status": "candidate_inputs_available",
       "unmatched_left_row_count": 0,
-      "usable_source_count": 3,
+      "usable_source_count": 2,
       "validated_join": false,
       "validation": "method_units_and_averaging_period_must_match",
       "validation_stage": "role_method_unit_period_alignment_checked"
@@ -1027,7 +1027,7 @@
           "candidate_input_usable": true,
           "id": "environment_agency_public_register",
           "minimum_stage": "records_downloaded",
-          "record_count": 22999
+          "record_count": 22994
         },
         {
           "actual_stage": "not_configured",
