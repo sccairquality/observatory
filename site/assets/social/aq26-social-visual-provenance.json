@@ -2,7 +2,7 @@
   "ai_generated_during_release": false,
   "assets": {
     "aq26-facebook-briefing.jpg": {
-      "bytes": 168439,
+      "bytes": 168748,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -22,11 +22,11 @@
           "30 days in evidence"
         ]
       },
-      "sha256": "714163ff514d73dc035ea90caf4dd798b28aeb064be1b949247b4699bd5b3248",
+      "sha256": "d785462215c01ece5274bb04b3993b70af3e64fd62f2a676be18563965f54e09",
       "width": 1080
     },
     "aq26-instagram-01.jpg": {
-      "bytes": 151137,
+      "bytes": 151593,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -50,11 +50,11 @@
           "confuse them."
         ]
       },
-      "sha256": "64ff572fefcb7bf98d3bc02d4add9bdd67260c6d0234c92ecd40143289b20618",
+      "sha256": "4de9dcfb2e7c51e4f713bc93d48cfdf20d91df07df466de5ef27d89d16bbcb2d",
       "width": 1080
     },
     "aq26-instagram-02.jpg": {
-      "bytes": 160700,
+      "bytes": 161123,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -74,11 +74,11 @@
           "represented"
         ]
       },
-      "sha256": "2702709623a105a866d3bc613c8c628681a62e601a9758165cfb57993a771876",
+      "sha256": "c22d3a3fdb3ef0d4cbdf02b7532d9e6f165c6834680f49243036e50af86eab8a",
       "width": 1080
     },
     "aq26-instagram-03.jpg": {
-      "bytes": 155538,
+      "bytes": 158411,
       "format": "JPEG",
       "height": 1350,
       "layout": {
@@ -98,7 +98,7 @@
           "assessment withheld"
         ]
       },
-      "sha256": "7b8a708d50e19add9debf96de738aa7aaf0c6688ae572e018366c4d04a5c0d4c",
+      "sha256": "e21e911be122519a7e758429b3830c5269b7620231a119ec7aa9aa4a7ae83c9c",
       "width": 1080
     },
     "aq26-instagram-04.jpg": {
@@ -149,7 +149,7 @@
       "width": 1080
     },
     "aq26-website-share.jpg": {
-      "bytes": 103526,
+      "bytes": 103704,
       "format": "JPEG",
       "height": 630,
       "layout": {
@@ -168,11 +168,11 @@
           "England air-quality evidence"
         ]
       },
-      "sha256": "4a24b1de82678345a0c9eec01b0cb720ca5fbd9104d28f680f92573a4cf9519a",
+      "sha256": "ef882cd2af692ecfa0b265cdf8d4956d13a114f535d2f99be6a47c5a2fccd14c",
       "width": 1200
     },
     "aq26-weekly-card.jpg": {
-      "bytes": 148318,
+      "bytes": 148491,
       "format": "JPEG",
       "height": 1080,
       "layout": {
@@ -185,18 +185,18 @@
         "subtitle_lines": [
           "Official records, reproducible calculations, visible gaps and explicit limits."
         ],
-        "title": "9,752 pollutant-day observations, made inspectable",
+        "title": "9,728 pollutant-day observations, made inspectable",
         "title_font_size": 50,
         "title_lines": [
-          "9,752 pollutant-day observations,",
+          "9,728 pollutant-day observations,",
           "made inspectable"
         ]
       },
-      "sha256": "399745f69d505e29ea18fbcda78695efbb40af99cb76ab293925678a7dbe8bcf",
+      "sha256": "5d2a392c75abbfcfd29b970a3b7e0c236d4713bb0c25a44ccab32c67c25b0d43",
       "width": 1080
     },
     "aq26-weekly-card.png": {
-      "bytes": 93651,
+      "bytes": 94596,
       "format": "PNG",
       "height": 1080,
       "layout": {
@@ -209,18 +209,18 @@
         "subtitle_lines": [
           "Official records, reproducible calculations, visible gaps and explicit limits."
         ],
-        "title": "9,752 pollutant-day observations, made inspectable",
+        "title": "9,728 pollutant-day observations, made inspectable",
         "title_font_size": 50,
         "title_lines": [
-          "9,752 pollutant-day observations,",
+          "9,728 pollutant-day observations,",
           "made inspectable"
         ]
       },
-      "sha256": "5903bc7cc1500f15cd32f27fbced95202c464055157ff07817edaced77c6a662",
+      "sha256": "135191ef54a84a20986f27f55cd6159ecce4fd685396d4f652b61f0eddbb168d",
       "width": 1080
     },
     "aq26-x-briefing.jpg": {
-      "bytes": 168337,
+      "bytes": 168843,
       "format": "JPEG",
       "height": 900,
       "layout": {
@@ -239,7 +239,7 @@
           "England’s 30-day air-quality evidence"
         ]
       },
-      "sha256": "bc2a53b3b595ade4fa062e0ca4675a344d3a92b8e8524423ad2b8c0f102db9a2",
+      "sha256": "b1817e8f77e6c824fa50f20b85bb4f265dc59223bb2fface7ce67ebc87755241",
       "width": 1600
     }
   },
@@ -253,90 +253,90 @@
       "preserve_reviewed_panel": true
     },
     "decorative_assets_are_not_evidence": true,
-    "evidence_payload_sha256_after": "8a48b288c5bbc360835e5dae7e7bf1d1ec3dbce500dae02f97ef35f6bdf03e8a",
-    "evidence_payload_sha256_before": "8a48b288c5bbc360835e5dae7e7bf1d1ec3dbce500dae02f97ef35f6bdf03e8a",
+    "evidence_payload_sha256_after": "5af072c087c9a7e85196f146a387ec356397660e99cf464aac6832e3e755187c",
+    "evidence_payload_sha256_before": "5af072c087c9a7e85196f146a387ec356397660e99cf464aac6832e3e755187c",
     "fallback_policy": "fail_closed",
     "fresh_ai_generation_during_release": false,
     "iso_weekday": 0,
     "manifest_sha256": "d59534a78c24f7d5513f776bdc2509df04bcefcf421e762208eaa6c27a5529b8",
     "outputs": {
       "aq26-facebook-briefing.jpg": {
-        "bytes": 178687,
+        "bytes": 188261,
         "height": 1350,
-        "input_sha256": "d209c1e0336205b8ad082277303e80f18753cf73ccd53af216f82ac29bbd22ba",
-        "output_sha256": "bc0ee6fe631c4f5dfc4acb8daa57ce393195f9ab9ca0de1b58555d5910fc2dc1",
+        "input_sha256": "c72a34f1eea5700aee91110b33251f071502cbc8edd1d2c2640b0033a806f501",
+        "output_sha256": "456ea2003937a0bafe5f80b7cb1ab0d8fd4ee3e81038a8cf2af113fb6805c8e6",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-01.jpg": {
-        "bytes": 142933,
+        "bytes": 144682,
         "height": 1350,
-        "input_sha256": "1af0401f96282190b313352c94f1c5c3757931591f0f88824697660dcf456ba5",
-        "output_sha256": "bcd2e2e8573391f1292657cf128c61ecd339cc8b7c987942a60efcbb100a06ca",
+        "input_sha256": "99f135d025f726d2324a0f381aae705204017f87c1fedda44379b689e235d2d8",
+        "output_sha256": "289aa079d26884efa288f95cce7c87e6caa085c237f8c5ac5584dfead1a52d5f",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-02.jpg": {
-        "bytes": 134463,
+        "bytes": 135633,
         "height": 1350,
-        "input_sha256": "0f8d88e930214993f763d19faec4febd77fe5f8138849b6c2fe02d5795126e6f",
-        "output_sha256": "ce8a8b0c4b688f20ef86c54a1165620beaec6451cf9d02adc1ef17bd655d9af3",
+        "input_sha256": "c24568634b0e1a04ce7a4c35797e7c6c55e11e2951b8c9938cefa1b03270671f",
+        "output_sha256": "50cd12b38cb0b0272c1e454415010830009e9e5786f24e9037ace63ddb38bf40",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-03.jpg": {
-        "bytes": 115708,
+        "bytes": 116645,
         "height": 1350,
-        "input_sha256": "be14288cfbb42e4533b9eccfb3f497cdb1fd3d42b3f8bf107c6e25622798f116",
-        "output_sha256": "2520fc0dc96dc8a00e9bf29155f3d23dbdb594a7c9ec51a04dc054bf24b16021",
+        "input_sha256": "41963d4bb90298b9c48dc34a6a30f8457d11854c25895ac3ee09f1dc4c977f34",
+        "output_sha256": "e75de20001dcfbaadc6b1380eb34d387c39d1be191b8d50920c232f8eb7c11ae",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-04.jpg": {
-        "bytes": 148490,
+        "bytes": 149297,
         "height": 1350,
-        "input_sha256": "414135c704310a2848ae0d047b0cbc93ece338021325a7e028c878283de0bf02",
-        "output_sha256": "d77ab39d5ae3ce1f77d5bc4cde1815b916d286e373e6404da856969cb3748f4f",
+        "input_sha256": "94ab54c27bad6c233661c605baca2a9bb5ff65f7cf820baa4093938e3596a6b1",
+        "output_sha256": "aad6c06503079e3cc713516a75ff0ca4c8c5ecf1ac7d0d70e34e62277a4a32d7",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-instagram-05.jpg": {
-        "bytes": 141800,
+        "bytes": 152693,
         "height": 1350,
-        "input_sha256": "34a5e306e80c564955a724521befc28472acc4c550889266ca9ebcdd1785265a",
-        "output_sha256": "2434bf94e6b4a7b648cdaa9ff3e106b5b68dd52b5867762f6f8d7af846e57a7a",
+        "input_sha256": "4405642c985c6515cc1f27672d2e0ee0bba21ca6cd8c1745df5841d7d1aa58ba",
+        "output_sha256": "1fcac7300031d403d0f4281c2bfe864e15259c96591b2775e44597c5c110503b",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-website-share.jpg": {
-        "bytes": 94611,
+        "bytes": 103476,
         "height": 630,
-        "input_sha256": "234299fc43d0592a86f05e4fb3cc73748585cc01bc9988326e9867e8917374d4",
-        "output_sha256": "ac46348728cdfd70010a13a2122c9c11c0fbea7026584f0491c36b12a7234458",
+        "input_sha256": "6946567b5af24a8169f957a4e7fde77a976eec48b0788d86b4c38602a09cef85",
+        "output_sha256": "f97f5b969187b8eeaff947402eb185aaa28f371881ba2f9d15a0e1b236fbf251",
         "panel_scale": 0.92,
         "width": 1200
       },
       "aq26-weekly-card.jpg": {
-        "bytes": 165997,
+        "bytes": 173508,
         "height": 1080,
-        "input_sha256": "bbbe6abe699460df4b29fda87c4f2e6eee3daed3c9e1c0b7058543eddeda46ba",
-        "output_sha256": "375a4165bf14aacb5c7af96f46fb75e85f8324ac84f3ed5c4b8203711bc29965",
+        "input_sha256": "fa799f1f1cfb2b0d6cb3eb46aac2a6906f182b730167dd6ebea0650c31164c90",
+        "output_sha256": "f757fe05ea9debafece7b46ad714df92b6d5426f65ab6827d1b9909da87ed21e",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-weekly-card.png": {
-        "bytes": 360687,
+        "bytes": 382658,
         "height": 1080,
-        "input_sha256": "2ebf90611e3e25833994fe7aab0906268e6c935b74688f4802cb25ae23993932",
-        "output_sha256": "f65b81ab039087a964c39e3b2fa48194549518ab9a351ca3720994bb7c254ecf",
+        "input_sha256": "651de191b6ccfff3c9448cb4af0eda35367ff7b63c6e47e762c487a800b43ad5",
+        "output_sha256": "49528c397e1ee10b4976628d7310c76a5f8ee1bc0284e49e9cdf6d74e592d0e9",
         "panel_scale": 0.92,
         "width": 1080
       },
       "aq26-x-briefing.jpg": {
-        "bytes": 154860,
+        "bytes": 164355,
         "height": 900,
-        "input_sha256": "f1fe176a8663cca0946ac6d8d716f1044cb37baf6d2c3db8156792669f80475f",
-        "output_sha256": "e0e8589253fad985b94b52746b6dddd8117bc01594de9b2381f03ad0ec9bea02",
+        "input_sha256": "632f63c820801fe05720a786ef88133b0ef0c3d200e033c4dec2e2912433f724",
+        "output_sha256": "b66f2f2c1b24b099c1f5ef82bb999d737c892f8155a80927ab33e0ed1512a3cf",
         "panel_scale": 0.92,
         "width": 1600
       }
@@ -354,7 +354,7 @@
       "source": "user_supplied_weekly_asset_08_2026-07-18",
       "width": 1080
     },
-    "selection_date": "2026-10-19",
+    "selection_date": "2026-11-02",
     "source_attribution_allowed": false,
     "strict_rotation": true,
     "weekday": "monday"

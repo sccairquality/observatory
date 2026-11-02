@@ -2,25 +2,27 @@
   "claim_boundary": "Successful access or record download does not establish validity, independent corroboration, source attribution, causation, permit breach, exposure or health effect.",
   "data_universe": {
     "availability_counts": {
-      "actual_operational": 8,
-      "actual_partial": 12,
-      "degraded": 1,
+      "actual_operational": 9,
+      "actual_partial": 13,
       "disabled": 1,
-      "potential_registered": 32
+      "potential_registered": 42
     },
     "capability_matrix": [
       {
         "authority_families": [
+          "contextual_source",
           "official",
           "provider"
         ],
         "dimension": "ground_measurement_quality",
         "independent_verification_possible": true,
         "operational_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -28,10 +30,17 @@
         "potential_sources": [
           "waqi",
           "defra_aqma",
-          "eea_air_quality"
+          "eea_air_quality",
+          "scottish_air_quality_api",
+          "wales_air_sos",
+          "wales_air_atom",
+          "air_quality_england",
+          "breathe_london_api",
+          "actris_data_portal"
         ],
         "status": "quality_validated",
         "validated_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
@@ -44,10 +53,12 @@
         "dimension": "comparator_and_background",
         "independent_verification_possible": true,
         "operational_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -56,10 +67,17 @@
           "waqi",
           "defra_aqma",
           "eea_air_quality",
-          "emep_ebas"
+          "emep_ebas",
+          "scottish_air_quality_api",
+          "wales_air_sos",
+          "wales_air_atom",
+          "air_quality_england",
+          "breathe_london_api",
+          "actris_data_portal"
         ],
         "status": "quality_validated",
         "validated_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
@@ -215,16 +233,19 @@
       },
       {
         "authority_families": [
+          "contextual_source",
           "official",
           "provider"
         ],
         "dimension": "uncertainty_and_missingness",
         "independent_verification_possible": true,
         "operational_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -232,25 +253,35 @@
         "potential_sources": [
           "waqi",
           "defra_aqma",
-          "eea_air_quality"
+          "eea_air_quality",
+          "scottish_air_quality_api",
+          "wales_air_sos",
+          "wales_air_atom",
+          "air_quality_england",
+          "breathe_london_api",
+          "actris_data_portal"
         ],
         "status": "quality_validated",
         "validated_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       },
       {
         "authority_families": [
+          "contextual_source",
           "official",
           "provider"
         ],
         "dimension": "complete_provenance",
         "independent_verification_possible": true,
         "operational_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "purpleair"
         ],
         "partial_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial",
           "openaq",
           "purpleair"
@@ -258,10 +289,17 @@
         "potential_sources": [
           "waqi",
           "defra_aqma",
-          "eea_air_quality"
+          "eea_air_quality",
+          "scottish_air_quality_api",
+          "wales_air_sos",
+          "wales_air_atom",
+          "air_quality_england",
+          "breathe_london_api",
+          "actris_data_portal"
         ],
         "status": "quality_validated",
         "validated_sources": [
+          "uk_air_sos_current_particle",
           "laqn_imperial"
         ]
       }
@@ -509,7 +547,7 @@
       "search": "Catalogue every actual and potential source with authority, access, licence, cadence, stage and scientific role."
     },
     "schema": "aq26_data_universe_v1",
-    "source_count": 54,
+    "source_count": 65,
     "status": "data_universe_assessed",
     "vvip": {
       "integrity": {
@@ -518,12 +556,12 @@
         "undeclared_outputs": []
       },
       "provenance": {
-        "complete_source_count": 43,
-        "source_count": 54,
+        "complete_source_count": 53,
+        "source_count": 65,
         "status": "gaps_recorded"
       },
       "validation": {
-        "quality_validated_source_count": 1,
+        "quality_validated_source_count": 2,
         "status": "measured_not_assumed"
       },
       "verification": {
@@ -533,29 +571,29 @@
     }
   },
   "purpose": "Single source of truth generated from the complete API/source registry. Disabled archives, credentials, connectivity, metadata, downloaded records, schema validation, quality validation and production usability remain distinct.",
-  "source_count": 54,
+  "source_count": 65,
   "sources": [
     {
-      "actual_stage": "failed",
+      "actual_stage": "quality_validated",
       "authority": "official",
       "cadence": "hourly",
-      "canonical_stage": "failed",
+      "canonical_stage": "production_usable",
       "collector_implemented": true,
-      "collector_status": "Failed",
-      "connectivity_successful": false,
+      "collector_status": "Production usable within stated limitations",
+      "connectivity_successful": true,
       "credential_status": "not_required",
       "expected_stage": "quality_validated",
       "jurisdiction": null,
       "licence": "Open Government Licence",
-      "metadata_discovered": false,
+      "metadata_discovered": true,
       "metadata_or_index_count": 0,
-      "next_action": "Repair and retest the collector before use.",
-      "production_ready": false,
-      "quality_validated": false,
-      "record_count": 0,
-      "records_downloaded": false,
-      "records_or_targets": 0,
-      "records_validated": false,
+      "next_action": "Use only within documented scientific and claim boundaries.",
+      "production_ready": true,
+      "quality_validated": true,
+      "record_count": 237,
+      "records_downloaded": true,
+      "records_or_targets": 237,
+      "records_validated": true,
       "role": "ground_measurement",
       "secret_status": "not_required",
       "source": "Defra UK-AIR Sensor Observation Service",
@@ -564,7 +602,7 @@
       "source_registers": [
         "api_sources"
       ],
-      "status_detail": "implemented_collector",
+      "status_detail": "implemented_records_acquired",
       "target_linkage_validated": false
     },
     {
@@ -617,9 +655,9 @@
       "next_action": "Complete comparator, meteorology and competing-source validation.",
       "production_ready": false,
       "quality_validated": true,
-      "record_count": 744,
+      "record_count": 874,
       "records_downloaded": true,
-      "records_or_targets": 744,
+      "records_or_targets": 874,
       "records_validated": true,
       "role": "monitoring_context_only",
       "secret_status": "not_required",
@@ -650,9 +688,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 22994,
+      "record_count": 22454,
       "records_downloaded": true,
-      "records_or_targets": 22994,
+      "records_or_targets": 22454,
       "records_validated": false,
       "role": "official_source_candidate",
       "secret_status": "not_required",
@@ -1041,9 +1079,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 214,
+      "record_count": 215,
       "records_downloaded": true,
-      "records_or_targets": 214,
+      "records_or_targets": 215,
       "records_validated": false,
       "role": "low_cost_sensor_network",
       "secret_status": "present",
@@ -1477,20 +1515,20 @@
       "target_linkage_validated": false
     },
     {
-      "actual_stage": "not_configured",
+      "actual_stage": "credential_present",
       "authority": "contextual_source",
       "cadence": "monthly",
-      "canonical_stage": "not_configured",
+      "canonical_stage": "credential_present",
       "collector_implemented": false,
-      "collector_status": "Not configured",
+      "collector_status": "Credential present; not harvested",
       "connectivity_successful": false,
-      "credential_status": "missing",
+      "credential_status": "present",
       "expected_stage": "not_configured",
       "jurisdiction": "Great_Britain",
       "licence": "OS_terms_check",
       "metadata_discovered": false,
       "metadata_or_index_count": 0,
-      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "next_action": "Run a minimal authenticated sample retrieval and validation test.",
       "production_ready": false,
       "quality_validated": false,
       "record_count": 0,
@@ -1498,7 +1536,7 @@
       "records_or_targets": 0,
       "records_validated": false,
       "role": "geospatial_context_only",
-      "secret_status": "missing",
+      "secret_status": "present",
       "source": "Ordnance Survey Data Hub",
       "source_class": "geospatial",
       "source_id": "os_datahub",
@@ -1909,9 +1947,9 @@
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
       "production_ready": false,
       "quality_validated": false,
-      "record_count": 277,
+      "record_count": 304,
       "records_downloaded": true,
-      "records_or_targets": 277,
+      "records_or_targets": 304,
       "records_validated": false,
       "role": "wildfire_and_burning_confounder",
       "secret_status": "present",
@@ -2275,14 +2313,366 @@
       ],
       "status_detail": "registered_source_pending_collector",
       "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "England_local",
+      "licence": "OGL_and_provider_terms_check",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "official_local_monitoring_inventory_and_aggregation",
+      "secret_status": "not_required",
+      "source": "UK-AIR locally-managed automatic monitoring aggregation",
+      "source_class": "official_local_air_quality_monitoring",
+      "source_id": "uk_air_locally_managed_automatic",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "UK",
+      "licence": "OGL_check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_ground_monitoring_access_route",
+      "secret_status": "not_required",
+      "source": "Defra Get air pollution data service",
+      "source_class": "official_air_quality_download",
+      "source_id": "defra_get_air_pollution_data",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "hourly_or_provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Scotland",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_devolved_ground_monitoring",
+      "secret_status": "not_required",
+      "source": "Scottish Air Quality public API",
+      "source_class": "official_air_quality_monitoring",
+      "source_id": "scottish_air_quality_api",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "hourly_or_provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Wales",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_devolved_ground_monitoring",
+      "secret_status": "not_required",
+      "source": "Air Quality in Wales Sensor Observation Service",
+      "source_class": "official_air_quality_monitoring",
+      "source_id": "wales_air_sos",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Wales",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_devolved_bulk_and_metadata",
+      "secret_status": "not_required",
+      "source": "Air Quality in Wales Atom download services",
+      "source_class": "official_air_quality_download",
+      "source_id": "wales_air_atom",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "hourly_or_provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Northern_Ireland",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_devolved_ground_monitoring",
+      "secret_status": "not_required",
+      "source": "Northern Ireland Air Sensor Observation Service",
+      "source_class": "official_air_quality_monitoring",
+      "source_id": "ni_air_sos",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "weekly",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Northern_Ireland",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "authoritative_station_inventory_and_metadata",
+      "secret_status": "not_required",
+      "source": "Northern Ireland Air Spatial Object Register",
+      "source_class": "official_air_quality_station_registry",
+      "source_id": "ni_air_spatial_register",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "official",
+      "cadence": "hourly_or_provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "England_local",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "official_local_monitoring_and_station_reconciliation",
+      "secret_status": "not_required",
+      "source": "Air Quality England and participating local networks",
+      "source_class": "official_local_air_quality_monitoring",
+      "source_id": "air_quality_england",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "contextual_source",
+      "cadence": "provider_update_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "London",
+      "licence": "check_current_terms",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "supplementary_spatial_monitoring_only",
+      "secret_status": "not_required",
+      "source": "Breathe London sensor network API",
+      "source_class": "low_cost_sensor_network",
+      "source_id": "breathe_london_api",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "contextual_source",
+      "cadence": "release_aligned",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "Europe_and_UK",
+      "licence": "dataset_specific",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "research_specialist_atmospheric_observations",
+      "secret_status": "not_required",
+      "source": "ACTRIS Data Portal and Metadata API",
+      "source_class": "research_specialist_atmospheric_monitoring",
+      "source_id": "actris_data_portal",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
+    },
+    {
+      "actual_stage": "not_configured",
+      "authority": "contextual_source",
+      "cadence": "on_demand",
+      "canonical_stage": "not_configured",
+      "collector_implemented": false,
+      "collector_status": "Not configured",
+      "connectivity_successful": false,
+      "credential_status": "not_required",
+      "expected_stage": "not_configured",
+      "jurisdiction": "UK",
+      "licence": "software_and_source_dataset_specific",
+      "metadata_discovered": false,
+      "metadata_or_index_count": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review.",
+      "production_ready": false,
+      "quality_validated": false,
+      "record_count": 0,
+      "records_downloaded": false,
+      "records_or_targets": 0,
+      "records_validated": false,
+      "role": "discovery_and_cross_check_only",
+      "secret_status": "not_required",
+      "source": "openair/openairmaps/ukaq UK import ecosystem",
+      "source_class": "derived_analysis_tool",
+      "source_id": "openair_ukaq",
+      "source_registers": [
+        "additional_sources"
+      ],
+      "status_detail": "registered_source_pending_collector",
+      "target_linkage_validated": false
     }
   ],
   "stage_counts": {
     "archive_disabled": 1,
-    "credential_present": 7,
-    "failed": 1,
+    "credential_present": 8,
     "metadata_only": 5,
-    "not_configured": 32,
+    "not_configured": 42,
+    "production_usable": 1,
     "quality_validated": 1,
     "records_downloaded": 7
   },

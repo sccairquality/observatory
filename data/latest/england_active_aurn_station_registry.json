@@ -447,6 +447,30 @@
   {
     "configured_streams": [
       {
+        "pollutant": "PM2.5",
+        "start_date": "2026-10-14"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-14"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01179",
+    "environment_type": "Urban Background",
+    "latitude": 53.78783,
+    "longitude": -2.221806,
+    "name": "Burnley Wycoller",
+    "region": "North West",
+    "site_id": "BWDP",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01179"
+  },
+  {
+    "configured_streams": [
+      {
         "pollutant": "PM10",
         "start_date": "2015-03-01"
       },
@@ -844,6 +868,25 @@
   {
     "configured_streams": [
       {
+        "pollutant": "PM2.5",
+        "start_date": "2026-10-13"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01178",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.416231,
+    "longitude": -2.598262,
+    "name": "Warrington Toll Bar Road",
+    "region": "North West",
+    "site_id": "WATB",
+    "target_pollutants": [
+      "PM2.5"
+    ],
+    "uka_id": "UKA01178"
+  },
+  {
+    "configured_streams": [
+      {
         "pollutant": "NO2",
         "start_date": "2015-03-09"
       }
@@ -1066,6 +1109,30 @@
       "NO2"
     ],
     "uka_id": "UKA00612"
+  },
+  {
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-10-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-27"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01183",
+    "environment_type": "Urban Background",
+    "latitude": 53.718196,
+    "longitude": -1.882981,
+    "name": "Halifax Thrum Hall",
+    "region": "Yorkshire and the Humber",
+    "site_id": "HALT",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01183"
   },
   {
     "configured_streams": [
@@ -1570,6 +1637,30 @@
       "PM10"
     ],
     "uka_id": "UKA01027"
+  },
+  {
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-10-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-12"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01182",
+    "environment_type": "Urban Background",
+    "latitude": 52.919424,
+    "longitude": -0.617384,
+    "name": "Grantham Cherry Orchard",
+    "region": "East Midlands",
+    "site_id": "GRCO",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01182"
   },
   {
     "configured_streams": [],
@@ -2494,6 +2585,30 @@
     "configured_streams": [
       {
         "pollutant": "PM2.5",
+        "start_date": "2026-10-15"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-15"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01180",
+    "environment_type": "Urban Background",
+    "latitude": 52.06119,
+    "longitude": 1.150423,
+    "name": "Ipswich Central",
+    "region": "East of England",
+    "site_id": "IPSC",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01180"
+  },
+  {
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
         "start_date": "2024-11-12"
       },
       {
@@ -3107,6 +3222,30 @@
     "configured_streams": [
       {
         "pollutant": "PM2.5",
+        "start_date": "2026-10-13"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-13"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01181",
+    "environment_type": "Urban Background",
+    "latitude": 51.101421,
+    "longitude": -0.217105,
+    "name": "Crawley Bewbush",
+    "region": "South East",
+    "site_id": "CRBE",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01181"
+  },
+  {
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
         "start_date": "2009-07-01"
       },
       {
@@ -3155,6 +3294,30 @@
       "PM10"
     ],
     "uka_id": "UKA01097"
+  },
+  {
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-10-21"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-10-21"
+      }
+    ],
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01184",
+    "environment_type": "Urban Background",
+    "latitude": 50.858837,
+    "longitude": 0.586997,
+    "name": "Hastings Belmont",
+    "region": "South East",
+    "site_id": "HASB",
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ],
+    "uka_id": "UKA01184"
   },
   {
     "configured_streams": [],

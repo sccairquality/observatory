@@ -405,6 +405,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.221806,
+          53.78783
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01179",
+        "site_id": "BWDP",
+        "name": "Burnley Wycoller",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01179"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.293772,
           53.559029
         ]
@@ -759,6 +781,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.598262,
+          53.416231
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01178",
+        "site_id": "WATB",
+        "name": "Warrington Toll Bar Road",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01178"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.73168,
           53.365391
         ]
@@ -952,6 +995,28 @@
           "NO2"
         ],
         "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00612"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.882981,
+          53.718196
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01183",
+        "site_id": "HALT",
+        "name": "Halifax Thrum Hall",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01183"
       }
     },
     {
@@ -1379,6 +1444,28 @@
           "PM10"
         ],
         "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.617384,
+          52.919424
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01182",
+        "site_id": "GRCO",
+        "name": "Grantham Cherry Orchard",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01182"
       }
     },
     {
@@ -2221,6 +2308,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.150423,
+          52.06119
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01180",
+        "site_id": "IPSC",
+        "name": "Ipswich Central",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01180"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.46211,
           51.892293
         ]
@@ -2901,6 +3010,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.217105,
+          51.101421
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01181",
+        "site_id": "CRBE",
+        "name": "Crawley Bewbush",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01181"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.271611,
           50.805778
         ]
@@ -2939,6 +3070,28 @@
           "PM10"
         ],
         "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.586997,
+          50.858837
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01184",
+        "site_id": "HASB",
+        "name": "Hastings Belmont",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01184"
       }
     },
     {

@@ -2,12 +2,12 @@
   "evidence_classes": [],
   "evidence_funnel": [
     {
-      "count": 24,
+      "count": 237,
       "label": "Harvested pollutant time series",
       "note": "current primary-source measurement streams"
     },
     {
-      "count": 5,
+      "count": 130,
       "label": "Fresh identifiable physical sites",
       "note": "sites, not pollutant series"
     },
@@ -38,8 +38,8 @@
     "laqn_endpoint_count": 5,
     "laqn_endpoint_ok_count": 5,
     "ok": true,
-    "uk_air_entries": 465,
-    "uk_air_source_links": 6695,
+    "uk_air_entries": 472,
+    "uk_air_source_links": 6723,
     "uk_air_years": [
       2026,
       2025
@@ -170,10 +170,10 @@
   "summary_metrics": {
     "drive_inventory": 0,
     "executed_cross_source_joins": 0,
-    "fresh_physical_sites": 5,
+    "fresh_physical_sites": 130,
     "legacy_archive_inventory": 0,
     "official_permit_or_filing_records": 0,
-    "primary_measurement_timeseries": 24,
+    "primary_measurement_timeseries": 237,
     "public_claim_level": "Screening and readiness notes only",
     "public_safe_records": 0,
     "quarantined_legacy_records": 0,
