@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-02T19:39:47+00:00",
+  "generated_at_utc": "2026-11-13T04:57:58+00:00",
   "months": {
     "2026-08": [
       "2026-08-30"
@@ -36,12 +36,92 @@
       "2026-10-04"
     ],
     "2026-11": [
+      "2026-11-13",
+      "2026-11-11",
+      "2026-11-10",
+      "2026-11-09",
+      "2026-11-03",
       "2026-11-02",
       "2026-11-01"
     ]
   },
-  "release_count": 30,
+  "release_count": 35,
   "releases": [
+    {
+      "release_date": "2026-11-13",
+      "run_mode": "weekly",
+      "source_commit_sha": "69aec9779993e14689ed1413acc8ec7dc5333166",
+      "source_run_id": "43368113908",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-11",
+      "run_mode": "daily",
+      "source_commit_sha": "d2184854da828178873c4e1fbc583870724d50ac",
+      "source_run_id": "43065128684",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-10",
+      "run_mode": "daily",
+      "source_commit_sha": "2cbe0a347cb0350436251d74b711a5fd140d1c32",
+      "source_run_id": "42860842016",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-09",
+      "run_mode": "weekly",
+      "source_commit_sha": "ae0fdc57f0e5c70419000e34690b0ab202268db2",
+      "source_run_id": "42690738894",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-03",
+      "run_mode": "daily",
+      "source_commit_sha": "ae0fdc57f0e5c70419000e34690b0ab202268db2",
+      "source_run_id": "41680439969",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
     {
       "release_date": "2026-11-02",
       "run_mode": "weekly",
@@ -541,7 +621,14 @@
       "2026-10-29"
     ],
     "2026-W45": [
+      "2026-11-03",
       "2026-11-02"
+    ],
+    "2026-W46": [
+      "2026-11-13",
+      "2026-11-11",
+      "2026-11-10",
+      "2026-11-09"
     ]
   }
 }

@@ -6,8 +6,8 @@
   "evidence_total": 0,
   "executed_join_count": 0,
   "external_review_ready": "ready_for_methodology_and_data_gap_interrogation",
-  "fresh_measurement_timeseries_count": 232,
-  "fresh_physical_site_count": 130,
+  "fresh_measurement_timeseries_count": 193,
+  "fresh_physical_site_count": 108,
   "gates": {
     "comparator_checked": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
     "meteorology_checked": "official_meteorology_acquired_no_event_alignment_not_applicable",

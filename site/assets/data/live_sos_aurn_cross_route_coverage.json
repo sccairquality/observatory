@@ -8,8 +8,8 @@
   "live_sos_matched_configured_pm_site_count": 107,
   "live_sos_sites_without_valid_30day_official_pm_evidence_count": 1,
   "live_source_route": "Defra UK-AIR Sensor Observation Service (SOS)",
-  "missing_live_sos_sites_with_valid_30day_official_pm_evidence_count": 22,
-  "missing_live_sos_sites_without_valid_30day_official_pm_evidence_count": 8,
+  "missing_live_sos_sites_with_valid_30day_official_pm_evidence_count": 27,
+  "missing_live_sos_sites_without_valid_30day_official_pm_evidence_count": 3,
   "national_publication_ready": false,
   "national_review_status": "partial_england_network_review",
   "operational_scope": "England",
@@ -76,7 +76,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
       "live_sos_eligible_match": false,
       "name": "Grantham Cherry Orchard",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01182",
@@ -87,7 +87,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01182",
-      "valid_30day_official_hourly_pm_evidence": false
+      "valid_30day_official_hourly_pm_evidence": true
     },
     {
       "cross_route_status": "live_sos_and_valid_30day",
@@ -229,7 +229,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
       "live_sos_eligible_match": false,
       "name": "Ipswich Central",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01180",
@@ -240,7 +240,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01180",
-      "valid_30day_official_hourly_pm_evidence": false
+      "valid_30day_official_hourly_pm_evidence": true
     },
     {
       "cross_route_status": "live_sos_and_valid_30day",
@@ -642,7 +642,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
       "live_sos_eligible_match": false,
       "name": "Burnley Wycoller",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01179",
@@ -653,7 +653,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01179",
-      "valid_30day_official_hourly_pm_evidence": false
+      "valid_30day_official_hourly_pm_evidence": true
     },
     {
       "cross_route_status": "live_sos_and_valid_30day",
@@ -848,7 +848,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
       "live_sos_eligible_match": false,
       "name": "Warrington Toll Bar Road",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01178",
@@ -858,7 +858,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01178",
-      "valid_30day_official_hourly_pm_evidence": false
+      "valid_30day_official_hourly_pm_evidence": true
     },
     {
       "cross_route_status": "live_sos_and_valid_30day",
@@ -1705,7 +1705,7 @@
       "valid_30day_official_hourly_pm_evidence": true
     },
     {
-      "cross_route_status": "missing_from_live_sos_and_no_valid_30day_pm_evidence",
+      "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
       "live_sos_eligible_match": false,
       "name": "Halifax Thrum Hall",
       "official_station_detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01183",
@@ -1716,7 +1716,7 @@
         "PM2.5"
       ],
       "uka_id": "UKA01183",
-      "valid_30day_official_hourly_pm_evidence": false
+      "valid_30day_official_hourly_pm_evidence": true
     },
     {
       "cross_route_status": "missing_live_sos_but_valid_30day_official_evidence",
@@ -1915,6 +1915,6 @@
     }
   ],
   "status": "reconciled",
-  "valid_30day_official_hourly_pm_site_count": 128,
-  "valid_30day_pm_coverage_of_dynamic_registry_percent": 93.4
+  "valid_30day_official_hourly_pm_site_count": 133,
+  "valid_30day_pm_coverage_of_dynamic_registry_percent": 97.1
 }

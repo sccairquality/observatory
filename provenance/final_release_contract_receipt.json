@@ -2,39 +2,39 @@
   "authoritative_status": "outputs/api/public_release_status.json",
   "authoritative_summary": "outputs/api/public_release_summary.json",
   "canonical_monitoring_snapshot": "outputs/primary_ground/canonical_monitoring_snapshot.json",
-  "canonical_monitoring_snapshot_sha256": "4ea14e8d5cdfa5ae6da9707c96c98f61178f3415013d60ce362da59a7047cc01",
-  "contract_sha256": "02165075e8d513a4d9098a9c610efd8d6da9b1bd049798ccf68a738d80ea7efd",
+  "canonical_monitoring_snapshot_sha256": "9ad9067a407039ff1fdf6611a5a3d54a8080653890da35405357d0da6c4b1b36",
+  "contract_sha256": "3291645ccd65660e4b39d5dac834e2066d84baee067f764c3bfa6aee6c5c947f",
   "measurement": {
-    "analysis_excluded_observation_count": 749,
-    "analysis_window_valid_observation_count": 16078,
+    "analysis_excluded_observation_count": 3168,
+    "analysis_window_valid_observation_count": 13882,
     "count_reconciliation_passed": true,
     "data_capture_percent": 100.0,
-    "fresh_physical_site_count": 130,
-    "fresh_timeseries_count": 232,
+    "fresh_physical_site_count": 108,
+    "fresh_timeseries_count": 193,
     "physical_site_count": 133,
-    "provider_expected_slot_count": 16827,
+    "provider_expected_slot_count": 17050,
     "provider_missing_slot_count": 0,
-    "provider_numeric_observation_count": 16827,
-    "quality_accepted_data_capture_percent": 95.5,
+    "provider_numeric_observation_count": 17050,
+    "quality_accepted_data_capture_percent": 81.4,
     "timeseries_count": 237
   },
   "provider_site_identity_count": 133,
-  "public_release_status_sha256": "95f48503c42beec8d287dbfdff47690928f59b338a3add77622970a3d503868c",
-  "public_release_summary_sha256": "71122ffeca16bba8bf41a7f398bc66c15c502ba30d15b43179ee86c2e392ceed",
+  "public_release_status_sha256": "0be8dd98270fa18f8a6a28dc5e31576be65504d09588c12117146a37ea9af703",
+  "public_release_summary_sha256": "0b53915b224bb6a9f172cbcfa3b7f8e74f4273329d157db561d2b4657e1ade70",
   "publication_authority": false,
   "reporting_physical_site_count": 131,
   "reporting_provider_site_identity_count": 131,
   "schema": "aq26_final_release_contract_receipt_v1",
-  "sealed_at_utc": "2026-11-02T19:35:03+00:00",
+  "sealed_at_utc": "2026-11-13T04:55:46+00:00",
   "site_status_sha256": {
-    "site_public/assets/data/public-release-status.json": "95f48503c42beec8d287dbfdff47690928f59b338a3add77622970a3d503868c",
-    "site_test/assets/data/public-release-status.json": "95f48503c42beec8d287dbfdff47690928f59b338a3add77622970a3d503868c",
-    "site_unredacted/assets/data/public-release-status.json": "95f48503c42beec8d287dbfdff47690928f59b338a3add77622970a3d503868c"
+    "site_public/assets/data/public-release-status.json": "0be8dd98270fa18f8a6a28dc5e31576be65504d09588c12117146a37ea9af703",
+    "site_test/assets/data/public-release-status.json": "0be8dd98270fa18f8a6a28dc5e31576be65504d09588c12117146a37ea9af703",
+    "site_unredacted/assets/data/public-release-status.json": "0be8dd98270fa18f8a6a28dc5e31576be65504d09588c12117146a37ea9af703"
   },
   "site_summary_sha256": {
-    "site_public/assets/data/public-release-summary.json": "71122ffeca16bba8bf41a7f398bc66c15c502ba30d15b43179ee86c2e392ceed",
-    "site_test/assets/data/public-release-summary.json": "71122ffeca16bba8bf41a7f398bc66c15c502ba30d15b43179ee86c2e392ceed",
-    "site_unredacted/assets/data/public-release-summary.json": "71122ffeca16bba8bf41a7f398bc66c15c502ba30d15b43179ee86c2e392ceed"
+    "site_public/assets/data/public-release-summary.json": "0b53915b224bb6a9f172cbcfa3b7f8e74f4273329d157db561d2b4657e1ade70",
+    "site_test/assets/data/public-release-summary.json": "0b53915b224bb6a9f172cbcfa3b7f8e74f4273329d157db561d2b4657e1ade70",
+    "site_unredacted/assets/data/public-release-summary.json": "0b53915b224bb6a9f172cbcfa3b7f8e74f4273329d157db561d2b4657e1ade70"
   },
   "status": "pass"
 }

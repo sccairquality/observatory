@@ -22,7 +22,7 @@
     "status": "not_assessable_incomplete_england_coverage"
   },
   "claim_boundary": "Screening evidence only — no source attribution, causal finding, permit-breach determination, exposure estimate or health conclusion.",
-  "contract_sha256": "02165075e8d513a4d9098a9c610efd8d6da9b1bd049798ccf68a738d80ea7efd",
+  "contract_sha256": "3291645ccd65660e4b39d5dac834e2066d84baee067f764c3bfa6aee6c5c947f",
   "convergence": {
     "applicable_join_count": 0,
     "catalogue_pending_is_episode_evidence": false,
@@ -76,7 +76,7 @@
         "label": "eligible PM2.5 screening assessments",
         "scope": "current operational PM2.5 screen",
         "unit": "assessments",
-        "value": 122
+        "value": 101
       },
       "england_active_aurn_sites": {
         "definition": "Active English AURN sites discovered for the completed 30-day official-monitoring review.",
@@ -97,42 +97,42 @@
         "label": "expected configured pollutant-day observations",
         "scope": "England 30-day review",
         "unit": "pollutant-day observations",
-        "value": 10172
+        "value": 10308
       },
       "england_reporting_review_stations": {
         "definition": "Configured English AURN stations contributing at least one valid daily mean during the review period.",
         "label": "reporting stations in the 30-day review",
         "scope": "England 30-day review",
         "unit": "stations",
-        "value": 141
+        "value": 146
       },
       "england_unique_station_days": {
         "definition": "Distinct station/date pairs contributing at least one valid pollutant daily mean.",
         "label": "unique station-days with valid evidence",
         "scope": "England 30-day review",
         "unit": "unique station-days",
-        "value": 4186
+        "value": 4265
       },
       "england_valid_pollutant_day_observations": {
         "definition": "Valid station/date/pollutant daily-mean rows in the England 30-day review.",
         "label": "valid pollutant-day observations",
         "scope": "England 30-day review",
         "unit": "pollutant-day observations",
-        "value": 9728
+        "value": 9791
       },
       "fresh_physical_sites": {
         "definition": "Resolved physical sites with at least one usable observation inside the declared freshness window.",
         "label": "fresh resolved physical monitoring sites",
         "scope": "current live monitoring screen",
         "unit": "physical sites",
-        "value": 130
+        "value": 108
       },
       "fresh_pollutant_streams": {
         "definition": "Configured streams with recent usable observations inside the declared freshness window.",
         "label": "fresh pollutant time series",
         "scope": "current live monitoring screen",
         "unit": "time series",
-        "value": 232
+        "value": 193
       },
       "numeric_reporting_sites": {
         "definition": "Resolved physical sites with at least one numeric observation in the current provider response.",
@@ -160,22 +160,22 @@
       "england_configured_stream_day_completeness_pct": {
         "denominator": "england_expected_configured_pollutant_day_observations",
         "numerator": "england_valid_pollutant_day_observations",
-        "value": 95.6
+        "value": 95.0
       },
       "england_reporting_station_coverage_pct": {
         "denominator": "england_configured_review_stations",
         "numerator": "england_reporting_review_stations",
-        "value": 94.0
+        "value": 97.3
       },
       "fresh_physical_site_coverage_pct": {
         "denominator": "resolved_physical_sites",
         "numerator": "fresh_physical_sites",
-        "value": 97.7
+        "value": 81.2
       },
       "fresh_stream_coverage_pct": {
         "denominator": "configured_pollutant_streams",
         "numerator": "fresh_pollutant_streams",
-        "value": 97.9
+        "value": 81.4
       }
     },
     "rule": "Every public percentage must name one numerator key and one denominator key from this registry.",
@@ -183,7 +183,7 @@
   },
   "england_30_day_review": {
     "active_aurn_sites_discovered": 179,
-    "configured_stream_day_completeness_percent": 95.6,
+    "configured_stream_day_completeness_percent": 95.0,
     "configured_target_pollutant_station_count": 150,
     "data_posture": "provisional and ratified official AURN automatic measurements, status flags preserved",
     "definitions": {
@@ -192,33 +192,33 @@
       "unique_station_day": "One distinct station/date pair with at least one valid pollutant daily mean.",
       "who_context_pollutant_day_observation": "A valid pollutant-day observation above the pollutant-specific WHO 2021 24-hour contextual reference; not a UK legal exceedance."
     },
-    "expected_configured_pollutant_day_observations": 10172,
-    "provisional_or_as_supplied_pollutant_day_observations": 9728,
-    "provisional_or_as_supplied_station_days": 9728,
+    "expected_configured_pollutant_day_observations": 10308,
+    "provisional_or_as_supplied_pollutant_day_observations": 9791,
+    "provisional_or_as_supplied_station_days": 9791,
     "provisional_status_public_label": "Official automatic monitoring data are provisional or as supplied unless explicitly marked ratified and may later be revised by the original provider.",
     "ratified_pollutant_day_observations": 0,
     "ratified_station_days": 0,
-    "reporting_station_count": 141,
+    "reporting_station_count": 146,
     "schema": "aq26_public_england_metrics_v2",
-    "unique_station_days": 4186,
-    "valid_pollutant_day_observations": 9728,
-    "who_context_pollutant_day_observations": 595,
+    "unique_station_days": 4265,
+    "valid_pollutant_day_observations": 9791,
+    "who_context_pollutant_day_observations": 1583,
     "who_context_pollutant_day_observations_by_pollutant": {
-      "NO2": 352,
-      "PM10": 0,
-      "PM2.5": 243
+      "NO2": 621,
+      "PM10": 144,
+      "PM2.5": 818
     },
-    "who_context_station_days": 595,
+    "who_context_station_days": 1583,
     "who_context_station_days_by_pollutant": {
-      "NO2": 352,
-      "PM10": 0,
-      "PM2.5": 243
+      "NO2": 621,
+      "PM10": 144,
+      "PM2.5": 818
     }
   },
-  "generated_at_utc": "2026-11-02T19:32:44+00:00",
+  "generated_at_utc": "2026-11-13T04:53:28+00:00",
   "measurement": {
-    "analysis_excluded_observation_count": 749,
-    "analysis_window_valid_observation_count": 16078,
+    "analysis_excluded_observation_count": 3168,
+    "analysis_window_valid_observation_count": 13882,
     "catalogued_candidate_site_count": 133,
     "count_definitions": {
       "analysis_excluded_observation_count": "Downloaded numeric observations excluded from the analysis window or project quality rules.",
@@ -234,49 +234,49 @@
     },
     "count_reconciliation_passed": true,
     "data_capture_percent": 100.0,
-    "eligible_pm25_screening_assessment_count": 122,
+    "eligible_pm25_screening_assessment_count": 101,
     "empty_timeseries_count": 4,
-    "fresh_physical_site_count": 130,
-    "fresh_physical_site_coverage_pct": 98,
-    "fresh_timeseries_count": 232,
+    "fresh_physical_site_count": 108,
+    "fresh_physical_site_coverage_pct": 81,
+    "fresh_timeseries_count": 193,
     "freshness_diagnostic": {
       "claim_boundary": "This diagnostic concerns data recency and provider/network timing only. It does not describe air quality, source contribution, compliance, exposure or health risk.",
-      "fresh_reporting_site_count": 130,
+      "fresh_reporting_site_count": 108,
       "freshness_threshold_hours": 4.0,
       "interpretation": "Some reporting sites met the freshness threshold and others did not.",
       "lag_pattern": "mixed_fresh_and_stale_sites",
-      "median_reporting_age_hours": 1.533,
-      "newest_reporting_age_hours": 1.533,
+      "median_reporting_age_hours": 0.88,
+      "newest_reporting_age_hours": 0.88,
       "no_numeric_data_site_count": 2,
-      "oldest_reporting_age_hours": 13.533,
+      "oldest_reporting_age_hours": 67.88,
       "reporting_site_count": 131,
-      "similar_timestamp_cluster_share": 0.985,
-      "stale_reporting_site_count": 1,
+      "similar_timestamp_cluster_share": 0.824,
+      "stale_reporting_site_count": 23,
       "status": "partial_freshness"
     },
     "identified_physical_site_count": 133,
-    "median_reporting_age_hours": 1.533,
-    "newest_reporting_age_hours": 1.533,
-    "oldest_reporting_age_hours": 13.533,
+    "median_reporting_age_hours": 0.88,
+    "newest_reporting_age_hours": 0.88,
+    "oldest_reporting_age_hours": 67.88,
     "physical_site_count": 133,
     "pollutant_label": "PM₁₀ and PM₂.₅",
     "pollutants": {
       "pm10": 110,
       "pm2_5": 127
     },
-    "provider_expected_slot_count": 16827,
+    "provider_expected_slot_count": 17050,
     "provider_lag_pattern": "mixed_fresh_and_stale_sites",
     "provider_missing_slot_count": 0,
-    "provider_numeric_observation_count": 16827,
+    "provider_numeric_observation_count": 17050,
     "provider_site_identity_count": 133,
-    "quality_accepted_data_capture_percent": 95.5,
+    "quality_accepted_data_capture_percent": 81.4,
     "quality_flags": {
-      "incomplete_24h": 8,
-      "invalid_latest_values": 8,
+      "incomplete_24h": 39,
+      "invalid_latest_values": 44,
       "missing_coordinates": 0,
-      "negative_sentinels_removed": 16,
+      "negative_sentinels_removed": 86,
       "no_recent_values": 4,
-      "stale_over_4h": 1
+      "stale_over_4h": 40
     },
     "reporting_physical_site_count": 131,
     "reporting_provider_site_identity_count": 131,

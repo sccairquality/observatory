@@ -20,8 +20,8 @@
   ],
   "drive_role": "archive_disabled_not_collected",
   "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
-  "fresh_physical_site_count": 130,
-  "generated_at_utc": "2026-11-02T19:32:00+00:00",
+  "fresh_physical_site_count": 108,
+  "generated_at_utc": "2026-11-13T04:52:49+00:00",
   "implementation_counts": {
     "archive_disabled": 1,
     "collector_not_yet_implemented": 3,
@@ -40,12 +40,12 @@
     "timeseries_count": "Unique monitoring streams defined by source, station, pollutant, method, unit and averaging period."
   },
   "primary_measurement_physical_site_count": 133,
-  "primary_measurement_provider_expected_slot_count": 16827,
+  "primary_measurement_provider_expected_slot_count": 17050,
   "primary_measurement_provider_missing_slot_count": 0,
-  "primary_measurement_provider_numeric_observation_count": 16827,
+  "primary_measurement_provider_numeric_observation_count": 17050,
   "primary_measurement_sources_ready": 2,
   "primary_measurement_timeseries_count": 237,
-  "primary_measurement_valid_observation_count": 16078,
+  "primary_measurement_valid_observation_count": 13882,
   "primary_mode": "api_first_environmental_observatory",
   "reporting_measurement_timeseries_count": 233,
   "reporting_physical_site_count": 131,
@@ -126,7 +126,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 874,
+      "record_count": 722,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -154,7 +154,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 22454,
+      "record_count": 22466,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -458,7 +458,7 @@
       "name": "NASA Earthdata Common Metadata Repository",
       "ok": true,
       "priority": null,
-      "record_count": 30,
+      "record_count": 28,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -485,7 +485,7 @@
       "name": "PurpleAir API",
       "ok": true,
       "priority": null,
-      "record_count": 215,
+      "record_count": 222,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1218,7 +1218,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 304,
+      "record_count": 166,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [

@@ -3,7 +3,7 @@
   "catalogue_source_count": 65,
   "context_streams": {
     "ea_target_matches": 0,
-    "firms_records": 304
+    "firms_records": 166
   },
   "credential_summary": {
     "configured_but_unverified_count": 11,
@@ -19,8 +19,8 @@
   },
   "current_particle": {
     "coordinate_corrections": 237,
-    "fresh_physical_site_count": 130,
-    "fresh_timeseries_count": 232,
+    "fresh_physical_site_count": 108,
+    "fresh_timeseries_count": 193,
     "missing_coordinates": 0,
     "physical_site_count": 133,
     "pm10_timeseries": 110,
@@ -41,7 +41,7 @@
     "public_safe_candidates": 0,
     "substantive_candidates": 0
   },
-  "generated_at_utc": "2026-11-02T19:32:00Z",
+  "generated_at_utc": "2026-11-13T04:52:49Z",
   "live_release_ready": true,
   "live_sos_current_coverage": {
     "all_england_regions_evidenced": true,
@@ -66,7 +66,7 @@
     "fallback_used": false,
     "preferred_uk_air_collection_succeeded": true,
     "preferred_uk_air_completed": true,
-    "record_count": 16827,
+    "record_count": 17050,
     "source_id": "uk_air_sos_current_particle",
     "source_name": "Defra UK-AIR Sensor Observation Service",
     "stage": "quality_validated",
@@ -75,14 +75,14 @@
   "release_gates": {
     "authoritative_public_summary": "outputs/api/public_release_summary.json",
     "claim_boundary": "The public website may report verified acquisition, quality screening and explicitly bounded record-linkage results. It may not convert them into source attribution or causal findings.",
-    "contract_sha256": "0aa0217aeab0bf06d8c0e36d01000c74ca9e135f176cd356ead426927e32313c",
+    "contract_sha256": "32de8196a060ecfbaf9b27bb97ef3cdc65807fea3c88f416405995234154113d",
     "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
     "current_evidence_geography": "England",
     "data_availability_publication_allowed": true,
     "england_wide_current_assessment_allowed": false,
     "environmental_assessment_message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
     "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
-    "generated_at_utc": "2026-11-02T19:32:44+00:00",
+    "generated_at_utc": "2026-11-13T04:53:28+00:00",
     "harvest_integrity": {
       "complete_mandatory_harvest": true,
       "mandatory_context_harvest_status": "passed",
@@ -105,7 +105,7 @@
       "status": "coverage_gap"
     },
     "programme_scope": "England",
-    "public_release_summary_sha256": "4e8079c99316d6cd8eef54fde4474094be503001d0da4ea7c5ceac4e84d46ffe",
+    "public_release_summary_sha256": "1d077c99c216e0efc4fc56921d646807484e945ab84e07c42bbfa28003de140b",
     "public_wording": "Acquisition status distinguishes primary monitoring evidence from mandatory contextual sources. A degraded context harvest may support a clearly labelled data-availability release, but not an environmental episode, source, compliance, exposure or health finding. No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met. No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
     "run_cadence": "weekly",
     "scientific_claim_publication_allowed": false,
