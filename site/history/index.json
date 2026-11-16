@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-13T04:57:58+00:00",
+  "generated_at_utc": "2026-11-16T19:45:31+00:00",
   "months": {
     "2026-08": [
       "2026-08-30"
@@ -36,6 +36,8 @@
       "2026-10-04"
     ],
     "2026-11": [
+      "2026-11-16",
+      "2026-11-14",
       "2026-11-13",
       "2026-11-11",
       "2026-11-10",
@@ -45,13 +47,43 @@
       "2026-11-01"
     ]
   },
-  "release_count": 35,
+  "release_count": 37,
   "releases": [
     {
-      "release_date": "2026-11-13",
+      "release_date": "2026-11-16",
       "run_mode": "weekly",
-      "source_commit_sha": "69aec9779993e14689ed1413acc8ec7dc5333166",
-      "source_run_id": "43368113908",
+      "source_commit_sha": "d14a8e1e402b1364800d7ef3f1f60a7833c1df7c",
+      "source_run_id": "43941162536",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-14",
+      "run_mode": "daily",
+      "source_commit_sha": "d14a8e1e402b1364800d7ef3f1f60a7833c1df7c",
+      "source_run_id": "43612174847",
+      "summary": {
+        "contextual_convergence_ready": null,
+        "episode_investigation_ready": null,
+        "fresh_physical_site_count": null,
+        "live_release_ready": null,
+        "measurement_publication_ready": null,
+        "physical_site_count": null,
+        "timeseries_count": null
+      }
+    },
+    {
+      "release_date": "2026-11-13",
+      "run_mode": "daily",
+      "source_commit_sha": "d14a8e1e402b1364800d7ef3f1f60a7833c1df7c",
+      "source_run_id": "43470535991",
       "summary": {
         "contextual_convergence_ready": null,
         "episode_investigation_ready": null,
@@ -625,10 +657,14 @@
       "2026-11-02"
     ],
     "2026-W46": [
+      "2026-11-14",
       "2026-11-13",
       "2026-11-11",
       "2026-11-10",
       "2026-11-09"
+    ],
+    "2026-W47": [
+      "2026-11-16"
     ]
   }
 }

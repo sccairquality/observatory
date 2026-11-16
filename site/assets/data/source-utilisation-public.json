@@ -21,7 +21,7 @@
       "collector_status": "Quality checks passed; target linkage pending",
       "credential_status": "not_required",
       "next_action": "Complete comparator, meteorology and competing-source validation.",
-      "records_or_targets": 722,
+      "records_or_targets": 872,
       "role": "monitoring_context_only",
       "source": "Imperial College London LAQN API"
     },
@@ -29,7 +29,7 @@
       "collector_status": "Records downloaded; validation pending",
       "credential_status": "not_required",
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
-      "records_or_targets": 22466,
+      "records_or_targets": 22467,
       "role": "official_source_candidate",
       "source": "Environment Agency Public Register"
     },
@@ -117,7 +117,7 @@
       "collector_status": "Metadata/index only",
       "credential_status": "present",
       "next_action": "Harvest and validate underlying records; metadata is not measurement evidence.",
-      "records_or_targets": 28,
+      "records_or_targets": 23,
       "role": "satellite_catalogue",
       "source": "NASA Earthdata Common Metadata Repository"
     },
@@ -125,7 +125,7 @@
       "collector_status": "Records downloaded; validation pending",
       "credential_status": "present",
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
-      "records_or_targets": 222,
+      "records_or_targets": 225,
       "role": "low_cost_sensor_network",
       "source": "PurpleAir API"
     },
@@ -341,7 +341,7 @@
       "collector_status": "Records downloaded; validation pending",
       "credential_status": "present",
       "next_action": "Validate schema, units, time basis, quality flags and lineage.",
-      "records_or_targets": 166,
+      "records_or_targets": 240,
       "role": "wildfire_and_burning_confounder",
       "source": "NASA FIRMS VIIRS and MODIS active fire data"
     },

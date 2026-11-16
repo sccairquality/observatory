@@ -69,7 +69,7 @@
   "evidence_policy": "Every known stream is retained with an explicit stage and disposition. Credentials, connectivity, metadata, records, validation and production usability are distinct. No missing stream may be silently treated as considered.",
   "failed_sources": [],
   "fallback_source_used": null,
-  "generated_at_utc": "2026-11-13T04:53:27+00:00",
+  "generated_at_utc": "2026-11-16T19:40:04+00:00",
   "live_release_ready": true,
   "mandatory_source_groups": [
     {
@@ -91,7 +91,7 @@
           "id": "laqn_imperial",
           "name": "Imperial College London LAQN API",
           "passed": true,
-          "record_count": 722,
+          "record_count": 872,
           "role": "validated_london_continuity_fallback"
         }
       ],
@@ -126,7 +126,7 @@
       "name": "Environment Agency Public Register",
       "not_applicable": false,
       "passed": true,
-      "record_count": 22466,
+      "record_count": 22467,
       "required_for_run": true,
       "secret_status": "not_required"
     },
@@ -222,7 +222,7 @@
       "name": "NASA Earthdata Common Metadata Repository",
       "not_applicable": false,
       "passed": true,
-      "record_count": 28,
+      "record_count": 23,
       "required_for_run": true,
       "secret_status": "present"
     },
@@ -234,7 +234,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "not_applicable": false,
       "passed": true,
-      "record_count": 166,
+      "record_count": 240,
       "required_for_run": true,
       "secret_status": "present"
     }
@@ -367,7 +367,7 @@
       "name": "Imperial College London LAQN API",
       "ok": true,
       "priority": 1,
-      "record_count": 722,
+      "record_count": 872,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -395,7 +395,7 @@
       "name": "Environment Agency Public Register",
       "ok": true,
       "priority": 1,
-      "record_count": 22466,
+      "record_count": 22467,
       "scientific_influence_allowed": null,
       "secret_status": "not_required",
       "source_registers": [
@@ -699,7 +699,7 @@
       "name": "NASA Earthdata Common Metadata Repository",
       "ok": true,
       "priority": null,
-      "record_count": 28,
+      "record_count": 23,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -726,7 +726,7 @@
       "name": "PurpleAir API",
       "ok": true,
       "priority": null,
-      "record_count": 222,
+      "record_count": 225,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [
@@ -1459,7 +1459,7 @@
       "name": "NASA FIRMS VIIRS and MODIS active fire data",
       "ok": true,
       "priority": 1,
-      "record_count": 166,
+      "record_count": 240,
       "scientific_influence_allowed": null,
       "secret_status": "present",
       "source_registers": [

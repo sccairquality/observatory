@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at_utc": "2026-11-13T04:51:27.790645+00:00",
+  "generated_at_utc": "2026-11-16T19:37:35.412574+00:00",
   "lock_path": "requirements-py311-linux.lock",
   "lock_sha256": "656543b088cea2212a8cab5c23ae1d214e6ed399aed70dc5dc2e25e731355cd8",
   "locked_package_count": 59,
