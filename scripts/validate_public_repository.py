@@ -14,7 +14,22 @@ MAX_FILE_BYTES = 20 * 1024 * 1024
 ALLOWED_RELEASE_ROOTS = {"site", "data", "reports", "provenance"}
 CANONICAL_PRIVATE_REPOSITORY_ROLE = "private_aq26_scientific_engine"
 CANONICAL_SOURCE_WORKFLOW = "AQ26 Daily and Weekly Scientific Observatory"
-CANONICAL_PUBLIC_REPOSITORY = "sccnexusdata/AQ26-England-Observatory"
+CANONICAL_PUBLIC_REPOSITORY = "sccairquality/observatory"
+# Exactly the already-published 16 November release can keep its old target
+# statement for archival integrity. New releases must use the canonical repo.
+LEGACY_PUBLIC_REPOSITORY = "sccnexusdata/AQ26-England-Observatory"
+LEGACY_RELEASE_IDENTITY = {
+    "source_run_id": "43941162536",
+    "source_commit": "d14a8e1e402b1364800d7ef3f1f60a7833c1df7c",
+    "source_run_created_at": "2026-11-16T19:36:49Z",
+    "source_run_attempt": "1",
+    "source_artifact": "aq26-weekly-build-43941162536",
+}
+LEGACY_EXPORTER_DIGESTS = {
+    "config_sha256": "22e2393757cf3fabd24d26516fb3deb6219a6a41ceedd96699632c84be55580a",
+    "script_sha256": "63f5d0c37582dc681b7c37cfdb2f98f9460fca4c8c6e59fca54ad82e4cba93be",
+}
+
 CANONICAL_EXPORT_CONFIG = "configs/public_repo_export.yml"
 CANONICAL_EXPORT_SCRIPT = "scripts/aq26_prepare_public_repo_export.py"
 CANONICAL_PUBLICATION_AUTHORIZATION = "manual_governed_workflow_dispatch"
@@ -219,6 +234,21 @@ def _validate_schema_v2_source(errors: list[str], data: dict[str, Any]) -> None:
         fail(errors, "schema v2 generated_utc must exactly equal source_run_created_at")
 
 
+def _pinned_historical_target(data: dict[str, Any]) -> bool:
+    """Allow only the pre-migration published manifest, never a new old-name release."""
+    if data.get("schema_version") != 2 or data.get("release_state") != "published":
+        return False
+    source = data.get("source")
+    exporter = data.get("exporter")
+    if not isinstance(source, dict) or not isinstance(exporter, dict):
+        return False
+    return (
+        all(source.get(key) == value for key, value in LEGACY_RELEASE_IDENTITY.items())
+        and all(exporter.get(key) == value for key, value in LEGACY_EXPORTER_DIGESTS.items())
+        and data.get("generated_utc") == LEGACY_RELEASE_IDENTITY["source_run_created_at"]
+    )
+
+
 def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) -> None:
     if data.get("schema_version") != 2:
         return
@@ -236,7 +266,10 @@ def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) ->
     else:
         if publication.get("mode") != "one_way_sanitized_export":
             fail(errors, "schema v2 publication mode must be one_way_sanitized_export")
-        if publication.get("target_repository") != CANONICAL_PUBLIC_REPOSITORY:
+        target = publication.get("target_repository")
+        if target != CANONICAL_PUBLIC_REPOSITORY and not (
+            target == LEGACY_PUBLIC_REPOSITORY and _pinned_historical_target(data)
+        ):
             fail(errors, f"schema v2 publication target_repository must be {CANONICAL_PUBLIC_REPOSITORY}")
         if publication.get("authorization") != CANONICAL_PUBLICATION_AUTHORIZATION:
             fail(
