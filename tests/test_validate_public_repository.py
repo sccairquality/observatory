@@ -67,7 +67,7 @@ class PublicRepositoryValidatorTests(unittest.TestCase):
                     "manifest_timestamp_basis": "source_run_created_at",
                     "publication": {
                         "mode": "one_way_sanitized_export",
-                        "target_repository": "sccnexusdata/AQ26-England-Observatory",
+                        "target_repository": "sccairquality/observatory",
                         "authorization": "manual_governed_workflow_dispatch",
                     },
                     "exporter": {
@@ -128,6 +128,34 @@ class PublicRepositoryValidatorTests(unittest.TestCase):
         errors: list[str] = []
         validator.validate_manifest(errors)
         self.assertEqual(errors, [])
+
+    def test_schema_v2_allows_only_pinned_historical_target(self) -> None:
+        self._write_release(schema_version=2)
+        data = json.loads(validator.MANIFEST.read_text(encoding="utf-8"))
+        data["publication"]["target_repository"] = validator.LEGACY_PUBLIC_REPOSITORY
+        data["source"].update(validator.LEGACY_RELEASE_IDENTITY)
+        data["exporter"].update(validator.LEGACY_EXPORTER_DIGESTS)
+        data["generated_utc"] = validator.LEGACY_RELEASE_IDENTITY["source_run_created_at"]
+        validator.MANIFEST.write_text(json.dumps(data) + "\\n", encoding="utf-8")
+        errors: list[str] = []
+        validator.validate_manifest(errors)
+        self.assertEqual(errors, [], "Only the known 16 Nov historical manifest identity is grandfathered")
+
+        data["source"]["source_run_id"] = "45031011976"
+        data["source"]["source_artifact"] = "aq26-weekly-build-45031011976"
+        validator.MANIFEST.write_text(json.dumps(data) + "\\n", encoding="utf-8")
+        errors = []
+        validator.validate_manifest(errors)
+        self.assertTrue(any("target_repository must be" in error for error in errors))
+
+    def test_schema_v2_rejects_old_target_for_new_source(self) -> None:
+        self._write_release(schema_version=2)
+        data = json.loads(validator.MANIFEST.read_text(encoding="utf-8"))
+        data["publication"]["target_repository"] = validator.LEGACY_PUBLIC_REPOSITORY
+        validator.MANIFEST.write_text(json.dumps(data) + "\\n", encoding="utf-8")
+        errors: list[str] = []
+        validator.validate_manifest(errors)
+        self.assertTrue(any("target_repository must be" in error for error in errors))
 
     def test_schema_v2_rejects_noncanonical_exporter_provenance(self) -> None:
         self._write_release(schema_version=2)
