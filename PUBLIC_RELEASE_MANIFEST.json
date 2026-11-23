@@ -168,19 +168,19 @@
       "sha256": "6193b17452a815216924068e8cd3f6c95179a74a1556034dcbec93078895f521"
     },
     {
-      "bytes": 14574,
+      "bytes": 15272,
       "path": "site/about.html",
-      "sha256": "55eb10a6b4c2c27d03b0b8ef04dba68e4302789aa755f345dd63a21b4e6181ea"
+      "sha256": "78607307eb2c6b9212035a375c92b6666366a31de9824d9041a5100496004271"
     },
     {
-      "bytes": 19059,
+      "bytes": 19757,
       "path": "site/accessibility.html",
-      "sha256": "5a4ff150f9708e8b815488ef799d9c4701d2369c64a5089562fe106380f1ed7c"
+      "sha256": "ef816f1f2f9d8cb5637befe00e6308cd4d83334da59f02d28499a10d67342ae9"
     },
     {
-      "bytes": 18468,
+      "bytes": 19166,
       "path": "site/ai-model-assurance.html",
-      "sha256": "1f01668e31b5d15c41605107860d20caea0d5e949bcd9e9b7f74296d92b5a606"
+      "sha256": "8eb2686ca26c0a09fbeff3bc396997774469fe1a1f5474c239b55e4eda1ea02b"
     },
     {
       "bytes": 17847,
@@ -633,34 +633,34 @@
       "sha256": "f6dce2ef7409b7ecf4f5dac78beaff0df110eba2bc99ba1e15f71b2fb2958e13"
     },
     {
-      "bytes": 18307,
+      "bytes": 19005,
       "path": "site/citation.html",
-      "sha256": "468c3e75e43edea1de9f5203e194c0f3fea75f299370981880baa6c0052eed10"
+      "sha256": "6988f5da9bc4559bbea2610ddfa79a1ba9b509eec59da6cd3888c71b1d42e47c"
     },
     {
-      "bytes": 17785,
+      "bytes": 18483,
       "path": "site/contact.html",
-      "sha256": "406a72cdf358848a127ee09919d097a988504c888e518a095dad04e06f25cdd3"
+      "sha256": "db754febf1b139296583d59e5a5457b263b3ab0621112ade5d5b8d188eb3ef13"
     },
     {
-      "bytes": 17624,
+      "bytes": 18322,
       "path": "site/cookies.html",
-      "sha256": "7a9161baa8db0a256dc11f2147899a54ee64c4cede5d43a64c9c98b5e3704625"
+      "sha256": "3b9c3a42d30743613de8a3adc8d1a8edb90f5221bb562072f2156f7a3e3cc44b"
     },
     {
-      "bytes": 43816,
+      "bytes": 44514,
       "path": "site/current-data.html",
-      "sha256": "c0bd44107413b1df54b164968212d8684b04dadedb79f677e13fb1b1c86fe64a"
+      "sha256": "0a510e8d83ee02ef4d04a9bce4a9da769cc7cff6350f3c75a83dcfc3e180c526"
     },
     {
-      "bytes": 27293,
+      "bytes": 27991,
       "path": "site/discovery.html",
-      "sha256": "972d55be534d0e78658dcfd40a710cf0caf68fdae79b0678bf8d1f8f8c4948e5"
+      "sha256": "8654f152bc2f2cc60bd49e14616667a2cd401ad182d6870c5cd07ab74dd8958a"
     },
     {
-      "bytes": 17500,
+      "bytes": 18198,
       "path": "site/downloads.html",
-      "sha256": "29801e2ee2ead81374cb471ea3df3bab5d265a908da3825cbe0d069231b73cb6"
+      "sha256": "8e5aeb4f24718c7ee21294357a4c1743ab4fc0a19723b1502d9a88c230631297"
     },
     {
       "bytes": 3491497,
@@ -683,19 +683,19 @@
       "sha256": "7a5e4fa97254efe738c802181dacf476abeeb5cb2d1b26beff3546d88af7ef07"
     },
     {
-      "bytes": 19930,
+      "bytes": 20628,
       "path": "site/effects-framework.html",
-      "sha256": "109800f32fb5095d09f002243c4fa48bba9a808f13474f62d43cd17d9f75b0f5"
+      "sha256": "e3125acaf2721c87a314a03d84a4af2df06da9f3262531c00da17d72b5f6953c"
     },
     {
-      "bytes": 89482,
+      "bytes": 90180,
       "path": "site/england-air-quality-review.html",
-      "sha256": "363b859ed2be0bb380270fbb215e253e10582dd89b31004181a0729aff116351"
+      "sha256": "da7ed0c04b06d4d3b0933c200bba33b28c3c4c1786d3e1d52cef9f98f04f9b0c"
     },
     {
-      "bytes": 19302,
+      "bytes": 20000,
       "path": "site/environment-agency-permit-evidence.html",
-      "sha256": "27ef2246c24a07ec6d564d3012394e7810a1a0d5ceb2c2dff8af7c5d85d57d1f"
+      "sha256": "7c920f91a7d31205a7216058ad3ac5649b8eeb745ff1df5ad8130bcaa692314f"
     },
     {
       "bytes": 1668,
@@ -718,14 +718,14 @@
       "sha256": "eb5ededf0b1f90d8c2d3228d485b9d83515a3b1e687c0bc3f5e2452fadcbe1cd"
     },
     {
-      "bytes": 19302,
+      "bytes": 20000,
       "path": "site/glossary.html",
-      "sha256": "9971ad45d5fc61b91a0a7a9b2ca8e75d23eeacb749cbed2cc6e05062ad875af0"
+      "sha256": "3b9b990a93e3e795309975583a6b9aa9983bb41fa1adf73b63b1b85a1cb005ea"
     },
     {
-      "bytes": 21629,
+      "bytes": 22327,
       "path": "site/health-context.html",
-      "sha256": "62f43d568c9c84ad6ae39775637e90e74450084d0f81677b099df2886779afcc"
+      "sha256": "585aeeb7a975df4e5a2da2d38384411b97c0b509344d72720c9f0ede19665ea0"
     },
     {
       "bytes": 1832,
@@ -3043,9 +3043,9 @@
       "sha256": "ab0aff710ae54f10108893f49d3cc42d7444974bfa68752193864231d4c3ddf0"
     },
     {
-      "bytes": 20313,
+      "bytes": 21011,
       "path": "site/incineration-air-quality-evidence.html",
-      "sha256": "4bf43943d7ced1dee5cf7e9d7101c3db0352a541f736505cadb7adaeefc6c3ea"
+      "sha256": "92931d0dd73b2e7cc141a55845bbe53a4ed7c14f5d801bbc6324eff0a5692c8b"
     },
     {
       "bytes": 51507,
@@ -3053,59 +3053,59 @@
       "sha256": "7735291fc3ba38b1a41af46fa9a98c4ffe3ca32510793d3f3244d466c0be513f"
     },
     {
-      "bytes": 23008,
+      "bytes": 23706,
       "path": "site/interrogate.html",
-      "sha256": "fc13a1d5d4d9d09768dd7b17e74a670c081e8c6429ca9f0347624af087427457"
+      "sha256": "e8f9a404ca6ea4c1a602b67b54391521b37542b2e425ae896dc595971672e135"
     },
     {
-      "bytes": 18628,
+      "bytes": 19326,
       "path": "site/legal.html",
-      "sha256": "2152726467e2bafce3009d695b455ed0ac529928171a024a53cbc73d9883ffe7"
+      "sha256": "11e4ed58d2f4feffbb07bdfc49711a652c91dee14325cba601fad2b3a2d8801f"
     },
     {
-      "bytes": 76240,
+      "bytes": 76938,
       "path": "site/map.html",
-      "sha256": "4c68598cfc381da8183be7314ec7862232cae0b4c3eadd42ee6257797dc1ee89"
+      "sha256": "e45b73f309d5cee9828920653ecb9e5387ca9ecc65d182f614e2755c2a0df295"
     },
     {
-      "bytes": 28363,
+      "bytes": 29061,
       "path": "site/methodology.html",
-      "sha256": "c0966fe8f579b68ddfa766433ac2dee8b4e4e4e6cb7224b496a2883e71df49bb"
+      "sha256": "f8ca6b4f4c3fa49494b399cd26728bbffb0d28fb7ff32831a5326670ca3bae39"
     },
     {
-      "bytes": 20889,
+      "bytes": 21587,
       "path": "site/naei-emissions-context.html",
-      "sha256": "a1772cc36c7b9c175caabd01e0bfce61e86d2e3616b91aa5301865fb484ece82"
+      "sha256": "e9080390c97011d4396c32fae7f4ec543fc99dbfd26776461766702aef3b6d92"
     },
     {
-      "bytes": 21233,
+      "bytes": 21931,
       "path": "site/overall-report.html",
-      "sha256": "1d7ef4c10eb2fd995d16150c89502b8f32d238ec0d96db2d1e7db1e6d0b60e40"
+      "sha256": "573d431fe5f093aa24f3e03860341a87e8673455908a143975941198a0330cdb"
     },
     {
-      "bytes": 18979,
+      "bytes": 19677,
       "path": "site/planning-data-air-quality.html",
-      "sha256": "e346044761b7108edef14423cfa006b6382388d64d5c092561dd1e02fd748db6"
+      "sha256": "d55f57f6091fe8e3354c555d37d090772592f262bcb2188fd3bce40f1aa9127e"
     },
     {
-      "bytes": 20384,
+      "bytes": 21082,
       "path": "site/pollutant-watchlist.html",
-      "sha256": "216796eb34e6c3d19d8823099bdd10dd2c644213ef7fb6e045586b582c66e8b2"
+      "sha256": "87b840c532427bd46ebe8f6414c620b5772e558a74681134d749cc8ab1945aa6"
     },
     {
-      "bytes": 17913,
+      "bytes": 18611,
       "path": "site/privacy.html",
-      "sha256": "12ae39c533162e2eb69f4a2c6c07e429976f4870ef912cd3244637cc4f60c707"
+      "sha256": "7830c7ad486799f0b7fef650ca300f47cb98b11f74a51899e1094869a5e3eee7"
     },
     {
-      "bytes": 23238,
+      "bytes": 23936,
       "path": "site/readiness.html",
-      "sha256": "6e7336f09239b0930271b94370314f19be139173d0bb81e2bcefe9271209626a"
+      "sha256": "e10b4d35fc7bb61c38776bbad91be7e8edff7dc5b82230f05d50b8dc7da28fcc"
     },
     {
-      "bytes": 26268,
+      "bytes": 26966,
       "path": "site/review-pack.html",
-      "sha256": "f7a974e183e72a989648949aaa24b576a157e1c94ef3161db8b216943d0826bf"
+      "sha256": "203b8894284f21d582ad6b0ed3d6bf6d4cb3b855f676d20fb4667ed22c7e6afe"
     },
     {
       "bytes": 94,
@@ -3113,19 +3113,19 @@
       "sha256": "010962525c6c7421ccd79a22bcb0cce260ea93bdbe532d5085fdd2795c861ad9"
     },
     {
-      "bytes": 68136,
+      "bytes": 68834,
       "path": "site/scientific-review.html",
-      "sha256": "9291bd5ebb19b1b6a4f4c12d850415152be5902cbaacc75136894069a76762ce"
+      "sha256": "dcf9a70347c73a64513bee51941b9caec1efb7caf8b0595366e2aea526c350c4"
     },
     {
-      "bytes": 22567,
+      "bytes": 23265,
       "path": "site/scientific-tool.html",
-      "sha256": "055fb2d61c241dd5e5a7f2d1a55be5aa1107317c9b5d6d6b72cba7783edad390"
+      "sha256": "24a7b3387f1c7b939b630779b909939704b31e4288a6f0f7b387009ee7a9c174"
     },
     {
-      "bytes": 20730,
+      "bytes": 21428,
       "path": "site/search-and-topics.html",
-      "sha256": "72dede669c36c51cdc06e7a3da9e416e2507c0c3a5d3d5337a57b251f5806bed"
+      "sha256": "ea134b1283325fa7dc202bbfb46f120e91ac72ebc390bcb3060ba1b2a0bdd065"
     },
     {
       "bytes": 737,
@@ -3143,19 +3143,19 @@
       "sha256": "374bf12fe840261c2dd4bf8985e4cb347c399fd144e974cef9e0e64874490e48"
     },
     {
-      "bytes": 19458,
+      "bytes": 20156,
       "path": "site/source-investigations.html",
-      "sha256": "ea088ce6fb196b1485f09994f552333a27b711533a62beb2a0e8eb4c4777cb9a"
+      "sha256": "6b71e692634af4af43351a96e5d1361f98a5f8be77c2ac6dab069e7ff9114604"
     },
     {
-      "bytes": 26472,
+      "bytes": 27170,
       "path": "site/source-utilisation.html",
-      "sha256": "064b4a1867b45d2145cf580bc927050cd54baded2cc74abd458f4da75870db29"
+      "sha256": "695005a5a596c6a59ca388f6d7c6e57418bbc452fb825dbbd1c27823d214930e"
     },
     {
-      "bytes": 41709,
+      "bytes": 42407,
       "path": "site/sources.html",
-      "sha256": "e9ffa96f3ccec9cee35989d1a06f7f1be130b03b0af0ea488ad0775f6dc2c7eb"
+      "sha256": "ee13dfd81ca3c18f5b7d43bb0cc7eb9baad9ed2ff9b7ac126753fa76d174a652"
     },
     {
       "bytes": 495,
@@ -3163,39 +3163,39 @@
       "sha256": "5d9ccaf464ad1ff1fc439c31be6dce72666337dac9c4ed4379d4ada386f74fab"
     },
     {
-      "bytes": 17694,
+      "bytes": 18392,
       "path": "site/targets.html",
-      "sha256": "8be7d89ea31949e16508b495906d6056636504d60b66c9e97737621732360a31"
+      "sha256": "25f77d7802449654037ece808aa73090876c07a9dfc82572a71b32f7c6cf69d4"
     },
     {
-      "bytes": 17684,
+      "bytes": 18382,
       "path": "site/terms.html",
-      "sha256": "22b3ca1a68ffe12742f21bafe658a3d5e4cbec4a161cedad37068329408d3167"
+      "sha256": "e2ebbd22c304bd8eba14b25617a98e2680c1b03e5aca19b31b62c56a4766d944"
     },
     {
-      "bytes": 19066,
+      "bytes": 19764,
       "path": "site/uk-air-monitoring-context.html",
-      "sha256": "a70be329561b0ec7ed3dfe452cd7bda39931fbb3ccccb7c60212c1f88d8d4617"
+      "sha256": "e7b7dfd321ea18e757bc178e1b1b9909693cea97da18d918d5e8917b1aaca2e3"
     },
     {
-      "bytes": 18922,
+      "bytes": 19620,
       "path": "site/uk-air-quality-evidence.html",
-      "sha256": "3ccff022fcac41fb819d793fc22b9967fbde4fc1404b0ab91935880c5e5ccde6"
+      "sha256": "602194db4bb701cf9f6ad968f62dc260b3ca67c048ab80161d8414bcb1bd8302"
     },
     {
-      "bytes": 25404,
+      "bytes": 26102,
       "path": "site/updates.html",
-      "sha256": "762753b73389aa38b7be9b4af8d8322e87b10212558320983d4b4a1fd643aca7"
+      "sha256": "84b84a074f2d39636a697dd7d439eebb10464024c95a4414856acc3d2dea710b"
     },
     {
-      "bytes": 23862,
+      "bytes": 24560,
       "path": "site/visuals.html",
-      "sha256": "4378cc8acac92ef597500891f2a11395d9453cb0d5cae8db4d77a41dbc2a773a"
+      "sha256": "c55ea71e292787fa1589c98b4a2f0f46812cc6d4f076fad8a30edcbd8e3588f9"
     },
     {
-      "bytes": 60589,
+      "bytes": 61287,
       "path": "site/weekly-report.html",
-      "sha256": "b800087bee4742b27dce4321a5397a30b6438127f3b1ffa22fa9e97263c748e4"
+      "sha256": "f1a4a39cbed72d06588c23bcbe5e6ca7ff3087b1bb60265ee87de15ec431c5c2"
     }
   ],
   "generated_utc": "2026-11-16T19:36:49Z",
@@ -3224,5 +3224,5 @@
     "source_run_id": "43941162536",
     "source_workflow": "AQ26 Daily and Weekly Scientific Observatory"
   },
-  "total_bytes": 112775790
+  "total_bytes": 112803012
 }
