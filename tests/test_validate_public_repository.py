@@ -4,6 +4,7 @@ import hashlib
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 from scripts import validate_public_repository as validator
@@ -67,7 +68,7 @@ class PublicRepositoryValidatorTests(unittest.TestCase):
                     "manifest_timestamp_basis": "source_run_created_at",
                     "publication": {
                         "mode": "one_way_sanitized_export",
-                        "target_repository": "sccnexusdata/AQ26-England-Observatory",
+                        "target_repository": "sccairquality/observatory",
                         "authorization": "manual_governed_workflow_dispatch",
                     },
                     "exporter": {
@@ -176,6 +177,28 @@ class PublicRepositoryValidatorTests(unittest.TestCase):
         validator.validate_manifest(errors)
         self.assertTrue(any("target_repository must be" in error for error in errors))
         self.assertTrue(any("publication authorization must be" in error for error in errors))
+
+    def test_legacy_target_requires_exact_frozen_manifest(self) -> None:
+        self._write_release(schema_version=2)
+        manifest = json.loads(validator.MANIFEST.read_text(encoding="utf-8"))
+        manifest["publication"]["target_repository"] = validator.LEGACY_PUBLIC_REPOSITORY
+        validator.MANIFEST.write_text(json.dumps(manifest) + "\n", encoding="utf-8")
+        errors: list[str] = []
+        validator.validate_manifest(errors)
+        self.assertTrue(any("target_repository must be" in error for error in errors))
+
+        payload = validator.MANIFEST.read_bytes()
+        blob = hashlib.sha1(
+            f"blob {len(payload)}\0".encode("ascii") + payload, usedforsecurity=False
+        ).hexdigest()
+        with patch.object(validator, "LEGACY_BASELINE_MANIFEST_GIT_BLOB", blob):
+            errors = []
+            validator.validate_manifest(errors)
+            self.assertEqual(errors, [])
+            validator.MANIFEST.write_bytes(payload + b" ")
+            errors = []
+            validator.validate_manifest(errors)
+            self.assertTrue(any("target_repository must be" in error for error in errors))
 
     def test_schema_v2_rejects_execution_path_in_release_text(self) -> None:
         target = self._write_release(schema_version=2)
