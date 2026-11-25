@@ -14,7 +14,20 @@ MAX_FILE_BYTES = 20 * 1024 * 1024
 ALLOWED_RELEASE_ROOTS = {"site", "data", "reports", "provenance"}
 CANONICAL_PRIVATE_REPOSITORY_ROLE = "private_aq26_scientific_engine"
 CANONICAL_SOURCE_WORKFLOW = "AQ26 Daily and Weekly Scientific Observatory"
-CANONICAL_PUBLIC_REPOSITORY = "sccnexusdata/AQ26-England-Observatory"
+CANONICAL_PUBLIC_REPOSITORY = "sccairquality/observatory"
+# Preserve exactly the already-published migration baseline, without rewriting
+# its manifest or accepting new releases directed at the retired repository.
+LEGACY_PUBLIC_REPOSITORY = "sccnexusdata/AQ26-England-Observatory"
+LEGACY_BASELINE_MANIFEST_GIT_BLOB = "44f829b22c5b84bca2eaf6811e06a5b0188652ad"
+
+
+def _is_frozen_legacy_manifest() -> bool:
+    payload = MANIFEST.read_bytes()
+    # Git blob identity is used only to identify the immutable baseline;
+    # every manifested evidence file still undergoes the SHA-256 checks.
+    header = f"blob {len(payload)}\0".encode("ascii")
+    return hashlib.sha1(header + payload, usedforsecurity=False).hexdigest() == LEGACY_BASELINE_MANIFEST_GIT_BLOB
+
 CANONICAL_EXPORT_CONFIG = "configs/public_repo_export.yml"
 CANONICAL_EXPORT_SCRIPT = "scripts/aq26_prepare_public_repo_export.py"
 CANONICAL_PUBLICATION_AUTHORIZATION = "manual_governed_workflow_dispatch"
@@ -236,7 +249,9 @@ def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) ->
     else:
         if publication.get("mode") != "one_way_sanitized_export":
             fail(errors, "schema v2 publication mode must be one_way_sanitized_export")
-        if publication.get("target_repository") != CANONICAL_PUBLIC_REPOSITORY:
+        target = publication.get("target_repository")
+        frozen_legacy = target == LEGACY_PUBLIC_REPOSITORY and _is_frozen_legacy_manifest()
+        if target != CANONICAL_PUBLIC_REPOSITORY and not frozen_legacy:
             fail(errors, f"schema v2 publication target_repository must be {CANONICAL_PUBLIC_REPOSITORY}")
         if publication.get("authorization") != CANONICAL_PUBLICATION_AUTHORIZATION:
             fail(
